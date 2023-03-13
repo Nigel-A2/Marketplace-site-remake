@@ -1,0 +1,62 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+.fl-page,
+.fl-responsive-preview-content,
+.fl-button-lightbox-content {
+	button:visited,
+	input[type=button],
+	input[type=submit],
+	a.fl-button,
+	a.fl-button:visited,
+	a.button,
+	a.button:visited,
+	button.button,
+	button.button:visited, 
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle:visited {
+		.fl-button-inactive-styles();
+	}
+
+	input[type=button] *,
+	input[type=submit] *,
+	a.fl-button *,
+	a.fl-button:visited *,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle *,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle:visited * {
+		.fl-button-inactive-child-styles();
+	}
+
+	input[type=button]:hover,
+	input[type=submit]:hover,
+	a.fl-button:hover,   
+	a.button:hover,
+	button.button:hover,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle:hover {
+		.fl-button-hover-styles();
+		background-color: @button-bg-hover-color;
+		border-style: @button-border-style;
+		border-width: @button-border-width;
+		border-radius: @button-border-radius;
+	}
+
+	input[type=button]:hover *,
+	input[type=submit]:hover *,
+	a.fl-button:hover *,
+	a.button:hover *,
+	button.button:hover *,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle:hover * {
+		.fl-button-hover-child-styles();
+	}
+
+	.mejs-controls button,
+	.mejs-controls button:hover {
+		background-color: transparent;
+	}
+}

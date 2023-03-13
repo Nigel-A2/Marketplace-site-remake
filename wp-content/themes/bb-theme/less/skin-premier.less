@@ -1,0 +1,45 @@
+/*
+
+Skin: Premier
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost 
+when updating. Instead, add custom code in the admin under 
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+/* Wrap
+----------------------------------------------------------- */
+
+.fl-page {
+	.fl-box-shadow(none);
+}
+.fl-full-width .fl-page {
+	background: transparent;
+}
+
+/* Content
+----------------------------------------------------------- */
+
+.fl-full-width .fl-page-content {
+	.fl-box-shadow(0 0 5px rgba(0, 0, 0, 0.15));
+	background: @content-bg-color;
+}
+
+/* Media Query - 1100px or greater
+----------------------------------------------------------- */
+
+@media (min-width: 1100px) {
+	
+	/* Content
+	----------------------------------------------------------- */
+	
+	.fl-full-width {
+		.fl-page-content {
+			margin: 30px auto;
+			max-width: 1100px;
+		}
+	}
+}

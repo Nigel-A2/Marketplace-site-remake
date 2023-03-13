@@ -1,0 +1,115 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HiveTheme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-06 10:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Domain: listinghive"
+
+#. Description of the plugin
+msgid "A framework for HivePress themes."
+msgstr ""
+
+#: includes/configs/widget-areas.php:84
+msgid "Account"
+msgstr ""
+
+#: includes/configs/widget-areas.php:102
+msgctxt "area"
+msgid "footer"
+msgstr ""
+
+#: includes/configs/widget-areas.php:13 includes/configs/widget-areas.php:21
+#: includes/configs/widget-areas.php:30 includes/configs/widget-areas.php:39
+#: includes/configs/widget-areas.php:48 includes/configs/widget-areas.php:57
+#: includes/configs/widget-areas.php:66 includes/configs/widget-areas.php:75
+#: includes/configs/widget-areas.php:84 includes/configs/widget-areas.php:93
+msgctxt "area"
+msgid "sidebar"
+msgstr ""
+
+#: includes/configs/widget-areas.php:13
+msgid "Blog"
+msgstr ""
+
+#: includes/configs/theme-mods.php:61
+msgid "Body Font"
+msgstr ""
+
+#: includes/configs/theme-mods.php:32
+msgid "Colors"
+msgstr ""
+
+#: includes/configs/theme-mods.php:15
+msgid "Copyright Notice"
+msgstr ""
+
+#: includes/configs/theme-mods.php:24
+msgid "Enable page loading screen"
+msgstr ""
+
+#: includes/configs/theme-mods.php:48
+msgid "Fonts"
+msgstr ""
+
+#: includes/configs/menu-locations.php:17
+msgid "Footer"
+msgstr ""
+
+#: includes/configs/menu-locations.php:13
+msgid "Header"
+msgstr ""
+
+#: includes/configs/theme-mods.php:52
+msgid "Heading Font"
+msgstr ""
+
+#. Author of the plugin
+msgid "HivePress"
+msgstr ""
+
+#. Name of the plugin
+msgid "HiveTheme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://hivepress.io/"
+msgstr ""
+
+#. 1: theme name, 2: link URL.
+#: includes/components/class-hivepress.php:95
+#, php-format
+msgid ""
+"If you want to start with the %1$s demo content, please follow <a "
+"href=\"%2$s\" target=\"_blank\">this screencast</a> to import it."
+msgstr ""
+
+#: includes/configs/theme-mods.php:36
+msgid "Primary Color"
+msgstr ""
+
+#: includes/configs/theme-mods.php:41
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/configs/widget-areas.php:93
+msgid "Shop"
+msgstr ""
+
+#: includes/configs/widget-areas.php:102
+msgid "Site"
+msgstr ""
+
+#: includes/components/class-template.php:179
+msgid "Skip to content"
+msgstr ""

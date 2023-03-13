@@ -1,0 +1,48 @@
+.fl-module-list .fl-list-item .fl-list-item-wrapper {
+  width: 100%;
+}
+
+.fl-module-list .fl-list {
+  padding-inline-start: unset;
+  margin-bottom: 0px;
+}
+
+.fl-module-list .fl-list-item {
+  border-bottom: none;
+}
+
+.fl-module-list .fl-list-item-heading {
+  display: table;
+  width: 100%;
+}
+
+.fl-module-list .fl-list-item-heading .fl-list-item-heading-icon,
+.fl-module-list .fl-list-item-heading .fl-list-item-heading-icon .fl-list-item-icon {
+  display: inline-block;
+}
+
+.fl-module-list .fl-list-item-heading .fl-list-item-heading-text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.fl-module-list .fl-list-item-content {
+  display: table;
+  width: 100%;
+}
+
+.fl-module-list .fl-list-item-content .fl-list-item-content-icon {
+  display: table-cell; 
+  vertical-align: middle;
+}
+
+.fl-module-list .fl-list-item-content .fl-list-item-content-text {
+  display: table-cell;
+  vertical-align: middle; 
+  width: 100%;
+}
+
+.fl-module-list .fl-list-item-content .fl-list-item-content-text p:last-child {
+  margin-bottom: 0px;
+}

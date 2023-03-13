@@ -1,0 +1,22 @@
+/* Rows
+------------------------------------------------------ */
+
+.fl-row[data-node] .fl-row-content-wrap {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.fl-row[data-node] .fl-bg-video,
+.fl-row[data-node] .fl-bg-slideshow {
+	left: 0;
+	right: 0;
+}
+
+/* Columns
+------------------------------------------------------ */
+
+.fl-col[data-node] .fl-col-content {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+}

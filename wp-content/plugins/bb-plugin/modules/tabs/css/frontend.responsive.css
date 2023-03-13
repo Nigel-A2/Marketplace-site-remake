@@ -1,0 +1,59 @@
+/*  Labels
+------------------------------------ */
+
+.fl-tabs-labels {
+	display: none;
+}
+.fl-tabs-label.fl-tab-active {
+	position: static;
+}
+
+/*  Panel Labels
+------------------------------------ */
+
+.fl-tabs-panel-label {
+	display: table;
+	padding: 10px 15px;
+	width: 100%;
+}
+
+/*  Panels
+------------------------------------ */
+
+.fl-tabs-panel {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.fl-tabs-panel:last-child {
+	border-bottom: none;
+}
+.fl-tabs-panel-content {
+	padding: 0 15px 15px 15px;
+}
+
+/*  Horizontal
+------------------------------------ */
+
+.fl-tabs-horizontal .fl-tabs-label {
+	float: none;
+}
+.fl-tabs-horizontal .fl-tabs-label.fl-tab-active {
+	border: none;
+	padding: 10px 15px;
+}
+
+/*  Vertical
+------------------------------------ */
+
+.fl-tabs-vertical .fl-tabs-labels {
+	float: none;
+	width: auto;
+}
+.fl-tabs-vertical .fl-tabs-label.fl-tab-active {
+	border: none;
+	padding: 10px 15px;
+}
+.fl-tabs-vertical .fl-tabs-panels {
+	float: none;
+	width: auto;
+}

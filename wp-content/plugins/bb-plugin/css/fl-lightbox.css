@@ -1,0 +1,238 @@
+@keyframes fl-lightbox-zoom {
+	from {
+		transform: scale(.4);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+.fl-lightbox-wrap {
+	bottom: 0;
+	display: none;
+	left: 0;
+	overflow: auto;
+	padding: 0;
+	position: fixed;
+	right: 0;
+	top: 43px;
+    z-index: 100010;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	pointer-events: none;
+}
+.fl-lightbox-mask {
+	background: #000;
+	bottom: 0;
+	left: 0;
+	opacity: 0.7;
+	filter: alpha(opacity = 70);
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100010;
+	pointer-events: auto;
+}
+.fl-lightbox {
+	background: #F5F7F9;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	-moz-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	position: relative;
+	display: flex;
+	z-index: 100011;
+	transform-origin: center;
+	animation-name: fl-lightbox-zoom;
+	animation-duration: .25s;
+	pointer-events: auto;
+}
+.fl-form-field-settings .fl-lightbox,
+.fl-lightbox.fl-lightbox-prevent-animation {
+	animation-duration: 0s;
+	-moz-animation-duration: 0s;
+	-webkit-animation-duration: 0s;
+	-o-animation-duration: 0s;
+}
+.fl-lightbox *:not(i) {
+	color: #333;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	text-decoration: none;
+	text-transform: none;
+}
+.fl-lightbox *,
+.fl-lightbox *:before,
+.fl-lightbox *:after {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.fl-lightbox .fl-nanoscroller-pane,
+#fl-ui-root .fl-nanoscroller-pane,
+.fl-builder--content-library-panel .fl-nanoscroller-pane {
+	bottom: 2px;
+	right: 2px;
+	width: 6px;
+}
+.fl-nanoscroller > .fl-nanoscroller-pane > .fl-nanoscroller-slider {
+	background-color: #bac0ca;
+	transition-property: height, background-color;
+	transition-duration: .25s;
+}
+.fl-nanoscroller > .fl-nanoscroller-pane > .fl-nanoscroller-slider:hover {
+	background-color: #c8cdd4;
+}
+.fl-nanoscroller > .fl-nanoscroller-pane.active > .fl-nanoscroller-slider {
+	background-color: #029fd2;
+}
+
+.fl-lightbox .dashicons {
+	font-family: dashicons;
+}
+.fl-lightbox.ui-draggable {
+	box-shadow: rgba(0, 0, 0, 0.2) 0 7px 30px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 7px 30px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 7px 30px;
+}
+
+/* Resizable */
+.fl-builder-resizable-is-resizing .fl-lightbox-wrap,
+.fl-builder-draggable-is-dragging .fl-lightbox-wrap {
+	pointer-events: auto;
+}
+.fl-lightbox-resizable {
+	height: 500px;
+	width: 380px;
+}
+
+@media ( max-width: 500px ) {
+	.fl-lightbox-resizable {
+		left: 0 !important;
+		right: 0 !important;
+		top: 0 !important;
+		height: 100% !important;
+		width: 100% !important;
+	}
+	.fl-lightbox-resizable .ui-resizable-handle {
+		display: none !important;
+	}
+	.fl-lightbox.ui-draggable .fl-lightbox-header {
+		cursor: default !important;
+	}
+	.fl-lightbox-controls {
+		display: none;
+	}
+}
+
+/* Resizable - Full Style */
+.fl-lightbox-width-full {
+	left: 0 !important;
+	right: 0 !important;
+	top: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+.fl-lightbox-width-full .fl-lightbox-header {
+	cursor: inherit !important;
+}
+
+/* Lightbox Controls */
+.fl-lightbox-controls {
+  	position: absolute;
+  	right: 10px;
+  	top: 10px;
+  	z-index: 5;
+}
+.fl-lightbox-controls .fa {
+	color: #bdbdbd;
+  	font-size: 14px;
+  	padding: 5px;
+}
+.fl-lightbox-controls .fa:hover {
+	color: #aaaaaa;
+  	cursor: pointer;
+}
+
+/* Header */
+.fl-lightbox-header-wrap {
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.fl-lightbox-header {
+	position: relative;
+}
+
+.fl-builder-settings-lightbox .fl-lightbox-header h1:before{
+	content: none !important;
+}
+
+.fl-lightbox-header h1 {
+	color: #333 !important;
+	font-size: 16px !important;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+	font-weight: 400 !important;
+	margin: 0 !important;
+	padding: 14px 28px 15px !important;
+	padding-right: 34px !important;
+	text-align: left!important;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	line-height: 1;
+	letter-spacing: 0;
+}
+.fl-lightbox.ui-draggable .fl-lightbox-header {
+	cursor: move;
+}
+.fl-lightbox-header h1 .fl-builder-badge {
+	margin-left: 10px;
+	color:white;
+	background-color: #F7A408;
+}
+
+/* Content */
+.fl-lightbox-content-wrap,
+.fl-lightbox-content {
+	display: flex;
+	flex-direction: column;
+	flex: 1 100%;
+	max-width: 100%;
+}
+
+/* Footer */
+.fl-lightbox-footer {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	flex: 0 0;
+	flex-basis: 44px;
+	padding: 10px;
+	text-align: right;
+}
+.fl-lightbox-footer .fl-builder-button {
+	height: 36px;
+	margin-left: 5px !important;
+	flex: 0 0 0%;
+	justify-content: center;
+}
+.fl-lightbox-width-slim .fl-lightbox-footer {
+	justify-content: stretch;
+}
+.fl-lightbox-width-slim .fl-lightbox-footer .fl-builder-button  {
+	flex: 1 1 100%;
+	display: block;
+	text-align: center;
+}
+.fl-lightbox-width-slim .fl-lightbox-footer .fl-builder-button:first-child {
+	margin-left:0 !important;
+}
+
+/* Tables */
+.fl-lightbox table,
+.fl-lightbox tr,
+.fl-lightbox th,
+.fl-lightbox td {
+	border: none;
+}

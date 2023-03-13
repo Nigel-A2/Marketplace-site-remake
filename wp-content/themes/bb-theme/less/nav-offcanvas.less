@@ -1,0 +1,457 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+/* Offcanvas Layout for Responsive Nav
+----------------------------------------------------------- */
+
+.fl-nav-mobile-offcanvas.fl-responsive-nav-enabled {
+
+	overflow-x: hidden; /* Prevent scroll on narrow devices */
+
+ 	.fl-page {
+		-webkit-transition: left .20s ease-in-out, right .20s ease-in-out;
+		     -o-transition: left .20s ease-in-out, right .20s ease-in-out;
+		        transition: left .20s ease-in-out, right .20s ease-in-out;
+		overflow-x: hidden;
+	}
+
+	.fl-page-bar {
+		-webkit-transition: padding .20s ease-in;
+		     -o-transition: padding .20s ease-in;
+		        transition: padding .20s ease-in;
+	}
+
+	.fl-page-header-container,
+	.fl-page-nav-col,
+	.fl-page-nav {
+		position: static;
+	}
+
+	&.fl-offcanvas-push-right .fl-page,
+	&.fl-offcanvas-push-opacity-right .fl-page {
+		right: 0;
+
+		.fl-nav-offcanvas-collapse {
+			right: -255px;
+		}
+
+		&.fl-nav-offcanvas-active {
+			right: 250px;
+
+			.fl-nav-offcanvas-collapse {
+				right: 0;
+			}
+		}
+
+		.fl-button-close {
+			text-align: left;
+		}
+	}
+
+	&.fl-offcanvas-push-left .fl-page,
+	&.fl-offcanvas-push-opacity-left .fl-page {
+		left: 0;
+
+		.fl-nav-offcanvas-collapse {
+			left: -255px;
+		}
+
+		&.fl-nav-offcanvas-active {
+			left: 250px;
+
+			.fl-nav-offcanvas-collapse {
+				left: 0;
+			}
+		}
+
+		.fl-button-close {
+			text-align: right;
+		}
+	}
+
+	&.fl-offcanvas-overlay-left .fl-page {
+		.fl-nav-offcanvas-collapse {
+			left: -255px;
+		}
+
+		&.fl-nav-offcanvas-active {
+			.fl-nav-offcanvas-collapse {
+				left: 0;
+			}
+		}
+
+		.fl-button-close {
+			text-align: right;
+		}
+	}
+
+	&.fl-offcanvas-overlay-right .fl-page {
+		.fl-nav-offcanvas-collapse {
+			right: -255px;
+		}
+
+		&.fl-nav-offcanvas-active {
+			.fl-nav-offcanvas-collapse {
+				right: 0;
+			}
+		}
+
+		.fl-button-close {
+			text-align: left;
+		}
+	}
+
+	header[class*=" fl-page-nav-toggle-visible-"].fl-page-header .fl-nav-offcanvas-collapse {
+		padding: 0;
+		-moz-box-shadow: @nav-shadow;
+		-webkit-box-shadow: @nav-shadow;
+		box-shadow: @nav-shadow;
+
+		.fl-change-row-color(
+			fade(@header-bg-color, @header-bg-opacity),
+			@header-fg-color,
+			@header-fg-link-color,
+			@header-fg-hover-color,
+			@header-border-color
+		);
+	}
+
+	.fl-nav-offcanvas-collapse.navbar-collapse {
+		display: block !important;
+		visibility: visible !important;
+		overflow-y: auto !important;
+		position: fixed;
+		top: 0;
+		height: 100% !important;
+		width: 250px;
+		z-index: 999999;
+		opacity: 0;
+
+		-webkit-transition: left .20s ease-in-out, right .20s ease-in-out;
+		     -o-transition: left .20s ease-in-out, right .20s ease-in-out;
+		        transition: left .20s ease-in-out, right .20s ease-in-out;
+	}
+
+	.fl-button-close {
+		display: block;
+	}
+
+	.fl-offcanvas-close {
+		display: inline-block;
+		font-size: 18px;
+		border: 0 none;
+		background: transparent;
+		cursor: pointer;
+		&:hover,
+		&:focus {
+			background: transparent;
+		}
+	}
+
+	.fl-nav-offcanvas-active {
+		header[class*=" fl-page-nav-toggle-visible-"].fl-page-header .fl-nav-offcanvas-collapse {
+			display: block !important;
+			visibility: visible !important;
+		}
+		.fl-offcanvas-opacity {
+			opacity: 1;
+			width: auto;
+		}
+		.fl-nav-offcanvas-collapse.navbar-collapse {
+			opacity: 1;
+		}
+		overflow: visible;
+	}
+
+	.fl-offcanvas-opacity {
+		opacity: 0;
+		position: fixed;
+		width: 0;
+	    height: 100%;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    background-color: rgba(0,0,0,0.4);
+	    z-index: 110;
+	    cursor: pointer;
+		-webkit-transition: left .20s ease-in-out, right .20s ease-in-out;
+		     -o-transition: left .20s ease-in-out, right .20s ease-in-out;
+		        transition: left .20s ease-in-out, right .20s ease-in-out;
+	}
+
+	/* Shrink Header */
+	&.fl-shrink-header-enabled {
+
+		.fl-page-header {
+			&.fl-shrink-header {
+				.fl-page-header-wrap {
+					background: inherit;
+					min-width: 100%;
+					max-width: 90%;
+					position: fixed;
+
+					-webkit-transition: all .25s ease-out;
+					     -o-transition: all .25s ease-out;
+					        transition: all .25s ease-out;
+				}
+			}
+		}
+
+		.fl-shrink-header.fl-page-nav-toggle-icon .navbar-toggle {
+			position: fixed;
+		}
+
+		.fl-shrink-header.fl-page-nav-toggle-button .navbar-toggle {
+			position: inherit;
+		}
+
+		.fl-page-bar ~ .fl-shrink-header .navbar-toggle {
+			top: 45px;
+		}
+
+		&.admin-bar {
+			.fl-page-bar ~ .fl-shrink-header .navbar-toggle {
+				top: 80px;
+			}
+
+			.fl-shrink-header .navbar-toggle {
+				top: 45px;
+			}
+		}
+
+		.fl-nav-offcanvas-active {
+			.fl-offcanvas-opacity {
+				position: absolute;
+				z-index: 110;
+			}
+
+			.fl-page-bar {
+				z-index: 100;
+			}
+		}
+
+		&.fl-offcanvas-push-left,
+		&.fl-offcanvas-push-opacity-left {
+			.fl-nav-offcanvas-active {
+				.fl-page-bar {
+					padding-left: 250px;
+				}
+				.fl-shrink-header .navbar-toggle {
+					position: absolute;
+				}
+			}
+		}
+
+		&.fl-offcanvas-push-right,
+		&.fl-offcanvas-push-opacity-right {
+			.fl-nav-offcanvas-active {
+				.fl-page-bar {
+					padding-right: 250px;
+				}
+				.fl-shrink-header .navbar-toggle {
+					right: 270px;
+				}
+			}
+		}
+	}
+
+	/* Fixed Header */
+	&.fl-fixed-header {
+
+		.fl-nav-offcanvas-active {
+			.fl-offcanvas-opacity {
+				z-index: 110;
+			}
+
+			.fl-page-bar {
+				z-index: 100;
+			}
+
+			.fl-nav-offcanvas-collapse {
+				height: 100vh !important;
+			}
+		}
+
+		&.fl-offcanvas-push-left,
+		&.fl-offcanvas-push-opacity-left {
+			.fl-nav-offcanvas-active {
+
+				.navbar-toggle {
+					position: absolute;
+				}
+
+				.fl-offcanvas-opacity {
+					left: 250px;
+				}
+			}
+		}
+
+		&.fl-offcanvas-push-right,
+		&.fl-offcanvas-push-opacity-right {
+			.fl-nav-offcanvas-active {
+				.fl-offcanvas-opacity {
+					right: 250px;
+				}
+			}
+		}
+	}
+
+	/* Hide Header Until Scroll */
+	&.fl-scroll-header {
+		.fl-page-header-primary {
+			&.fl-show .fl-nav-offcanvas-collapse {
+				-webkit-transform: translateY(0) !important;
+				-ms-transform: translateY(0) !important;
+				transform: translateY(0) !important;
+			}
+		}
+	}
+
+	&.admin-bar {
+		.fl-nav-offcanvas-collapse {
+			top: 32px;
+		}
+	}
+}
+
+/* Fix broken header alignment when using offcanvas menu and shrink header. */
+.fl-fixed-width.fl-nav-mobile-offcanvas.fl-responsive-nav-enabled.fl-shrink-header-enabled {
+	.fl-page-header.fl-shrink-header {
+		.fl-page-header-wrap {
+			background: inherit;
+			width: (@content-width + 80);
+			max-width: 90%;
+			min-width: 0%;
+			position: fixed;
+			
+			.navbar-toggle {
+				position: absolute;
+				top: 24px;
+			}
+		}
+	}
+	.fl-page-header.fl-page-nav-toggle-button.fl-shrink-header {
+		.fl-page-header-wrap {
+			.navbar-toggle {
+				position: static;
+			}
+		}
+	}
+}
+
+@media (min-width: @medium-breakpoint) {
+	.fl-responsive-nav-enabled {
+
+		/* Hide Header Until Scroll */
+		&.fl-scroll-header {
+			&.fl-offcanvas-push-right .fl-page,
+			&.fl-offcanvas-push-opacity-right .fl-page {
+
+				&.fl-nav-offcanvas-active {
+					.fl-nav-offcanvas-collapse {
+						right: -250px;
+					}
+
+					.fl-page-nav-bottom .fl-nav-offcanvas-collapse {
+						right: 0;
+					}
+				}
+			}
+
+			&.fl-offcanvas-push-left .fl-page,
+			&.fl-offcanvas-push-opacity-left .fl-page {
+
+				&.fl-nav-offcanvas-active {
+					.fl-nav-offcanvas-collapse {
+						left: -250px;
+					}
+
+					.fl-page-nav-bottom .fl-nav-offcanvas-collapse {
+						left: 0;
+					}
+				}
+			}
+		}
+
+		/* Fixed Header */
+		&.fl-fixed-header {
+			&.fl-offcanvas-push-left,
+			&.fl-offcanvas-push-opacity-left {
+				.fl-nav-offcanvas-active .fl-page-bar {
+					padding-left: 250px;
+				}
+			}
+
+			&.fl-offcanvas-push-right,
+			&.fl-offcanvas-push-opacity-right {
+				.fl-nav-offcanvas-active .fl-page-bar {
+					padding-right: 250px;
+				}
+			}
+		}
+
+		/* Fixed Header - Fade In */
+		.fl-page-header-fixed {
+			.fl-page-nav-collapse {
+				display: none !important;
+			}
+
+			-webkit-transition: left .20s ease-in-out, right .20s ease-in-out;
+			     -o-transition: left .20s ease-in-out, right .20s ease-in-out;
+			        transition: left .20s ease-in-out, right .20s ease-in-out;
+		}
+
+		&.fl-offcanvas-push-left,
+		&.fl-offcanvas-push-opacity-left {
+			.fl-nav-offcanvas-active {
+				.fl-page-header-fixed {
+					left: 250px;
+				}
+			}
+		}
+
+		&.fl-offcanvas-push-right,
+		&.fl-offcanvas-push-opacity-right {
+			.fl-nav-offcanvas-active {
+				.fl-page-header-fixed {
+					right: 250px;
+					left: auto;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 782px) {
+	.fl-responsive-nav-enabled.admin-bar {
+		.fl-nav-offcanvas-collapse.navbar-collapse {
+			top: 46px;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.fl-responsive-nav-enabled.admin-bar {
+		.fl-nav-offcanvas-collapse.navbar-collapse {
+			top: 0;
+		}
+	}
+}
+
+@media (max-width: 1100px) {
+	.fl-fixed-width.fl-nav-mobile-offcanvas.fl-responsive-nav-enabled.fl-shrink-header-enabled {
+		.fl-page-header.fl-shrink-header {
+			.fl-page-header-wrap {
+				width: 980px;
+			}
+		}
+	}
+}

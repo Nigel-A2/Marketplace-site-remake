@@ -1,0 +1,20 @@
+parameters:
+	level: 5
+	reportUnmatchedIgnoredErrors: false
+	bootstrapFiles:
+		- vendor/php-stubs/wordpress-stubs/wordpress-stubs.php
+		- stubs.php
+	excludePaths:
+		- */assets/*
+		- */vendor/*
+		- */vendors/*
+		- */languages/*
+		- */tests/*
+		- stubs.php
+	ignoreErrors:
+		- '#Access to an undefined property#'
+		- '#no (typehint|value type|return type)+ specified.#'
+		- '#might not be defined.#'
+		- '#Function (apply_filters)+ invoked with#'
+		- '#Method PclZip::extract\(\) invoked with #'
+		- '#overridden property WP_List_Table::\$items#'

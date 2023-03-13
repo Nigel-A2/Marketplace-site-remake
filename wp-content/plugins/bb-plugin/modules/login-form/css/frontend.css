@@ -1,0 +1,65 @@
+.fl-form-field input,
+.fl-form-field input[type=text],
+.fl-form-field input[type=password] {
+	height: auto;
+	width: 100%;
+}
+.fl-login-form-inline .fl-form-field {
+	float: left;
+	margin: 0;
+	padding-right: 10px;
+	width: 33.33%;
+}
+.fl-login-form-inline.fl-login-form-name-hide .fl-form-field {
+	width: 66.66%;
+}
+.fl-login-form-inline .fl-form-button {
+	float: left;
+	width: 33.33%;
+}
+
+.fl-remember-checkbox-wrap {
+	display: inline-flex;
+	vertical-align: middle;
+}
+
+.fl-remember-checkbox input[type="checkbox"] {
+	height: 16px !important;
+	width: 16px;
+ 	vertical-align: sub;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.fl-remember-checkbox {
+	width: 100%;
+}
+.fl-remember-checkbox label {
+	word-wrap: break-word;
+}
+.fl-remember-checkbox-text {
+	margin: 10px 0;
+	font-weight: initial;
+	padding-left: 10px;
+}
+
+.fl-remember-forget a {
+	vertical-align: sub;
+	color: inherit;
+}
+
+.fl-form-field input[type=password] {
+	margin-bottom: 10px;
+}
+
+.fl-form-field input[type=password] {
+	margin-bottom: 10px;
+}
+
+.fl-form-field {
+	margin-bottom: 10px;
+}
+
+.fl-login-form.fl-login-form-stacked .fl-form-button {
+	margin-top: 10px;
+}

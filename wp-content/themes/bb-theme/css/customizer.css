@@ -1,0 +1,193 @@
+.button.fl-preview-button {
+    margin: 5px 0;
+    width: 100%;
+}
+.fl-code-editor {
+    border: 1px solid #ccc;
+	height: 300px;
+	position: absolute;
+	top: 5px;
+}
+.ace_editor.ace_autocomplete {
+	z-index: 100000000 !important;
+}
+.ace_editor {
+ 	position: relative !important ;
+}
+
+/* slider control */
+.customize-control-slider input[type=range] {
+	-webkit-appearance: none;
+	-webkit-transition: background .3s;
+	-moz-transition: background .3s;
+	transition: background .3s;
+	background-color: rgba(0,0,0,.1);
+	height: 5px;
+	width: calc(100% - 74px);
+	padding: 0;
+}
+.customize-control-slider input[type=range]:focus {
+	box-shadow: none;
+	outline: none;
+}
+.customize-control-slider input[type=range]:hover {
+	background-color: rgba(0,0,0,.25);
+}
+.customize-control-slider input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background-color: #3498D9;
+}
+.customize-control-slider input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border: none;
+	border-radius: 50%;
+	background-color: #3498D9;
+}
+.customize-control-slider input[type=range]::-moz-range-thumb {
+	width: 15px;
+	height: 15px;
+	border: none;
+	border-radius: 50%;
+	background-color: #3498D9;
+}
+.customize-control-slider input[type=range]::-ms-thumb {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 0;
+	background-color: #3498D9;
+}
+.customize-control-slider input[type=range]::-moz-range-track {
+	border: inherit;
+	background: transparent;
+}
+.customize-control-slider input[type=range]::-ms-track {
+	border: inherit;
+	color: transparent;
+	background: transparent;
+}
+.customize-control-slider input[type=range]::-ms-fill-lower,
+.customize-control-slider input[type=range]::-ms-fill-upper {
+	background: transparent;
+}
+.customize-control-slider input[type=range]::-ms-tooltip {
+	display: none;
+}
+.customize-control-slider .fl-range-value {
+    display: inline-block;
+    padding: 0 5px;
+    position: relative;
+    top: 1px;
+}
+.customize-control-slider input.fl-range-value-input {
+	width: 42px;
+    height: 23px;
+    font-size: 13px;
+}
+.customize-control-slider .fl-slider-reset {
+	color: rgba(0,0,0,.2);
+	float: right;
+	-webkit-transition: color .5s ease-in;
+	-moz-transition: color .5s ease-in;
+	-ms-transition: color .5s ease-in;
+	-o-transition: color .5s ease-in;
+	transition: color .5s ease-in;
+}
+.customize-control-slider .fl-slider-reset span {
+	font-size: 16px;
+	line-height: 22px;
+	cursor: pointer;
+}
+.customize-control-slider .fl-slider-reset span:hover {
+	color: red;
+}
+
+.wp-customizer .select2-container--default .selection .select2-selection--single {
+	border-color: black !important;
+	border-radius: 3px !important;
+	height: 30px !important;
+	line-height: 30px !important;
+	outline: none !important;
+}
+
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+	width: 95% !important;
+}
+
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__clear {
+	position: absolute !important;
+	right: 0 !important;
+}
+
+.wp-customizer .select2-container .select2-dropdown {
+	z-index: 900000 !important;
+}
+
+/* Responsive toggle icons */
+i.fl-responsive-control-toggle {
+	color: #656a6f;
+	cursor: pointer;
+	display: inline-block;
+	font: normal 18px/30px dashicons;
+	height: auto;
+	line-height: 18px !important;
+	padding: 0 5px;
+	text-align: left;
+	vertical-align: middle;
+	width: 20px;
+}
+
+/* .customize-control select:active,
+.customize-control select:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+} */
+
+/* switch */
+.fl-control-switch {
+	position: relative;
+	display: inline-block;
+	width: 45px;
+	height: 25px;
+}
+ .fl-control-switch input {
+	 display: none;
+}
+ .fl-control-switch input + span {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 1px solid #bdc3c7;
+	transition: 0.4s;
+	border-radius: 12px;
+}
+ .fl-control-switch input + span:before {
+	position: absolute;
+	content: "";
+	height: 16px;
+	width: 16px;
+	left: 4px;
+	bottom: 4px;
+	background-color: #bdc3c7;
+	transition: 0.4s;
+	border-radius: 100%;
+}
+ .fl-control-switch input:checked + span {
+	border-color: #3498D9;
+	background-color: #3498D9;
+}
+ .fl-control-switch input:checked + span:before {
+	background-color: #f5f5f5;
+	transform: translateX(20px);
+}
+ 

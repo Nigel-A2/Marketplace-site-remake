@@ -1,0 +1,488 @@
+/* Wrappers
+------------------------------------------------------ */
+
+.fl-builder-bar,
+.fl-builder-panel,
+.fl-lightbox {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* Panel
+------------------------------------------------------ */
+
+.fl-builder-blocks-section .fl-builder-blocks-section-title i {
+	float: left;
+}
+
+/* Template Selector
+------------------------------------------------------ */
+
+.fl-user-template-actions {
+	left: 0;
+	right: auto;
+}
+
+/* Preview Iframe
+------------------------------------------------------ */
+
+#fl-builder-preview-frame {
+	left: 0;
+	right: 50%;
+	transform: translateX(50%);
+	-moz-transform: translateX(50%);
+	-webkit-transform: translateX(50%);
+}
+
+/* Settings Forms
+------------------------------------------------------ */
+
+.fl-lightbox-header .fl-builder-preview-loader {
+	left: 40px;
+	right: auto;
+}
+.fl-form-table th {
+	text-align: right !important;
+}
+.fl-lightbox-width-slim .fl-form-table {
+	margin-right: auto !important;
+}
+
+/* Tooltips
+------------------------------------------------------ */
+
+.fl-help-tooltip-text {
+	left: auto;
+	right: 0;
+}
+
+/* Tour
+------------------------------------------------------ */
+
+.popover[class*=tour-] {
+	text-align: right;
+}
+
+.popover[class*=tour-] .fa-times {
+	right: auto;
+	left: 3px;
+}
+
+/* LightBox
+------------------------------------------------------ */
+
+.fl-lightbox-footer {
+	text-align: left;
+}
+
+.fl-lightbox-header .fl-builder-settings-fields,
+.fl-lightbox-controls {
+	right: auto;
+	left: 10px;
+}
+
+/* Field Action Icons
+------------------------------------------------------ */
+
+.fl-field-control-wrapper i.fl-field-responsive-toggle {
+	left: auto;
+	right: -25px;
+}
+.fl-field-control-wrapper .fl-dimension-field-link {
+	left: auto;
+	right: -50px;
+}
+
+/* Color Picker Fields
+------------------------------------------------------ */
+
+.fl-color-picker.fl-color-picker-has-reset .fl-color-picker-color:not(.fl-color-picker-empty) {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+	border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.fl-color-picker-clear {
+	border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+	border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.fl-color-picker-ui .iris-picker .iris-square {
+	margin: 0 auto 0 0;
+}
+.fl-color-picker-ui .iris-picker .iris-strip {
+	margin: 5px auto 6px 6px;
+}
+.fl-color-picker-ui .fl-alpha-slider {
+	left: 7px;
+}
+.fl-color-picker-ui .fl-alpha-text {
+	left: 5px;
+}
+
+.fl-color-picker-preset-add {
+    right: auto;
+    left: 8px;
+}
+
+.fl-color-picker-preset-add:before {
+    left: auto;
+    right: 3px;
+}
+
+.fl-color-picker-preset-add:after {
+		left: auto;
+		right: 6px;
+}
+
+.fl-color-picker-clear .fl-color-picker-icon-remove {
+    left: 0;
+    right: auto;
+}
+
+.fl-color-picker-icon-remove:before {
+		left: auto;
+		right: 6px;
+}
+
+.fl-color-picker-icon-remove:after {
+		left: auto;
+		right: 6px;
+}
+
+.fl-color-picker-presets-list .fl-color-picker-preset-remove {
+		right: auto;
+		left: 5px;
+}
+
+/* Auto Suggest
+------------------------------------------------------ */
+
+ul.as-selections li {
+    float: right;
+}
+
+/* Icon Fields
+------------------------------------------------------ */
+
+.fl-icon-field .fl-icon-preview i {
+	margin: 10px 2px 9px 10px;
+}
+
+/* Icon Selector
+------------------------------------------------------ */
+
+.fl-icons-filter {
+	left: 10px;
+	right: auto;
+}
+.fl-icons-section h2 {
+	text-align: right;
+}
+
+/* Font Fields
+------------------------------------------------------ */
+
+.fl-font-field .fl-font-field-font-wrapper {
+	margin-right: 0 !important;
+	margin-left: 8px !important;
+}
+
+/* Button Group Fields
+------------------------------------------------------ */
+
+.fl-button-group-field-options {
+	float: right;
+}
+
+/* Compound Fields
+------------------------------------------------------ */
+
+.fl-compound-field-section-toggle .dashicons {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.fl-compound-field-setting:last-child {
+    padding-right: 8px;
+}
+.fl-compound-field-setting:first-child {
+    padding-right: 0px;
+}
+.fl-compound-field-setting .fl-unit-field-input select.fl-field-unit-select {
+	background-position: center left 4px !important;
+}
+
+/* Typography Fields
+------------------------------------------------------ */
+
+.fl-typography-field .fl-shadow-field .fl-color-picker {
+	margin: 0 0 0 8px;
+}
+
+/* Border Fields
+------------------------------------------------------ */
+.fl-border-field .fl-shadow-field .fl-color-picker {
+	margin: 0 0 0 8px;
+}
+
+/* Unit Fields
+------------------------------------------------------ */
+
+.fl-unit-field-inputs input[type],
+.fl-unit-field-inputs .fl-field-unit-select {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+body .fl-unit-field-input:last-child > * {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+body select.fl-field-unit-select {
+	background-color: #E7EBEF !important;
+}
+
+/* Dimension Fields
+------------------------------------------------------ */
+
+.fl-field[data-type="dimension"] .fl-field-label label {
+	padding-left: 35px;
+	padding-right: 0;
+}
+body .fl-dimension-field-units > *:first-child > input[type] {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+body .fl-dimension-field-units > *:last-child > input {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+/* 2.0 RTL Updates
+------------------------------------------------------ */
+.fl-builder-panel-drag-handle {
+	right: 10px;
+	left: auto;
+}
+
+.fl-builder--search-results-panel, .fl-builder-panel {
+	right: auto;
+	left: 20px;
+}
+
+.fl-builder-panel:before {
+	left: 87px;
+	right: auto;
+	margin-right: -10px;
+	margin-left: 0;
+}
+
+.fl-builder--selector-menu:before {
+	left: 8px;
+	right: auto;
+	margin-right: -10px;
+	margin-left: 0;
+}
+
+.fl-builder--selector-display {
+	background: url(../img/svg/select-arrow-down-alt2.svg) center left 10px no-repeat #fff!important;
+}
+
+.fl-builder--current-view-name,
+.fl-builder--menu-item,
+.fl-builder-settings-fields .fl-field-control-wrapper {
+	text-align: right;
+}
+
+.fl-builder--panel-header .fl-builder--panel-controls .fl-builder-panel-search {
+	padding: 0 0 6px 6px;
+	margin-left: 0;
+	margin-right: -4px;
+}
+
+.fl-builder--panel-controls .fl-builder-panel-search button {
+	padding-top: 6px;
+}
+
+.fl-builder-block-visual.fl-cols-visual .fl-cols-visual-col:first-child {
+	margin-right: 0!important;
+	margin-left: 2px!important;
+}
+
+.fl-builder-block-visual.fl-cols-visual .fl-cols-visual-col:last-child {
+	margin-left: 0!important;
+	margin-right: 2px!important;
+}
+
+.fl-builder-settings-fields select {
+	background: url(../img/svg/select-arrow-down-alt2.svg) center left 10px no-repeat #fff!important;
+	padding-left: 30px!important;
+	padding-right: 10px!important;
+}
+
+.fl-form-table th {
+	padding: 10px 30px 10px 10px!important;
+}
+
+.fl-link-field .fl-link-field-input-wrap button {
+	margin-right: 5px;
+	margin-left: 0;
+}
+
+.dashicons-arrow-right-alt2:before {
+	content: "\f341";
+}
+
+.dashicons-arrow-left-alt2:before {
+	content: "\f345";
+}
+
+.fl-builder-publish-actions {
+	right: auto;
+	left: 0;
+}
+
+.fl-builder-bar .fl-builder-button {
+	margin: 0 4px 0 0;
+}
+
+.fl-builder-bar .fl-builder-button-group>.fl-builder-button:first-child {
+	margin-right: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 3px;
+}
+
+.fl-builder-bar .fl-builder-button-group>.fl-builder-button {
+	margin-right: 0;
+}
+
+.fl-builder-bar .fl-builder-button-group>.fl-builder-button:last-child{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 0;
+}
+
+.fl-builder--main-menu-panel {
+	right: 10px;
+	left: auto;
+}
+
+.fl-builder--main-menu-panel:before, .fl-theme-builder-preview-select-open .fl-theme-builder-preview-select-items:before {
+	left: 6px;
+	right: auto;
+	margin-left: 0;
+	margin-right: -13px;
+}
+
+.fl-builder--menu * .fl-builder--menu-item-accessory {
+	float: left;
+}
+
+.fl-builder--menu>a, .fl-builder--menu>button, .fl-builder--menu>span {
+	text-align: right;
+}
+
+.fl-field[data-type=dimension] .fl-field-responsive-toggle {
+	padding: 9px 0 0 9px;
+}
+
+.fl-builder-settings .fl-form-table .fl-field-description {
+	margin-left: 0;
+	margin-right: 2px;
+}
+
+.fl-builder--template-collection-item {
+	float: right;
+}
+
+.fl-builder-bar-title {
+	border-right: none;
+	border-left: 2px solid #D5DADD;
+}
+
+.fl-builder--saving-indicator .fa-question-circle {
+	margin: 3px 8px 3px 0;
+}
+.fl-builder-publish-actions {
+	transform-origin: left;
+}
+.fl-builder--menu-item[data-type="view"] .fl-builder--menu-item-accessory {
+	transform: rotateZ(180deg);
+}
+.fl-builder--main-menu-panel-view-title .pop-view {
+	transform: rotateZ(180deg);
+	margin-right: -10px;
+	margin-left:0;
+}
+.fl-builder-ui-shortcut-keycode {
+	margin-left: 0;
+	margin-right:auto;
+}
+.fl-builder--preview-actions,
+.fl-builder--revision-actions {
+	left:auto;
+	right: 4px;
+}
+.fl-builder--preview-actions .device-icons {
+	margin-right:0;
+	margin-left: 4px;
+}
+.fl-revision-list-item-text {
+	padding-right: 15px;
+	padding-left:0;
+}
+.fl-builder--revision-actions * {
+	margin-right:0;
+	margin-left: 5px;
+}
+.fl-block-col-resize-w {
+	left:auto;
+	right: -12px !important;
+}
+.fl-block-col-resize-e {
+    left: 4px !important;
+    right: auto !important;
+}
+.fl-lightbox-footer .fl-builder-button {
+	margin-right: 5px !important;
+	margin-left: 0 !important;
+}
+.fl-lightbox-footer .fl-builder-button:first-child {
+	margin-right: 0 !important;
+}
+.fl-builder-settings-fields h3.fl-builder-settings-title {
+	padding-right: 10px;
+	padding-left: 15px;
+}
+.fl-builder-settings-fields .fl-builder-settings-title > svg {
+	margin: 0 0 0 7px;
+}
+.fl-photo-field .fl-photo-preview select {
+	margin: 8px 10px 8px 0;
+}
+.fl-photo-field .fl-photo-edit {
+	margin: 0 11px 0 0;
+}
+.fl-photo-field .fl-photo-replace, .fl-photo-field .fl-photo-remove {
+	margin: 0 8px 0 0;
+}
+
+/* HTML editor
+------------------------------------------------------ */
+
+.fl-lightbox .ace_editor {
+	direction: ltr;
+	text-align: left;
+}

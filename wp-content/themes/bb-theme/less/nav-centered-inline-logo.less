@@ -1,0 +1,113 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+.fl-page-nav-centered-inline-logo {
+	.fl-page-header-container {
+		padding-bottom: 0;
+	}
+	.fl-page-header-logo {
+		padding-bottom: @header-padding;
+	}
+}
+
+/* Media Query - 768px or greater
+----------------------------------------------------------- */
+
+@media (min-width: @mobile-breakpoint) {
+
+	.fl-page-nav-centered-inline-logo {
+		text-align: center;
+		.fl-page-header-container {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.fl-page-nav-wrap {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+		.fl-page-nav {
+			ul.navbar-nav {
+				float: none !important;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+			ul.navbar-nav > li {
+				display: inline-block;
+				float: none;
+			}
+			ul.sub-menu {
+				text-align: left;
+			}
+		}
+	}
+}
+
+/* Media Query - 992px or greater
+----------------------------------------------------------- */
+
+@media (min-width: @medium-breakpoint) {
+
+	.fl-page-nav-centered-inline-logo {
+		text-align: center;
+		.fl-page-header-container {
+			padding-bottom: @header-padding;
+		}
+		.fl-page-nav {
+			ul.navbar-nav {
+				float: none;
+				display: inline-block;
+				> li {
+					display: inline-block;
+					float: none;
+				}
+			}
+			ul.sub-menu {
+				text-align: left;
+			}
+		}
+		.fl-page-nav-wrap {
+			border: none;
+			background: none;
+		}
+		.fl-page-nav-search {
+			position: relative;
+			float: none;
+			display: inline-block;
+			a.fa-search {
+				padding: 13px 0 13px 10px;
+				position: static;
+			}
+		}
+		.fl-page-header-logo {
+			display: none;
+		}
+		.fl-logo-centered-inline .fl-page-header-logo {
+			display: block;
+			float: none;
+			padding: 0 @nav-item-spacing;
+		}
+	}
+}
+
+/* Media Query - 1100px or greater
+----------------------------------------------------------- */
+
+@media (min-width: 1100px) {
+
+	.fl-page-nav-centered-inline-logo {
+		&.fl-page-nav-toggle-visible-always .fl-page-header-container,
+		&.fl-page-nav-toggle-visible-medium-mobile .fl-page-header-container,
+		.fl-page-header-container {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}

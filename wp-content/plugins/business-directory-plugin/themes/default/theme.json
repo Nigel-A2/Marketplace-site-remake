@@ -1,0 +1,14 @@
+{
+    "name": "Default Theme",
+    "description": "A clean, basic look. This theme is always installed and cannot be removed.",
+    "version": "6.3.1",
+    "author": "Business Directory Team",
+    "author_email": "support@businessdirectoryplugin.com",
+    "author_url": "https://businessdirectoryplugin.com",
+    "requires": "4.0",
+    "assets": {
+        "css": [ "styles.css" ],
+        "js": []
+    },
+    "suggested_fields": [ "address", "zip", "phone", "website" ]
+}

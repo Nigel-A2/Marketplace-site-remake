@@ -1,0 +1,27 @@
+
+/* Add New Button
+----------------------------------------------- */
+
+.page-title-action {
+	display: none;
+}
+
+/* Global Templates
+----------------------------------------------- */
+
+.column-fl_global .dashicons-yes {
+	color: #ff9600;
+	font-size: 28px;
+}
+
+.column-fl_global {
+	width: 10%;
+}
+
+.column-code {
+	width: 40%;
+}
+
+.column-code pre {
+	cursor: pointer;
+}

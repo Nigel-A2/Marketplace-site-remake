@@ -1,0 +1,19 @@
+/* Inline Alignment
+---------------------------------------------------*/
+
+.fl-cta-inline {
+	display: block;
+	text-align: center;
+}
+.fl-cta-inline .fl-cta-text,
+.fl-cta-inline .fl-cta-button {
+	display: block;
+}
+.fl-cta-inline .fl-cta-text {
+	width: auto;
+}
+.fl-cta-inline .fl-cta-button {
+	padding-left: 0;
+	padding-top: 20px;
+	width: auto;
+}

@@ -1,0 +1,25 @@
+/* Responsive Utilities
+------------------------------------------------------ */
+body.fl-builder-ie-11 .fl-row.fl-row-full-height.fl-visible-desktop,
+body.fl-builder-ie-11 .fl-row.fl-row-custom-height.fl-visible-desktop {
+	display: none !important;
+}
+.fl-visible-desktop,
+.fl-visible-mobile,
+.fl-col-group .fl-visible-desktop.fl-col,
+.fl-col-group .fl-visible-mobile.fl-col {
+	display: none;
+}
+.fl-visible-desktop-medium,
+.fl-visible-medium,
+.fl-visible-medium-mobile,
+.fl-col-group .fl-visible-desktop-medium.fl-col,
+.fl-col-group .fl-visible-medium.fl-col,
+.fl-col-group .fl-visible-medium-mobile.fl-col {
+	display: block;
+}
+.fl-col-group-equal-height .fl-visible-desktop-medium.fl-col,
+.fl-col-group-equal-height .fl-visible-medium.fl-col,
+.fl-col-group-equal-height .fl-visible-medium-mobile.fl-col {
+	display: flex;
+}

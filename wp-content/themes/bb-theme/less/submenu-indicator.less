@@ -1,0 +1,106 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+/* Media Query - 767px or less
+----------------------------------------------------------- */
+
+@media (max-width: (@mobile-breakpoint - 1)) {
+
+	.fl-submenu-indicator {
+		.fl-page-nav {
+			ul.navbar-nav li.menu-item-has-children > a:after {
+				font-family: @font-awesome-family;
+				content: '\f107';
+				font-weight: 900;
+				float: right;
+			}
+			li.hide-heading ul.sub-menu {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+/* Media Query - 768px or greater
+----------------------------------------------------------- */
+
+@media (min-width: @mobile-breakpoint) {
+
+	.fl-submenu-indicator {
+		.fl-page-nav {
+			ul.navbar-nav > li.menu-item-has-children > a:after{
+				font-family: @font-awesome-family;
+  				content: '\f107';
+  				font-weight: 900;
+				margin-left: 5px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			ul.sub-menu  {
+				li.menu-item-has-children > a:after {
+					font-family: @font-awesome-family;
+					content: '\f105';
+					font-weight: 900;
+					float: right;
+				}
+			}
+			li.mega-menu {
+				ul.sub-menu  {
+					li.menu-item-has-children > a:after {
+						content: '';
+						margin-left: 0;
+					}
+					ul.sub-menu ul.sub-menu ul.sub-menu {
+						margin-left: 15px;
+					}
+				}
+
+			}
+		}
+		&.fl-nav-vertical-left {
+			.fl-page-nav {
+				ul.navbar-nav > li.menu-item-has-children > a:after{
+					font-family: @font-awesome-family;
+					content: '\f105';
+					font-weight: 900;
+					float: right;
+				}
+			}
+		}
+		&.fl-nav-vertical-right {
+			.fl-page-nav {
+				ul.navbar-nav > li.menu-item-has-children > a:after{
+					font-family: @font-awesome-family;
+					content: '\f104';
+					font-weight: 900;
+					float: left;
+					margin-right: 5px;
+					margin-left: 0;
+				}
+				ul.sub-menu  {
+					li.menu-item-has-children > a:after {
+						font-family: @font-awesome-family;
+						content: '\f104';
+						font-weight: 900;
+						float: left;
+					}
+				}
+				li.mega-menu {
+					ul.sub-menu  {
+						ul.sub-menu ul.sub-menu ul.sub-menu {
+							margin-left: 0;
+						}
+					}
+
+				}
+			}
+		}
+	}
+}

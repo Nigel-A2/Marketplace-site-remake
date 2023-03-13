@@ -1,0 +1,228 @@
+/* Post Slider */
+
+/* Wrappers */
+body.rtl .fl-module-post-carousel .bx-viewport {
+	direction: ltr;
+}
+body.rtl .fl-post-carousel-post {
+	direction: rtl;
+}
+.fl-module-post-carousel .bx-wrapper {
+	max-width: 100% !important;
+	margin: 0 auto 40px;
+}
+.fl-module-post-carousel .bx-controls {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin-top: 20px;
+}
+
+.fl-post-carousel-navigation{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	margin-top: -16px;
+}
+.fl-post-carousel-navigation a{
+	position: absolute;
+	display: inline-block;
+	opacity: .7;
+}
+.fl-post-carousel-navigation a:hover{ opacity: 1; }
+
+.fl-post-carousel-navigation .carousel-prev{ left: 0; }
+.fl-post-carousel-navigation .carousel-next{ right: 0; }
+
+.fl-post-carousel-navigation .fl-post-carousel-svg-container{
+	position: relative;
+	width: 32px;
+	height: 32px;
+}
+.fl-post-carousel-navigation svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.fl-post-carousel-navigation path{ fill: #fff; }
+
+.fl-post-carousel-navigation a.disabled,
+.bx-controls a.disabled {
+	pointer-events: none;
+}
+
+/*Module styles =======================================*/
+
+/* Post Carousel */
+.fl-post-carousel {
+	margin: 0 auto;
+	position: relative;
+}
+
+.fl-post-carousel-wrapper:before,
+.fl-post-carousel-wrapper:after {
+	content: '';
+	display: table;
+}
+.fl-post-carousel-wrapper:after {
+	clear: both;
+}
+
+.fl-post-carousel-post {
+	position: absolute;
+	top: 0;
+	float: left;
+	visibility: hidden;
+	background: #fff;
+}
+
+.fl-post-carousel-loaded .fl-post-carousel-post {
+	position: relative;
+	visibility: visible;
+	margin: 0;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+}
+
+.fl-post-carousel-image img {
+	height: auto !important;
+	width: 100% !important;
+}
+.fl-post-carousel-image .fl-photo-content {
+	display: block;
+}
+
+/* Layout - post grid */
+.fl-post-carousel-post {
+	border: 1px solid #e6e6e6;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+.fl-post-carousel-text {
+	padding: 20px;
+}
+.fl-post-carousel-title {
+	padding-bottom: 7px;
+}
+.fl-post-carousel-content {
+	font-size: 14px;
+	line-height: 22px;
+}
+.fl-post-carousel-content p:last-of-type {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.fl-post-carousel-title {
+	font-size: 20px;
+	line-height: 26px;
+	margin: 0 0 10px;
+	padding: 0;
+}
+.fl-post-carousel-meta {
+	font-size: 14px;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+/* Layout - post gallery */
+
+.fl-post-carousel-gallery .fl-post-carousel-link {
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+.fl-post-carousel-gallery .fl-post-carousel-img {
+	position: relative;
+	z-index: 1;
+}
+
+.fl-post-carousel-gallery .fl-post-carousel-text-wrap {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	padding: 0 20px;
+	text-align: center;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	    -ms-transition: all 0.3s;
+	        transition: all 0.3s;
+}
+.fl-post-carousel-gallery .fl-post-no-crop .fl-post-carousel-text-wrap,
+.fl-post-carousel-gallery .fl-post-no-crop .fl-post-carousel-text{
+	position: relative;
+	padding: 20px;
+	top: 0;
+	left: 0;
+	-webkit-transform: none;
+	   -moz-transform: none;
+	    -ms-transform: none;
+	        transform: none;
+}
+
+.fl-post-carousel-gallery .fl-post-carousel-link:hover .fl-post-carousel-text-wrap,
+.fl-post-carousel-gallery .fl-post-carousel-post.fl-post-no-thumb .fl-post-carousel-text-wrap {
+	filter: alpha(opacity = 100);
+	opacity: 1;
+}
+
+.fl-post-carousel-gallery .fl-post-carousel-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	width: 100%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	    -ms-transition: all 0.3s;
+	        transition: all 0.3s;
+}
+
+.fl-post-carousel-gallery .fl-post-carousel-text h2.fl-post-carousel-title {
+	font-size: 22px;
+	margin: 0 0 5px 0;
+}
+
+/* slide ratio - for slides with no thumb */
+.fl-post-carousel-gallery .fl-post-carousel-ratio{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.fl-post-carousel-gallery .fl-post-carousel-ratio{ padding-bottom: 70%; }
+
+.fl-post-carousel-gallery .fl-carousel-icon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.fl-post-carousel-gallery .fl-carousel-icon i,
+.fl-post-carousel-gallery .fl-carousel-icon i:before{
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+}
+
+/* Gallery Transitions */
+.fl-post-carousel-gallery .fl-post-carousel-text,
+.fl-post-carousel-gallery .fl-post-carousel-link:hover .fl-post-carousel-text,
+.fl-post-carousel-gallery .fl-post-carousel-post.fl-post-no-thumb .fl-post-carousel-text{
+	-webkit-transform: translate3d(-50%,-50%,0);
+	   -moz-transform: translate3d(-50%,-50%,0);
+	    -ms-transform: translate(-50%,-50%);
+			transform: translate3d(-50%,-50%,0);
+}
+
+/* Common Styles */
+body .fl-post-carousel-text a {
+	text-decoration: none;
+}

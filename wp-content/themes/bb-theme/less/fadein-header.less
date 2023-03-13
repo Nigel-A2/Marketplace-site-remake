@@ -1,0 +1,93 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+.fl-page-nav-right.fl-page-header-fixed,
+.fl-page-header-fixed {
+	display: none;
+	left: auto;
+	position: fixed!important;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	.fl-change-row-color(
+		fade(@fixed-header-bg-color, @header-bg-opacity),
+		@header-fg-color,
+		@header-fg-link-color,
+		@header-fg-hover-color,
+		@header-border-color
+	);
+	.fl-box-shadow(0 0 7px rgba(0, 0, 0, 0.1));
+	.fl-page-header-container.container {
+		padding-bottom: 8px;
+		padding-top: 8px;
+	}
+	&.fl-page-header.fl-page-nav-toggle-visible-always {
+		.fl-page-header-row .fl-page-header-logo {
+			padding-bottom: 0;
+		}
+		.fl-page-nav-collapse {
+			margin-top: 20px;
+		}
+		.fl-page-nav .navbar-toggle {
+			top: 15px;
+		}
+	}
+	.fl-logo-img {
+		max-height: @header-logo-max-height !important;
+		width: auto !important;
+	}
+	.fl-logo-text {
+		font-size: 28px;
+	}
+	.fl-page-nav-wrap .navbar-nav > li > a {
+		padding: 10px @nav-item-spacing;
+	}
+	.fl-page-nav ul.sub-menu {
+		background-color: fade(@fixed-header-bg-color, @header-bg-opacity);
+	}
+}
+.admin-bar .fl-page-nav-right.fl-page-header-fixed,
+.admin-bar .fl-page-header-fixed,
+.admin-bar .fl-page-header-vertical {
+	top:32px;
+}
+
+/* Media Query - 992px or greater
+----------------------------------------------------------- */
+
+@media (min-width: (@medium-breakpoint - 1)) {
+
+	.fl-page-header-fixed {
+		.fl-page-fixed-nav-wrap {
+			padding-right: 0;
+		}
+	}
+}
+
+@media (min-width: @medium-breakpoint) {
+	.fl-page-nav-right.fl-page-header-fixed,
+	.fl-page-header-fixed {
+		.fl-fixed-width & {
+			width: 980px;
+		}
+	}
+}
+
+/* Media Query - 1100px or greater
+----------------------------------------------------------- */
+@media (min-width: 1100px) {
+	.fl-page-nav-right.fl-page-header-fixed,
+	.fl-page-header-fixed {
+		.fl-fixed-width & {
+			width: (@content-width+80);
+			max-width: 90%;
+		}
+	}
+}

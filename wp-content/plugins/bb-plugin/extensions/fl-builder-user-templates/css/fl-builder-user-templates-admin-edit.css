@@ -1,0 +1,60 @@
+
+/* WordPress UI Changes
+----------------------------------------------- */
+
+.misc-pub-visibility,
+.misc-pub-curtime,
+#minor-publishing-actions,
+#preview-action,
+#edit-slug-box {
+	display: none;
+}
+#post-body #normal-sortables {
+	min-height: 0;
+}
+
+/* Add New Button
+----------------------------------------------- */
+
+.page-title-action {
+	display: none;
+}
+
+/* Global Template Message
+------------------------------------------------------*/
+
+.fl-global-template-message {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 17px;
+    padding: 15px;
+}
+.fl-global-template-message-label {
+	background: #ff9600;
+	border-radius: 2px;
+	color: #fff;
+	display: inline;
+	font-size: 11px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin-left: 2px;
+	padding: 2px 4px 3px;
+	vertical-align: top;
+}
+.fl-global-template-message-content {
+	display: inline;
+    margin-left: 5px;
+}
+
+/* Buttons Meta Box
+------------------------------------------------------*/
+
+#fl-builder-user-template-buttons .inside {
+	margin: 0;
+	padding: 15px;
+}
+.fl-builder-buttons .button {
+	margin-right: 5px;
+}

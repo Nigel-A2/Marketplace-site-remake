@@ -1,0 +1,166 @@
+/* Wrappers */
+body.rtl .fl-module-content-slider .bx-viewport {
+	direction: ltr;
+}
+.fl-module-content-slider .bx-wrapper {
+	margin: 0 auto 40px;
+}
+.fl-content-slider {
+	position: relative;
+}
+.fl-content-slider .fl-slide {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+}
+.fl-content-slider-wrapper .fl-slide:first-child,
+.fl-content-slider-loaded .fl-slide {
+	position: relative;
+	visibility: visible;
+}
+
+/* Controls */
+.bx-wrapper .bx-controls-direction a {
+	z-index: 99;
+}
+
+/* Background Photo */
+.fl-content-slider .fl-slide-bg-photo {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+.fl-content-slider .fl-slide-bg-photo-img {
+	display: none;
+}
+
+/* Background Link */
+.fl-content-slider .fl-slide-bg-link {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+/* Foreground Photo/Video */
+.fl-slide-photo {
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+.fl-slide-text-left .fl-slide-photo-wrap {
+	float: right;
+}
+.fl-slide-text-center .fl-slide-photo-wrap {
+	text-align: center;
+}
+.fl-slide-text-center .fl-slide-photo-wrap img {
+	margin: 0 auto;
+}
+.fl-slide-text-right .fl-slide-photo-wrap {
+	float: left;
+}
+
+/* Mobile Photo/Video */
+.fl-slide-mobile-photo {
+	display: none;
+}
+.fl-slide-mobile-photo-img  {
+	width: 100%;
+}
+
+/* Title and Text Position */
+.fl-slide-content {
+	position: relative;
+	z-index: 2;
+}
+.fl-slide-text-left .fl-slide-content-wrap {
+	float: left;
+	text-align: left;
+}
+.fl-slide-text-center .fl-slide-content-wrap {
+	margin: 0 auto;
+	text-align: center;
+}
+.fl-slide-text-right .fl-slide-content-wrap {
+	float: right;
+	text-align: left;
+}
+
+/* Title and Text Style */
+.fl-slide-title,
+.fl-slide-text > * {
+	line-height: 1.4;
+	margin: 0 0 20px !important;
+	padding: 0 !important;
+}
+.fl-slide-text > *:last-child {
+	margin: 0 !important;
+}
+
+/* Buttons */
+.fl-slide-cta-button {
+	padding-top: 24px;
+}
+
+.fl-content-slider-navigation{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	margin-top: -16px;
+}
+.fl-content-slider-navigation a{
+	position: absolute;
+	display: inline-block;
+	opacity: .7;
+}
+.fl-content-slider-navigation a:hover{ opacity: 1; }
+
+.fl-content-slider-navigation .slider-prev{ left: 5px; }
+.fl-content-slider-navigation .slider-next{ right: 5px; }
+
+.fl-content-slider-navigation .fl-content-slider-svg-container{
+	position: relative;
+	width: 32px;
+	height: 32px;
+}
+.fl-content-slider-navigation svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.fl-content-slider-navigation path{ 
+	fill: #fff;
+}
+.fl-content-slider-navigation a.disabled,
+.bx-controls a.disabled {
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+/* Slider controls fixes */
+.bx-wrapper .bx-controls:not(.bx-has-pager) {
+	height: 30px;
+}
+.bx-wrapper .bx-controls:not(.bx-has-pager) .bx-controls-auto {
+	bottom: 0;
+}
+
+/* IE Fixes */
+.fl-builder-ie-11 .fl-content-slider-navigation {
+	z-index: 55;
+}

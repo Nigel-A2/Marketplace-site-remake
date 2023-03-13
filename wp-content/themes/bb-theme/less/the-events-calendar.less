@@ -1,0 +1,160 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+/* Views List */
+#tribe-events .tribe-bar-views-list a span {
+	background: none;
+	padding-left: 0;
+}
+.tribe-bar-views-list a span:before {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    margin-right: 5px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.tribe-bar-views-list a span.tribe-icon-list:before {
+	content: "\f0ca";
+}
+.tribe-bar-views-list a span.tribe-icon-month:before {
+	content: "\f073";
+}
+.tribe-bar-views-list a span.tribe-icon-week:before {
+	content: "\f073";
+}
+.tribe-bar-views-list a span.tribe-icon-day:before {
+	content: "\f073";
+}
+.tribe-bar-views-list a span.tribe-icon-map:before {
+	content: "\f041";
+}
+.tribe-bar-views-list a span.tribe-icon-photo:before {
+	content: "\f03e";
+}
+
+/* Advanced Filters */
+.tribe-events-filters-content {
+	border: none;
+}
+#tribe_events_filters_wrapper select {
+	color: #333;
+}
+.tribe-events-filters-horizontal .tribe-events-filter-group li:hover {
+	background: transparent !important;
+}
+
+@media only screen and (min-width: (@mobile-breakpoint - 1)) {
+
+	#tribe-events #tribe_events_filters_wrapper.tribe-events-filters-horizontal,
+	#tribe-events .tribe-filters-closed #tribe_events_filters_wrapper.tribe-events-filters-horizontal {
+	    margin: -10px 0 0 0;
+		padding: 0;
+	}
+	#tribe-events .tribe-events-filters-horizontal #tribe_events_filters_toggle {
+		margin: 0;
+		padding: 10px 0;
+	}
+	.tribe-events-filters-horizontal .tribe-events-filters-content {
+		border: none;
+		padding: 10px;
+	}
+	#tribe-events .tribe-events-filters-horizontal #tribe_events_filter_control .tribe_events_filters_close_filters,
+	#tribe-events .tribe-events-filters-horizontal #tribe_events_filter_control #tribe_events_filters_reset {
+		border: none;
+	}
+	.tribe-events-filters-horizontal .tribe-events-filters-group-heading:hover {
+		background: transparent !important;
+	}
+	#tribe-events .tribe-events-filters-horizontal .tribe-events-filter-group {
+		border: none;
+	    box-shadow: 0 0 15px rgba( 0, 0, 0, 0.3 );
+	}
+	#tribe-events .tribe-events-filters-horizontal .tribe-events-filter-group:before,
+	#tribe-events .tribe-events-filters-horizontal .tribe-events-filter-group:after,
+	#tribe-events .tribe-events-filters-horizontal .tribe-events-filter-group:before {
+		border: none;
+	}
+}
+
+/* Views Misc */
+#tribe-events-header {
+	display: none;
+}
+.tribe-events-calendar .tribe-events-tooltip,
+.tribe-events-week .tribe-events-tooltip {
+	padding: 10px;
+}
+.tribe-events-loop .tribe-event-featured .tribe-events-event-meta {
+	background: transparent;
+}
+
+/* Week View */
+.tribe-week-grid-hours [class*=time-row-] {
+    padding: 0 3px;
+}
+.tribe-grid-allday .type-tribe_events {
+	margin-bottom: 5px;
+}
+.tribe-grid-allday .type-tribe_events:last-child {
+	margin-bottom: 0;
+}
+
+/* List View */
+input#tribeHideRecurrence {
+	margin-right: 5px;
+}
+.tribe-events-list .type-tribe_events {
+	margin-bottom: 50px;
+}
+.tribe-events-list .type-tribe_events h2 {
+	margin-top: 0;
+}
+.tribe-event-schedule-details {
+	margin-bottom: 5px;
+}
+.tribe-events-list .tribe-events-venue-details {
+	line-height: 1.4;
+}
+.tribe-events-list .tribe-events-event-image {
+	width: 30%;
+}
+.recurringinfo .event-is-recurring .tribe-events-divider {
+	margin: 0 5px;
+}
+
+@media only screen and (max-width: @mobile-breakpoint) {
+
+	.tribe-events-list .tribe-event-schedule-details {
+		padding: 0 12px;
+	}
+	.tribe-events-list .tribe-events-event-image {
+		float: none;
+		margin: 0 0 10px;
+		width: 100%;
+	}
+	.tribe-events-list .tribe-events-event-image img {
+		width: 100%;
+	}
+}
+
+/* Photo View */
+.type-tribe_events.tribe-events-photo-event .tribe-events-photo-event-wrap {
+	background: #fff;
+	border: 1px solid #eee;
+}
+.tribe-events-photo-event-wrap .tribe-events-event-image,
+.tribe-events-photo-event-wrap .tribe-events-event-image img {
+	width: 100%;
+}
+.tribe-events-list .tribe-events-loop .tribe-events-photo-event .tribe-events-event-meta .recurringinfo {
+	margin: 5px 0 10px;
+}

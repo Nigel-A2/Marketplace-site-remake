@@ -1,0 +1,209 @@
+/**
+* Pricing Table Columns
+*
+* Column layouts for pricing table
+*/
+.fl-pricing-table:before,
+.fl-pricing-table:after {
+	display: table;
+	content: " ";
+}
+.fl-pricing-table:after {
+	clear: both;
+}
+.fl-pricing-table {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fl-pricing-table-wrap {
+	flex: 1;
+}
+.fl-pricing-table [class^='fl-pricing-table-col-'] {
+	min-height: 1px;
+}
+.fl-pricing-table .fl-pricing-table-payment-frequency {
+	text-align: center;
+	margin: auto;
+	padding-bottom: 30px;
+}
+.fl-pricing-table .fl-button-wrap {
+	padding-bottom: 20px;
+}
+.fl-pricing-table .fl-button-wrap a.fl-button {
+	margin: 0 15px;
+}
+.fl-pricing-table .second_option-price {
+	display: none;
+}
+.fl-module-pricing-table .fl-builder-switch {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 60px;
+	height: 34px;
+}
+.fl-module-pricing-table .fl-builder-switch .slider i {
+	display: none;
+}
+.fl-module-pricing-table .fl-builder-switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.fl-module-pricing-table .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.fl-module-pricing-table .fl-builder-switch .slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: #fff;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.fl-module-pricing-table .fl-builder-switch input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.fl-module-pricing-table .fl-builder-switch .slider.round {
+	-webkit-border-radius: 34px;
+  	-moz-border-radius: 34px;
+	border-radius: 34px;
+}
+.fl-module-pricing-table .fl-builder-switch .slider.round:before {
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+/**
+* Pricing Box Spacing
+*
+* medium, large, and None
+*
+* Moved to frontend.css.php
+*/
+
+/**
+* Pricing Boxes
+*
+* The actual pricing boxes
+*/
+
+.fl-pricing-table .fl-pricing-table-column {
+	text-align: center;
+	position: relative;
+}
+.fl-pricing-table .fl-pricing-table-inner-wrap {
+	position: relative;
+}
+.fl-pricing-table .fl-pricing-table-column .fl-pricing-table-price {
+	padding: 13px 0;
+	position: relative;
+	z-index: 2;
+	letter-spacing: -2px;
+}
+.fl-pricing-table .fl-pricing-table-column h2 {
+	margin: 0;
+	padding: 20px;
+}
+.fl-pricing-table .fl-pricing-table-column .fl-pricing-table-duration {
+	font-size: .44em;
+	display: inline-block;
+	position: relative;
+	bottom: 4px;
+	letter-spacing: 0px;
+	opacity: 0.85;
+}
+.fl-pricing-table .fl-pricing-table-features {
+	margin: 20px 15px;
+	list-style-type: none;
+	padding: 0;
+}
+.fl-pricing-table .fl-pricing-table-features li {
+	text-align: left;
+	padding: 13px 4px;
+	list-style-type: none;
+}
+.fl-pricing-table .fl-pricing-table-features li:last-child {
+	border-bottom: 0;
+}
+.fl-pricing-table a.fl-button {
+	margin: 0 15px;
+}
+.fl-pricing-table a.fl-button .fl-button-text {
+	line-height: 18px;
+}
+
+/**
+* Pricing Box Borders
+*
+* Large, Medium, Small -- Moved to frontend.css.php in version 2.5.
+*
+*/
+
+.fl-pricing-table .fl-pricing-table-features .fl-pricing-table-feature-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.fl-pricing-table .fl-pricing-table-features .fl-feature-icon,
+.fl-pricing-table .fl-pricing-table-features .fl-feature-text,
+.fl-pricing-table .fl-pricing-table-features .fl-builder-tooltip {
+	display: inline-block;
+}
+.fl-pricing-table .fl-pricing-table-features .fl-feature-icon {
+	text-align: center;
+	width: 1.25em;
+}
+body:not(.rtl) .fl-pricing-table .fl-pricing-table-features .fl-feature-icon {
+	padding-right: 2em;
+}
+body.rtl .fl-pricing-table .fl-pricing-table-features .fl-feature-icon {
+	padding-left: 2em;
+}
+.fl-pricing-table .fl-feature-text {
+	margin-right: auto;
+}
+
+/* Tooltips */
+.fl-pricing-table .fl-builder-tooltip-icon {
+	color: #999;
+	cursor: pointer;
+	padding: 5px;
+	vertical-align: middle;
+	position: static;
+}
+.fl-pricing-table .fl-builder-tooltip-text {
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px #ccc;
+	-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	display: none;
+	position: absolute;
+	padding: 10px 13px;
+	font-weight: normal;
+	z-index: 1000;
+	border-radius: 4px;
+	width: 100%;
+	left: 0;
+}
+.fl-builder-edit .fl-pricing-table .fl-builder-tooltip-text {
+	display: none !important;
+}

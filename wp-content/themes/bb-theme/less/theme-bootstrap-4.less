@@ -1,0 +1,183 @@
+/*
+
+Bootstrap 4 specific tweaks for backwards compatibility.
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+/* General Bootstrap
+----------------------------------------------------------- */
+
+.fl-full-width .container {
+	max-width: 100%;
+}
+.navbar-toggle {
+	padding: 9px 10px;
+}
+
+/* Top Bar
+----------------------------------------------------------- */
+
+.fl-page-bar-nav {
+	display: block;
+	> li > a.nav-link {
+		padding: 2px 10px;
+	}
+}
+
+@media (min-width: @mobile-breakpoint) {
+	.fl-page-bar-nav {
+		display: flex;
+	}
+}
+
+/* General Header
+----------------------------------------------------------- */
+
+.fl-page-nav {
+	flex-wrap: wrap;
+	padding: 0;
+}
+.fl-page-nav .navbar-nav > li > a.nav-link {
+	padding: 15px @nav-item-spacing;
+}
+
+/* Left & Right Nav Headers
+----------------------------------------------------------- */
+
+.fl-page-nav-left,
+.fl-page-nav-right {
+
+	.fl-page-header-row {
+		display: flex;
+		align-items: center;
+	}
+
+	.fl-page-nav {
+		flex-direction: row;
+
+		.navbar-nav {
+			display: block;
+		}
+	}
+
+	&.fl-page-nav-toggle-visible-always .fl-page-header-row > div {
+		max-width: 100%;
+	}
+
+	@media (max-width: (@medium-breakpoint - 1)) {
+		.fl-page-nav-collapse {
+			justify-content: center;
+		}
+	}
+
+	@media (min-width: @medium-breakpoint) {
+		.fl-page-header-row .col-lg-4 {
+			width: 33.333333%;
+		}
+		.fl-page-header-row .col-lg-8 {
+			width: 66.666667%;
+		}
+		.fl-page-nav .navbar-nav {
+			display: flex;
+		}
+	}
+}
+
+/* Centered & Vertical Nav Headers
+----------------------------------------------------------- */
+
+.fl-page-nav-centered,
+.fl-page-nav-centered-inline-logo,
+.fl-page-nav-vertical-left,
+.fl-page-nav-vertical-right {
+
+	.fl-page-nav .navbar-nav {
+		display: block;
+	}
+
+	@media (min-width: @mobile-breakpoint) {
+		.fl-page-nav-collapse {
+			display: block !important;
+		}
+	}
+}
+
+/* Fixed Header
+----------------------------------------------------------- */
+
+.fl-page-nav-right.fl-page-header-fixed,
+.fl-page-header-fixed {
+	.fl-page-nav-wrap .navbar-nav > li > a.nav-link {
+		padding: 10px @nav-item-spacing;
+	}
+}
+
+/* Content
+----------------------------------------------------------- */
+.row.fl-post-image-beside-wrap {
+	display: block;
+}
+
+/* Footer
+----------------------------------------------------------- */
+.fl-page-footer {
+	.text-right .fl-page-footer-nav {
+		justify-content: end;
+	}
+
+	.fl-page-footer-nav {
+		flex-direction: row;
+		> li .nav-link {
+			line-height: 20px;
+			padding: 0 15px 15px 15px;
+			position: relative;
+		}
+	}
+}
+
+/* Media Query - 1100px or greater
+----------------------------------------------------------- */
+
+@media (min-width: 1100px) {
+	.fl-full-width .container {
+	 	max-width: 90%;
+	}
+}
+
+/* Bootstrap-4 Woocommerce Fixes
+----------------------------------------------------------- */
+body.fl-framework-base-4,
+body.fl-framework-bootstrap-4 {
+	.woocommerce-billing-fields .form-row, .woocommerce-shipping-fields .form-row,.woocommerce form .form-row {
+		display: block;
+	}
+	.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+		max-width: none; // IE11
+		max-width: unset;
+		padding-left: initial;
+		padding-right: initial;
+	}
+	.fl-woo-content-right {
+		order: 1;
+	}
+}
+
+/* Media Query - 992px or less
+----------------------------------------------------------- */
+@media (max-width: @medium-breakpoint) {
+	body.woocommerce-page.fl-framework-base-4,
+	body.woocommerce-page.fl-framework-bootstrap-4 {
+		.row { 
+			flex-direction: column;
+		}
+		.fl-sidebar {
+			width: 100%;
+		}
+	}
+}

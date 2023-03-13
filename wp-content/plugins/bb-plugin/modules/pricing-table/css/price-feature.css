@@ -1,0 +1,53 @@
+.fl-builder-settings-fields .fl-price-feature-field .fl-price-feature-row {
+    background-color: #fff;
+    border-bottom: 2px solid transparent;
+    background-clip: content-box;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%);
+}
+
+.fl-builder-ui-skin--dark .fl-builder-settings-fields .fl-price-feature-field .fl-price-feature-row {
+    background-color: #181b20;
+}
+
+.fl-builder-settings-fields .fl-price-feature-field label {
+    display: block;
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.fl-builder-settings-fields .fl-price-feature-field input[type="text"] {
+    font-size: 1.3em;
+    width: 98%;
+    box-shadow: none;
+    border: 1px solid #cdcdcd;
+    padding: 6px 10px;
+}
+
+.fl-builder-settings-fields .fl-price-feature-field .fl-icon-field {
+    box-shadow: none;
+}
+
+.fl-builder-settings-fields .fl-price-feature-row .fl-builder-price-feature-toggle-button {
+    width: 100%;
+    font-size: 10px !important;
+}
+
+.fl-builder-settings-fields .fl-price-feature-row .fl-builder-price-feature-toggle-button svg {
+    height: 15px;
+}
+
+.fl-builder-settings-fields .fl-price-feature-row .fl-builder-price-feature-toggle-button.up svg {
+    transform: rotate( 180deg );    
+}
+
+.fl-builder-settings-fields .fl-price-feature-row .fl-builder-price-feature-toggle-button.down svg {
+    transform: rotate( 0deg );    
+}
+
+.fl-builder-settings-fields .fl-price-feature-tooltip-row,
+.fl-builder-settings-fields .fl-price-feature-icon-row {
+    display: none;
+}

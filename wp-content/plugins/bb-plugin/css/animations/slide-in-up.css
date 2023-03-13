@@ -1,0 +1,26 @@
+.fl-animated.fl-slide-in-up {
+  	animation: fl-slide-in-up 1s ease;
+  	-webkit-animation: fl-slide-in-up 1s ease;
+}
+@-webkit-keyframes fl-slide-in-up {
+  from {
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fl-slide-in-up {
+  from {
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}

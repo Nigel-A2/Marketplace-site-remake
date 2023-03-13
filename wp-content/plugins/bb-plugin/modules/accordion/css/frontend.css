@@ -1,0 +1,97 @@
+
+.fl-accordion-button {
+	cursor: pointer;
+	display: table;
+}
+.fl-accordion-button:focus,
+.fl-accordion-button-icon:focus,
+.fl-accordion-button-icon:active {
+	outline: 0
+}
+
+.fl-accordion-button-label {
+	display: table-cell;
+	width: 100%;
+	border: none;
+	background: none;
+	text-align: left;
+	outline: 1px;
+	text-decoration: none;
+}
+
+.fl-accordion-button-label:focus,
+.fl-accordion-button-label:active,
+.fl-accordion-button-icon:focus,
+.fl-accordion-button-icon:active {
+	background: none;
+	outline-color: -webkit-focus-ring-color;
+	outline-style: auto;
+	text-decoration: none;
+}
+
+.fl-accordion-button-label:hover,
+.fl-accordion-button-icon:hover {
+	text-decoration: none;
+}
+
+.fl-accordion-button-icon {
+	display: table-cell;
+	line-height: inherit;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+
+.fl-accordion-button-icon-left {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.fl-accordion-button-icon-left, .fl-accordion-button-icon-right {
+	opacity: .5;
+	filter: alpha(opacity = 50);
+}
+
+.fl-accordion-content {
+	display: none;
+}
+.fl-accordion-item {
+	overflow: hidden;
+}
+
+/* Small */
+.fl-accordion-small .fl-accordion-button {
+	padding: 10px 15px;
+}
+.fl-accordion-small .fl-accordion-content {
+	padding: 0 30px 10px 15px;
+}
+
+/* Medium */
+.fl-accordion-medium .fl-accordion-button {
+	padding: 15px 20px;
+}
+.fl-accordion-medium .fl-accordion-button-label {
+	font-size: 20px;
+}
+.fl-accordion-medium .fl-accordion-content {
+	padding: 0 40px 15px 20px;
+}
+
+/* Large */
+.fl-accordion-large .fl-accordion-button {
+	padding: 20px 25px;
+}
+.fl-accordion-large .fl-accordion-button-label {
+	font-size: 26px;
+}
+.fl-accordion-large .fl-accordion-content {
+	padding: 0 50px 25px 25px;
+}
+
+.rtl .fl-accordion-item .fl-accordion-button-label,
+.rtl .fl-accordion-item .fl-accordion-content * {
+	text-align: right;
+}
+.rtl .fl-accordion-item .fl-accordion-button-icon {
+	padding-left: 0;
+}

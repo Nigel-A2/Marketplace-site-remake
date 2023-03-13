@@ -1,0 +1,103 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+.fl-page-nav-bottom {
+	.fl-page-header-content {
+		text-align: center;
+		.fl-page-header-text {
+			font-size: 16px;
+			margin: 25px 0 0;
+		}
+		.fl-social-icons {
+			margin: 15px 0 0;
+			.fl-icon {
+				margin: 0 5px 10px;
+			}
+		}
+	}
+	.fl-social-icons-stacked {
+		font-size: 1em;
+		.fas {
+			color: @topbar-icon-bg-color;
+		}
+		.fab, .fas.fa-envelope, .fas.fa-rss, .fas.fa-map-marker-alt {
+			color: @topbar-icon-fg-color;
+			transition: opacity 0.2s ease-in-out;
+    		opacity: 0.8;
+			&:hover {
+				color: @topbar-icon-hover-color;
+				opacity: 1;
+			}
+		}
+		.fab, .fas {
+			vertical-align: inherit;
+			width: inherit;
+			height: inherit;
+			line-height: inherit;
+		}
+	}
+}
+
+/* Media Query - 767px or less
+----------------------------------------------------------- */
+
+@media (max-width: (@mobile-breakpoint - 1)) {
+
+	.fl-page-nav-toggle-icon.fl-page-nav-bottom .fl-page-header-content {
+		border-top: 1px solid @header-border-color;
+		margin-top: 20px;
+	}
+}
+
+/* Media Query - 768px or greater
+----------------------------------------------------------- */
+
+@media (min-width: @mobile-breakpoint) {
+
+	.fl-page-nav-bottom {
+		.fl-page-header-row {
+			display: table;
+			table-layout: fixed;
+			width: 100%;
+			.col-md-6,
+			.col-lg-6 {
+				display: table-cell;
+				float: none;
+				vertical-align: middle;
+			}
+		}
+		.fl-page-header-logo {
+			text-align: left;
+		}
+		.fl-page-header-content {
+			margin-right: -15px;
+			text-align: right;
+			.fl-page-header-text {
+				margin: 0 0 10px;
+			}
+			.fl-social-icons {
+				margin: 0;
+				.fl-icon {
+					margin: 0 0 10px 10px;
+				}
+			}
+		}
+	}
+}
+
+/* Media Query - 991px or less (mobile and medium devices)
+----------------------------------------------------------- */
+
+@media (max-width: (@medium-breakpoint - 1)) {
+
+	.fl-page-nav-toggle-icon.fl-page-nav-bottom .fl-page-header-content {
+		margin-right: 0;
+	}
+}

@@ -1,0 +1,1042 @@
+<h4>1.7.11 - 04/25/2022</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Update Bootstrap CSS version</li>
+	<li>Social Icons: Add option to have them open in a new window</li>
+	<li>Add two new hooks for logo image to allow users to add custom classes and attributes <code>fl_logo_image_attr</code> and <code>fl_logo_image_class</code></li>
+	<li>Add option to hide author data when returning search results</li>
+</ul>
+
+<p>Bug Fixes</p>
+<ul>
+	<li>Fix Logo disappearing when using SVG logos in some cases</li>
+	<li>Fix not being able to hover over the sub-menu when using the WordPress navigation block</li>
+	<li>Fix List Block indent being larger than expected on a site with a large width</li>
+	<li>Accessibility: Fix search icon link not being crawable</li>
+	<li>Fix responsive issue with fixed width layout going off the screen when resized</li>
+</ul>
+
+<h4>1.7.10 - 01/19/2022</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Update calls to FontAwesome to use the latest release</li>
+	<li>Add TikTok and Spotify to Social Icons</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fix WooCommerce Sidebar on Left not displaying before content on mobile</li>
+	<li>Fix italic not working for body text</li>
+	<li>Fix tagline displaying even when logo used and the option to disable it is missing</li>
+	<li>Fix block editor's Cover block CSS getting overridden by ours</li>
+	<li>Fix header set to Fade In on boxed layout being full width instead of fixed width</li>
+	<li>Fix shrink Header being narrower if responsive breakpoint is set to always</li>
+	<li>Fix alignwide & alignfull not working for Gallery block or any block that uses ul/ol in block editor</li>
+	<li>Add explicit height and width to Header logo to help with CLS</li>
+</ul>
+
+<h4>1.7.9 - 05/12/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Update Bootstrap to 4.6.0</li>
+	<li>Update Comments Form code to use <code>comment_form_defaults</code> filter</li>
+	<li>Accessibility: Tabbing through mobile menu/flyout menu doesn't close it</li>
+	<li>Accessibility: Remove role="banner" on Page Title as best practice is only one per page</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fix Menu that contains an anchor link doesn't open properly on page where that anchor link is present</li>
+	<li>Fix Flyout menu not closing after clicking an anchor link</li>
+	<li>Fix Button active state styling impacting Audio module</li>
+	<li>Fix Fatal error if using older versions of BB</li>
+	<li>PHP8 fixes</li>
+	<li>Throw error if HTML is added to JS settings in customiser</li>
+</ul>
+
+<h4>1.7.8 - 01/18/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Add new filter <code>fl_theme_get_upload_dir</code> (#165)<li>
+	<li>Add new filter to disable smooth scroll <code>fl_theme_disable_smoothscroll_links</code>(#148)</li>
+	<li>Add new filter to change the hamburger icon in the responsive menu <code>fl_theme_mobile_nav_icon</code (#116)</li>
+	<li>Add PHP8 Support (#136)</li>
+	<li>Customizer: Add WordPress as an option to Social Icons section (#154)</li>
+	<li>Accessibility: Off Canvas Menu close button now has an accessible name (#150)</li>
+	<li>WooCommerce: Fix compatibility issue with Addify's Tax Exempt add-on (#171)</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fix Top Padding settings not showing correctly in Customizer preview (#156)</li>
+	<li>Fix Menu sub-menu icon indicator not showing if FontAwesome Pro is enabled in BB Plugin (#146)</li>
+	<li>Make sure if user makes a LESS error, it does not crash the Block Editor (#162)</li>
+	<li>Fix BB Plugin Tour being broken if Full Bootstrap 3 or 4 selected as layout option (#157)</li>
+	<li>WooCommerce: Fix sidebar displaying some widgets when Shop page is set to show categories (#159)</li>
+	<li>WooCommerce: Fix product image lightbox buttons not working properly in some cases (#160)</li>
+	<li>Fix search term disappearing from the Search Widget (#169)</li>
+	<li>Use wp_login_url() in comments.php to allow the url to be overridden with plugins and filters</li>
+</ul>
+
+<h4>1.7.7 09/08/2020</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+<li>Add filter <code>fl_post_navigation_same_term</code> to allow next/prev post navigation on single posts to be limited to the same term</li>
+<li>Add new filter <code>fl_theme_print_schema</code> to change schema markup</li>
+<li>Adjust line height so line height can be lower than 1</li>
+<li>Add border hover options for custom button styles</li>
+<li>Add support for changing the WooCommerce products per page</li>
+<li>Button border radius is now available even if no border is set</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Fix Full Width Post Template not going full width when using a Nav Vertical Layout</li>
+<li>Fix jumpy Parallax background when using a Fixed Header</li>
+<li>Fix notice in console when in Customizer about duplicate IDs used</li>
+<li>Fix single column issue on WooCommerce addresses page when using Bootstrap 4</li>
+<li>Fix WooCommerce single product Lightbox being cut off at the top</li>
+<li>Remove opacity on Top bar social icons when using a custom color</li>
+<li>Fix lazy load issues with the logo when using WordPress 5.5</li>
+<li>Fix WooCommerce options appearing in customizer if WooCommerce is not active</li>
+<li>Fix styling issue with a checkbox on the WooCommerce Subscriptions Add Payment Method Page</li>
+<li>Fix Customizer slider not updating the text</li>
+<li>Fix some custom button styles still being applied to WooCommerce buttons even if they are then turned off</li>
+</ul>
+
+<h4>1.7.6.3 06/03/2020</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed an issue where Google fonts might still be enqueued when not needed.</li>
+	<li>Fixed menu styling issue when no menu is set.</li>
+	<li>Fixed WooCommerce variable product button styling issues.</li>
+	<li>Fixed WocCommerce button border issues.</li>
+</ul>
+
+<h4>1.7.6.2 05/05/2020</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed Menu Link in Customizer Affected by Custom Button Style.</li>
+	<li>Fixed custom button styles overriding button module styles on Themer layouts.</li>
+	<li>Fixed WooCommerce disable styles not fully working.</li>
+	<li>Fixed Menu Module styles being overridden by Custom Button Styles.</li>
+</ul>
+
+<h4>1.7.6.1 04/16/2020</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed Button CSS issues.</li>
+</ul>
+
+<h4>1.7.6 04/13/2020</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Add hook wp_body_open.</li>
+	<li>Remove type='javascript' from script enqueues.</li>
+	<li>Make custom button font styling settings responsive.</li>
+	<li>Allow the changing of all default font sizes for all devices via <code>fl_theme_add_panel_data</code> filter.</li>
+	<li>Add site title color control.</li>
+	<li>Add padding-top option for shrink and fixed header.</li>
+	<li>Add position from top option for hamburger menu.</li>
+	<li>Custom button styles now apply to WooCommerce buttons</li>
+	<li>Added toggles to responsive options in Customizer</li>
+	<li>Add new classes to Footer Widget columns to allow more styling options</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fix PHP 7.4 Notices</li>
+	<li>Fix Self-hosted videos extending outside the container.</li>
+	<li>Fix menu items being hidden on devices when hide-heading class is used.</li>
+	<li>Fix Google Maps social icon missing.</li>
+	<li>Fix custom social icon color being blank.</li>
+	<li>Fix issue with logo in header staying small when refreshing at the bottom of the page.</li>
+	<li>Fix jump links from different pages not working when fixed header set to shrink.</li>
+	<li>Fix WooCommerce product Lightbox not working properly if theme Woo styling is turned.</li>
+	<li>Fix input height issue.</li>
+	<li>Fix current menu highlighting not working properly when page and custom link to same location appear in the same menu.</li>
+	<li>Fix top bar menu alignment on small devices</li>
+	<li>Fix for full width Gutenberg images not displaying as full width with our Full Width Layout</li>
+</ul>
+
+<h4>1.7.5.1 01/13/2019</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added Select2 support to font settings in customizer.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed a jQuery error if using slashes in scrollto links.</li>
+	<li>Fixed H5 line height setting slider in customizer.</li>
+</ul>
+
+<h4>1.7.5 12/19/2019</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Accessibility: Add landmarks to main elements.</li>
+	<li>Increase font size max from 72 to 100 and make it filterable.</li>
+	<li>Move retina and mobile image code out of jQuery ready() so they load much faster.</li>
+	<li>Added settings for Logo Image max-height in the Customizer for the Shrink and Fade-in Header Layout.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Remove max-height from retina image code.</li>
+	<li>Fixed WooCommerce quantity field not displaying the entire value.</li>
+	<li>Fixed animations when themer part is added before fixed header with shrink.</li>
+	<li>Fixed woocommerce login screen issues with IE 11</li>
+	<li>Fixed Image Logo Using Non-Retina When Mobile Header Logo is Set</li>
+	<li>Fixed pixelated mobile logo</li>
+</ul>
+
+<h4>1.7.4.1 10/10/2019</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed scrollbar issue on RTL sites.</li>
+	<li>Fixed schema markup issue introduced in 1.7.4</li>
+</ul>
+
+<h4>1.7.4 10/01/2019</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Accessibility: Enable Nav Search TAB support and add aria label.</li>
+	<li>Accessibility: Add accessibility features to the Comment Form fields.</li>
+	<li>Accessibility: Add text to scroll to top link for screenreaders.</li>
+	<li>Accessibility: Add support for tabbing through sub-menus.</li>
+	<li>Accessibility: Added skip to content link for screenreaders.</li>
+	<li>Accessibility: Added aria-labels to thumbnail images, comment count and social icons.</li>
+	<li>Accessibility: Added aria-labels to searchform.php</li>
+	<li>Added filter for Image Logo TITLE attribute <code>fl_logo_title</code>.</li>
+	<li>Added support and styles for BigCommerce plugin.</li>
+	<li>Added Google Maps Social Icon</li>
+	<li>Performance tweaks.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed button styles inside the lightbox content.</li>
+	<li>Change CreativeWork to Article markup in content-page.</li>
+	<li>Fixed button styles applying to menu toggle but only on hover.</li>
+	<li>Fixed menu transition not smooth when collapsing.</li>
+	<li>Fixed JS error in mobile menu when Bootstrap JS is not loaded.</li>
+</ul>
+
+<h4>1.7.3 06/06/2019</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>New filter <code>fl_theme_disable_schema</code> added to disable all schema added by the theme.</li>
+	<li>New filter <code>fl_theme_breakpoint_opts</code> added to configure theme breakpoints in JS.</li>
+	<li>Theme breakpoints for mobile and tablet are now configurable via WP customizer.</li>
+	<li>Added separate submenu icon to toggle on mobile nav.</li>
+	<li>Added noopener and noreferrer to social links.</li>
+	<li>New Vietnamese translation added.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed menu disappears at 992px issue.</li>
+	<li>Fixed menu nav alignment in medium devices.</li>
+	<li>Fixed issue with logo and wp-rocket lazyload.</li>
+	<li>Fixed logo and menu alignment in BS4 layout.</li>
+	<li>Fixed scrollbar on BS4 with full-width layout.</li>
+	<li>Fixed mobile nav issue when using BS4 layout.</li>
+	<li>Fixed input slider field where number value should not below the minimum in customizer.</li>
+	<li>Update responsive text sizes ONLY if the original value is not the default.</li>
+</ul>
+
+<h4>1.7.2 03/26/2019</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Responsive Menu label is now configurable.</li>
+	<li>Add NAV and Schema markup to topbar navigation.</li>
+	<li>New options for Social Icons. Size, shape and color all configurable.</li>
+	<li>Responsive options added to all text/heading size options.</li>
+	<li>Removed dependency for Font Awesome 4.</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fix for border default color throwing invalid CSS if transparent is default.</li>
+	<li>Fix button font size style set to auto which is invalid CSS.</li>
+	<li>Fixed Bootstrap 4 header/footer menu alignment.</li>
+	<li>Fixed button styles on Audio shortcode/module.</li>
+	<li>Fixed scrolling issue on mobiles with off canvas menu.</li>
+	<li>Changed the browser scroll history to manual to prevent issues with shrink header logo.</li>
+	<li>Fixed the position of top bar submenu on iOS mobile devices.</li>
+</ul>
+
+<h4>1.7.1.5 02/21/2019</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Update Bootstrap to versions 3.4.1 and 4.3.1</li>
+	<li>Fixed menu items layout in the footer when using BS4 layout.</li>
+	<li>Fixed mobile nav in BS4 layout.</li>
+</ul>
+
+<h4>1.7.1.4 01/21/2019</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Updated Less library to include fixes for PHP 7.2</li>
+	<li>Fixed responsive dropdown menus when minimal Bootstrap 4 is enabled.</li>
+</ul>
+
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Various Bootstrap 4 issues fixed:</li>
+		<ul>
+			<li>Removed sourcemap url.</li>
+			<li>Fixed header coloumn sizes.</li>
+			<li>Fixed search icon alignment.</li>
+			<li>Fixed WooCommerce checkout inputs.</li>
+			<li>Fixed featured image alignment in archive and single.</li>
+			<li>Added clearfix mixin to Bootstrap build config.</li>
+		</ul>
+	</ul>
+</ul>
+
+<h4>1.7.1.2 12/20/2018</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Updated Bootstrap3 to 3.4.0</li>
+	<li>Fixed Google italic fonts in Safari.</li>
+	<li>Added text and visibilty utility classes to minimal Bootstrap4.</li>
+	<li>Fixed horizontal scrollbar on mobile devices when using flyout push nav.</li>
+</ul>
+
+<h4>1.7.1.1 12/10/2018</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Added navigation CSS to minimal Bootstrap 4 and updated Full Bootstrap 4 to 4.1.3</li>
+	<li>Fixed sub-menu on mobile where it’s not showing when hide-heading is applied.</li>
+</ul>
+
+<h4>1.7.1 12/05/2018</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Minimal version of Bootstrap 4 added!</li>
+	<li>Removed old IE8 javascript shims from header.</li>
+	<li>New filter <code>fl_theme_compile_less_overide</code> to pass css to alternate compiler.</li>
+	<li>Use try/catch while compiling less and print to errorlog if compile fails.</li>
+	<li>Tagline added to all header layouts if using text based logo.</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed italic Google Fonts on mobile devices.</li>
+	<li>Fixed image stretching if post is edited using Gutenberg.</li>
+	<li>Fixed parallax footer links when using IE11.</li>
+	<li>Pingback urls should only be on posts with comments and only if enabled.</li>
+</ul>
+
+<h4>1.7.0.3 10/01/2018</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed Fade In header issue.</li>
+</ul>
+
+<h4>1.7.0.2 09/27/2018</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed background and border issue for fixed header > fade in.</li>
+	<li>Fixed retina logo not displaying in Firefox if the logo is SVG.</li>
+	<li>Fixed 15px sub-menu gap.</li>
+</ul>
+
+<h4>1.7.0.1 09/17/2018</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Google fonts now use their proper fallbacks instead of being hard coded to sans-serif.</li>
+	<li>Fixed nav-right search icon alignment when bootstrap 4 enabled.</li>
+	<li>Fixed styling issue with flyout menus when bootstrap 4 enabled.</li>
+	<li>Fixed sidebar sizes, only custom sizes were working.</li>
+	<li>Removed unneeded 94% width on nav-left and nav-right.</li>
+	<li>Fixed indentation for submenu items on responsive nav.</li>
+</ul>
+
+<h4>1.7 09/06/2018</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Italic fonts now supported, including Google Fonts.</li>
+	<li>Added Customizer settings for off canvas menus.</li>
+	<li>Added Customizer settings for global button styles.</li>
+	<li>Added additional Customizer settings for heading styles.</li>
+	<li>Added header logo Customizer setting for mobile devices.</li>
+	<li>Added initial frontend support for Gutenberg blocks. Custom typography displays in the Gutenberg editor.</li>
+	<li>Added new Framework Customizer setting for choosing between Bootstrap 3 and 4 or no framework at all.</li>
+	<li>Added Customizer setting for collapsing mobile menu dropdowns when another is opened.</li>
+	<li>Updated to Font Awesome 5. Only loading Font Awesome if needed or explicitly set to load using the new Customizer setting.</li>
+	<li>Enabled the featured image size setting in the Customizer for all image positions.</li>
+	<li>Enabled the theme’s lightbox for images in the builder’s text editor module.</li>
+	<li>Updated Font Awesome url to use latest 5.3.1</li>
+	<li>Added support for system-ui font stack to system font choices.</li>
+	<li>Added indentation when submenu indicator is enabled.</li>
+	<li>Use core WP ImagesLoaded script if available.</li>
+	<li>Support for Font Awesome Pro if using fl_enable_fa5_pro filter.</li>
+	<li>W3C Validation fixes.</li>
+	<li>New filter added <code>fl_theme_get_setting_$key</code>.</li>
+	<li>Update theme to use latest `add_theme_support` format for wide images.</li>
+	<li>Use Less.php compiler FL_THEME_DEPRECATED_LESSC to use old deprecated lessc.</li>
+	<li>Update editor styles with content background color and text colors.</li>
+	<li>More Gutenberg support.</li>
+	<li>Button style fixes, fonts are now properly enqueued.</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed WooCommerce column styling overriding WooCommerce module settings.</li>
+	<li>Fixed Themer parts set to show before the header showing after the sticky or fixed headers.</li>
+	<li>Various off canvas menu tweaks.</li>
+	<li>Changed to default FA Facebook icon to facebook-f.</li>
+	<li>Font-family is now wrapped in quotes in outputted css.</li>
+	<li>Google Fonts are now properly enqueued when using custom H1 styles.</li>
+	<li>Logo is now visible when using fade in header.</li>
+	<li>Fixed the hide-heading for mega-menu.</li>
+	<li>Removed border and margin when hide-heading is applied to the menu item.</li>
+	<li>Fixed the facebook branded color.</li>
+	<li>Fixed search form for nav left layout on RTL sites.</li>
+	<li>Fixed alignment when search is enabled and menu has too many items.</li>
+	<li>Applied indentation always when submenu indicator is enabled.</li>
+	<li>Fixed retina logo transition for shrink header.</li>
+	<li>Added check to see if the customizer controls exist to prevent JS error</li>
+</ul>
+
+
+<h4>1.6.5.1 - 05/29/2018</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Added support for privacy checkbox on comment form added in WordPress 4.9.6.</li>
+</ul>
+
+<h4>1.6.5 - 04/18/2018</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>New shortcode <code>[fl_year]</code> added, full details in the kb: https://kb.wpbeaverbuilder.com/article/639-beaver-builder-theme-shortcode-for-current-date</li>
+	<li>Use <code>WP_Filesystem</code> class to write cache files.</li>
+	<li>Add rel nofollow to default footer link.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fix PHP error if uploads folder is not writeable.</li>
+	<li>Register local copy of imagesloaded in case builder is not installed.</li>
+	<li>Fix undefined function get_header message in logs when bots try to scan theme files.</li>
+	<li>Fixed header now uses retina image if available in customizer settings.</li>
+	<li>Fixed JS error when Cube Portfolio shortcode is used.</li>
+	<li>Fixed issue where archive add to cart setting was affecting the main shop page.</li>
+</ul>
+
+<h4>1.6.4.1 - 01/15/2018</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed Font Weight dropdown in theme customizer.</li>
+</ul>
+
+<h4>1.6.4 - 01/10/2018</h4>
+
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Changed <code>gmpg.org</code> and <code>schema.org</code> links to https.</li>
+	<li>Added indentation to product categories widget.</li>
+	<li>Added <code>fl_theme_add_panel_data</code> filter to allow users to change the customizer panels just before render.</li>
+	<li>Add role and aria-label to <code><nav></code> elements.</li>
+	<li>Clear theme cache when theme is updated.</li>
+	<li>GoogleFonts array is now updated on every release automatically.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Hamburger menu now uses header layout padding to determine its position.</li>
+	<li>Removed WooCommerce styles from less compile if the plugin is not active.</li>
+	<li>Fixed hamburger menu position when fixed, shrink and sticky header options are used.</li>
+	<li>Fixed the submenu link color on the responsive nav. Uses header style for link color instead of the nav style.</li>
+	<li>Fixed a possible customizer js error when fonts are added then removed via php filters.</li>
+	<li>Fixed header background color on nav background for fixed header.</li>
+	<li>Removed bottom margin wrongfully added to widgets module by the theme.</li>
+	<li>Fixed a spacing issue when hovering mega menu item.</li>
+</ul>
+
+<h4>1.6.3.1 - 12/07/2017</h4>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed theme branding issue in translation files.</li>
+	<li>Fixed issue with responsive submenu items not opening if parent link is #.</li>
+</ul>
+
+<h4>1.6.3 - 11/08/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>New filter <code>fl_theme_compile_less</code>. Accepts array of files to be passed to lessc.</li>
+	<li>Added screen reader accessibility for social icons.</li>
+	<li>Added toggle logic for sub-menu on mobile devices.</li>
+	<li>Added Events Calendar support; CSS for archives.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Removed duplicate class attribute from nav search.</li>
+	<li>Fixed multiple current menu items. Made sure there is only one current menu item specified in the nav.</li>
+	<li>Fixed the Themer footer layout for vertical nav.</li>
+	<li>Changed width for post header and comments. It should now use the Content Width from customizer setting.</li>
+	<li>Fixed various WooCommerce styling issues.</li>
+	<li>Fixed various MegaMenu issues.</li>
+	<li>Fixed issue with WooCommerce remove from cart being hidden on mobile.</li>
+	<li>Fixed sidebar issue on pages using custom template files.</li>
+	<li>Deprecated <code>fl-logo-text</code> filter, use <code>fl_logo_text</code> instead.</li>
+</ul>
+
+<h4>1.6.2 - 08/17/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>You can now toggle sidebars for all custom post types.</li>
+	<li>New filters <code>fl_theme_viewport</code> and <code>fl_theme_xua_compatible</code> added.</li>
+	<li>Updated language files.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed padding issue on nav last menu item.</li>
+	<li>Fixed HTML5 markup in searchform.php.</li>
+	<li>Mobile Nav uses Header settings instead of Nav, as per the docs.</li>
+	<li>Fixed IOS issue with back button and sub menus staying on the page.</li>
+	<li>Fixed Font filters added in 1.6.1</li>
+</ul>
+
+<h4>1.6.1 - 06/01/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Update translations. New translation <code>en_GB</code> added.</li>
+	<li>New filters <code>fl_theme_system_fonts</code>, <code>fl_theme_google_fonts</code> and <code>fl_body_font_family</code></li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed missing color options in Header > Nav Style.</li>
+	<li>Fixed an issue where <code>Posted In: </code> and <code>Tags: </code> were being displayed even when empty.</li>
+	<li>Fixed a js error caused by ImagesLoaded not being enqueued.</li>
+	<li>Fixed nav style colors for current ancestor/parent menu item.</li>
+</ul>
+<h4>1.6 - 05/23/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Updated translation files, added Mexican and Colombian translation sets.</li>
+	<li>Add filter <code>fl-logo-text</code> to change logo image alt text.</li>
+	<li>WP 4.7 introduced custom CSS for themes. Migrate custom CSS to use WP Core feature.</li>
+	<li>New option for mobile navigation breakpoints including the option to have mobile menu always.</li>
+	<li>Add support for new WooCommerce 3 product gallerys. Option added in customizer to switch gallery type.</li>
+	<li>Sidebars are now an option on woocommerce category archives.</li>
+	<li>Submenu indicator added to top bar nav.</li>
+	<li>Added a customizer option to enable/disable sidebar on WooCommerce shop & single product page.</li>
+	<li>Updated Google Fonts.</li>
+	<li>Move Social settings to General tab in customizer.</li>
+	<li>Added image size option for archive and single post image.</li>
+	<li>FLCustomizer::remove_preset() can now accept an array of presets.</li>
+	<li>Added optional Author box to post pages.</li>
+	<li>New hooks added: <code>fl_before_post</code>, <code>fl_after_post</code>, <code>fl_before_post_content</code> and <code>fl_after_post_content</code></li>
+	<li>Sticky navigation can now use a different logo to the main navigation.</li>
+	<li>Updated translation files. A POT file is now included for new translators.</li>
+	<li>Bundled Font Awesome updated.</li>
+	<li>Logo text element changed from span to div to fix markup vaidation when HTML is added.</li>
+	<li>Added submenu indicators to main navigation.</li>
+	<li>Use minified version of theme.js unless WP_DEBUG is enabled.</li>
+	<li>Convert social icons to Font Awesome where used by the theme.</li>
+	<li>WooCommerce product archive columns are now configurable in the customizer.</li>
+	<li>Added WPCLI support <code>wp beaver theme clearcache</code> will clear theme css cache.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed an issue with media library not being closable when selecting photos.</li>
+	<li>Fixed a spacing issue in right aligned nav and the search icon.</li>
+	<li>Fixed an issue with center nav inline logo not being vertically aligned.</li>
+	<li>Fixed WooCommerce related products position when tabs do not exist.</li>
+	<li>Fixed WooCommerce checkbox alignment on checkout forms.</li>
+	<li>Fixed nav items position rendering on RTL sites.</li>
+	<li>Fixed W3C validation. Removed role navigation attribute.</li>
+	<li>Fixed a bug in customizer code editor.</li>
+	<li>Fixed a javascript error if there are no presets registered.</li>
+	<li>Fixed default backgrounds being blank in presets.</li>
+	<li>Fixed JS error when clicking on menu item link that contains hash string.</li>
+	<li>Fixed a navigation overflow issue.</li>
+	<li>Fixed styling in navigation when ancestor or submenu is active page.</li>
+	<li>Fixed RTL issues with vertical nav.</li>
+	<li>Fixed small styling issue with mobile megamenus.</li>
+	<li>Fixed form preview conflict with Toolset CRED.</li>
+	<li>Fixed an issue where extra padding was being added when fixed nav was enabled on full-width layouts.</li>
+	<li>Fixed full-width posts template which was wrongly adding space for a non existant sidebar.</li>
+	<li>Fixed a spacing issue on Safari when fixed header is enabled with a logo.</li>
+</ul>
+
+<h4>1.5.4 - 12/06/2016</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added Full Width and No Header/Footer templates for posts in WordPress 4.7.</li>
+</ul>
+
+<h4>1.5.3 - 11/01/2016</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added styling for the tabbed WooCommerce My Account page.</li>
+	<li>The theme skin file is now enqueued using wp_enqueue_style instead of being statically rendered.</li>
+	<li>Google Fonts are now enqueued using wp_enqueue_style instead of being statically rendered.</li>
+	<li>Added the fl_theme_google_fonts_domain filter for changing the Google Fonts domain.</li>
+	<li>Anchor links are now highlighted in the nav when clicked.</li>
+	<li>The mobile menu now closes when an anchor on the same page is clicked.</li>
+	<li>Switching child themes now refreshes the CSS cache.</li>
+	<li>Search form now uses HTML placeholder value.</li>
+	<li>Updated translations.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed PHP 7 compatibility with the LESS parsing library.</li>
+	<li>Fixed empty home_url links.</li>
+	<li>Fixed W3C validator issues with nav elements.</li>
+	<li>Fixed incorrect display of nested submenus in the Custom Menu widget.</li>
+	<li>Fixed the no header/footer template still showing a margin when using the vertical nav header.</li>
+	<li>Fixed header resizing incorrectly when using the boxed layout.</li>
+	<li>Fixed spacing issues with the WooCommerce cart totals section.</li>
+	<li>Fixed missing styling for URL inputs.</li>
+</ul>
+
+<h4>1.5.2 - 07/12/2016</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Theme CSS cache is now cleared when clearing builder CSS cache under Settings > Page Builder > Cache.</li>
+	<li>Reworked comments.php to add support for JetPack comments.</li>
+	<li>Added social-icons.php for overriding social icons markup in a child theme.</li>
+	<li>Added Skype to the social icons settings.</li>
+	<li>Added FitVids responsive video support for videos in the WordPress editor when the builder is not active.</li>
+	<li>Bootstrap's CSS is now loaded using wp_enqueue_style instead of in header.php.</li>
+	<li>Add the fl_nav_menu_fallback_url filter.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed a bug with content padding when using vertical header layouts.</li>
+	<li>Fixed a bug with the scroll to top button freezing scrolling on iOS.</li>
+	<li>Fixed a bug with builder UI elements going on top of fixed headers.</li>
+	<li>Fixed a bug with screen reader text showing.</li>
+	<li>Fixed a bug with double class attributes in nav-search.php.</li>
+	<li>Fixed a bug with mega menu headings not showing on mobile.</li>
+	<li>Fixed a bug with WooCommerce product category layouts.</li>
+	<li>Fixed a bug with the fl_default_theme_mods filter not working.</li>
+	<li>Fixed a bug with long mega menus going off the page. Long mega menus now revert to standard dropdowns when there is not enough room.</li>
+	<li>Fixed a bug with the logo resizing from 0 to 100% on load when the shrink header option is selected.</li>
+	<li>Fixed a bug with cache files not being created with the correct file permissions.</li>
+	<li>Fixed a bug with the mobile menu's transition when submenus are present.</li>
+</ul>
+
+<h4>1.5.1 - 05/02/2016</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added a setting for choosing which side of an uneven menu the centered inline logo will appear.</li>
+	<li>Added the fl_theme_mods filter.</li>
+	<li>Added the fl_default_theme_mods filter.
+	<li>Added Xing as a social icon option.</li>
+	<li>The scroll to top button is now available on all screen sizes.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed a bug with submenu toggles not working on Android devices.</li>
+	<li>Fixed a bug with custom sidebar sizes only working on posts, not on standard pages.</li>
+	<li>Fixed a bug with the logo not appearing when the fixed header is set to shrink.</li>
+	<li>Fixed a bug with the fixed header when set to shrink on Safari.</li>
+	<li>Fixed a bug with the fixed header when switching between landscape and portrait on mobile devices.</li>
+	<li>Fixed a bug with the line-height in comments.</li>
+	<li>Fixed a bug with the browser focusing on the search widget instead of the header search bar.</li>
+	<li>Fixed a bug with Customizer slider controls.</li>
+	<li>Fixed a bug causing horizontal scrollbars with custom content widths.</li>
+	<li>Fixed a bug causing logo text to appear even when empty.</li>
+	<li>Fixed a bug with WooCommerce variable products styling. </li>
+</ul>
+
+<h4>1.5 - 03/16/2016</h4>
+<p>This is a major update that adds a number of new features. Please see <a href="https://www.wpbeaverbuilder.com/version-1-5-of-the-beaver-builder-theme-is-now-in-beta//">this blog post</a> for more details.</p>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added left and right vertical header layouts.</li>
+	<li>Added centered nav + inline logo header layout.</li>
+	<li>Added left nav header layout.</li>
+	<li>Added "shrink" and "fixed" options for the fixed header.</li>
+	<li>Added the option to hide the header until the page is scrolled.</li>
+	<li>Added the option to show a "Scroll to Top" button.</li>
+	<li>Added the ability to create a mega menu.</li>
+	<li>Added slider controls in place of many of the text fields for entering number values.</li>
+	<li>Added the following customizer settings...
+		<ul>
+			<li>Body Line Height</li>
+			<li>Heading Line Height</li>
+			<li>Heading Letter Spacing</li>
+			<li>Custom Content Width</li>
+			<li>Custom Sidebar Width</li>
+			<li>Featured Image Above Content/Title</li>
+			<li>Hide Comment Count</li>
+			<li>Top Bar/Content/Footer Opacity</li>
+			<li>Footer Parallax</li>
+			<li>Disable Beaver Builder's WooCommerce CSS</li>
+		</ul>
+	</li>
+	<li>The search input now focuses when the search icon is clicked.</li>
+	<li>Added and updated translations.</li>
+	<li>Updated Google fonts.</li>
+	<li>The FLTheme JavaScript object is now global. Added event namespaces.</li>
+	<li>Added a custom classname to the logo's Bootstrap column.</li>
+	<li>Added the fl_less_vars filter.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed issues with schema structured data.</li>
+	<li>Fixed a LESS parsing bug.</li>
+	<li>Fixed a bug with empty opacity values causing LESS parse errors.</li>
+	<li>Fixed a CSS issue with WooCommerce columns not aligning properly on mobile.</li>
+</ul>
+
+<h4>1.4 - 12/09/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Improved the code editing experience in the Customizer.</li>
+	<li>Added body font weight setting to the Customizer.</li>
+	<li>Added header background opacity setting to the Customizer.</li>
+	<li>Added the core WordPress post_class function to post article tags.</li>
+	<li>Added new actions for inserting content within various parts of the theme.</li>
+	<li>Top bar column markup can now be overridden in child themes.</li>
+	<li>Footer column markup can now be overridden in child themes.</li>
+	<li>Archive header and post meta markup can now be overridden in child themes.</li>
+	<li>Added Hebrew translation.</li>
+	<li>Added Danish translation.</li>
+	<li>Added Thai translation.</li>
+	<li>Updated Font Awesome.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed a bug with links that start with an image extension opening in the lightbox.</li>
+</ul>
+
+<h4>1.3.2 - 10/18/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Updated Font Awesome.</li>
+	<li>Updated translations.</li>
+	<li>Added fl_font_subset filter.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed CSS issues with lightbox button styling.</li>
+	<li>Fixed WooCommerce layout issues.</li>
+</ul>
+
+<h4>1.3.1.3 - 08/25/2015</h4>
+<ul>
+	<li>Added Dutch translation.</li>
+	<li>Added support for core title tag rendering.</li>
+	<li>Removed favicon settings in favor of WordPress' new Site Icon settings.</li>
+</ul>
+
+<h4>1.3.1.2 - 08/11/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Tested WordPress 4.3 compatibility.</li>
+	<li>Updated translation files.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed a bug with dropdown menus on Windows.</li>
+</ul>
+
+<h4>1.3.1.1 - 07/21/2015</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed a bug with the Customizer accent hover color setting.</li>
+    <li>Fixed a bug with the Customizer when no pages exist.</li>
+    <li>Fixed a bug with Customizer font weight settings.</li>
+    <li>Fixed a bug with subnav links not picking up the Customizer font weight setting.</li>
+    <li>Fixed a bug with retina logos in the fixed header.</li>
+</ul>
+
+<h4>1.3.1 - 07/08/2015</h4>
+<p>This is our biggest theme update since settings were moved to the Customizer! <strong>PLEASE NOTE:</strong> None of your customizations will immediately change as a result of this update. However, you may notice slight differences to text/link colors in the header/footer sections the next time you enter the Customizer that you are now able to adjust. Please see <a href="https://www.wpbeaverbuilder.com/the-beaver-builder-theme-is-now-even-more-customizable/">this blog post</a> for more details.</p>
+<ul>
+	<li>Added 25 new settings to the Customizer.</li>
+	<li>Added a Customizer setting for showing a hamburger icon for the mobile nav button.</li>
+	<li>Added Customizer settings for better text color control.</li>
+	<li>Added Customizer settings for adding a background image to each page section.</li>
+	<li>Added 14 new actions.</li>
+	<li>Added 2 new filters.</li>
+</ul>
+
+<h4>1.3.0.1 - 06/20/2015</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed a bug with retina logos and the fixed header.</li>
+    <li>Fixed a bug with the fixed header when the main header is disabled.</li>
+    <li>Fixed the setting to only show footer widgets on the homepage.</li>
+</ul>
+
+<h4>1.3.0 - 06/01/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Core presets can now be removed. Custom presets can be added. Please see this <a href="https://www.wpbeaverbuilder.com/knowledge-base/adding-and-removing-presets/">knowledge base entry</a> for more information.</li>
+	<li>The includes/copyright.php file can now be overridden in child themes.</li>
+	<li>A body class is now added for the current preset.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>JavaScript tweak to fix a retina logo issue.</li>
+    <li>CSS tweak to fix a FireFox bug with large logos.</li>
+</ul>
+
+<h4>1.2.9 - 04/26/2015</h4>
+<p><strong>Tweaks</strong></p>
+<ul>
+    <li>Updated FontAwesome.</li>
+    <li>Top nav dropdowns are now enabled on mobile.</li>
+</ul>
+
+<h4>1.2.8 - 03/31/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added Russian translation.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>CSS fix for WooCommerce shipping radio buttons.</li>
+    <li>CSS fix for WooCommerce three columns category layouts.</li>
+</ul>
+
+<h4>1.2.7 - 03/24/2015</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed a WooCommerce CSS bug.</li>
+    <li>Fixed a bug with retina logos not showing in the fixed header.</li>
+</ul>
+
+<h4>1.2.6 - 03/22/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added German translation.</li>
+	<li>Shortcodes in logo text are now parsed.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed a bug with retina logos being incorrectly sized.</li>
+    <li>Fixed a WooCommerce CSS bug with 3 column layouts.</li>
+</ul>
+
+<h4>1.2.5 - 03/01/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added Arabic translation.</li>
+    <li>Pages now use H1 instead of H2 for titles.</li>
+</ul>
+
+<h4>1.2.4 - 02/22/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added 'No Header/Footer' page template.</li>
+    <li>Single posts now use H1 instead of H2 for titles.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Tweaked the CSS for responsive blog post images so it doesn't override images resized using the WordPress editor.</li>
+    <li>Footer widgets now show on mobile.</li>
+</ul>
+
+<h4>1.2.3 - 02/15/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>HTML for default page headings is no longer rendered if the builder is active and they are disabled in the global settings.</li>
+	<li>Added French translation.</li>
+	<li>Added Italian translation.</li>
+	<li>Enhanced SSL check for servers behind load balancers.</li>
+</ul>
+
+<h4>1.2.2 - 01/25/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Major improvements to how translations are handled. A huge thanks to Oliver Juhas of <a href="http://www.webmandesign.eu/" target="_blank">WebMan Design</a> for making that happen.</li>
+	<li>Added Slovak translation.</li>
+    <li>Updated to Bootstrap 3.3.2.</li>
+    <li>Added fl-page-header-primary class to the primary header to differentiate it from the fixed header.</li>
+	<li>HTML attributes for the logo now use the site title settings instead of the logo text setting if an image logo is being used.</li>
+	<li>Added favicon to wp-admin.</li>
+</ul>
+
+<h4>1.2.1 - 01/12/2015</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed a small bug with migrations to the new Customizer interface.</li>
+</ul>
+
+<h4>1.2.0 - 01/11/2015</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+    <li>Theme settings have been moved to the WordPress Customizer!</li>
+    <li>Added 20 new theme settings. See our blog for complete details.</li>
+    <li>Added the ability to completely hide the header or footer.</li>
+    <li>Added the ability to override files in the includes folder such as nav-bottom.php and fixed-header.php.</li>
+    <li>Added dropdown support to the top bar's menus.</li>
+    <li>Added new layouts for the top bar to combine icons, menus or text.</li>
+    <li>Added post navigation on single post pages.</li>
+    <li>Shortcodes are now parsed in the header and footer sections.</li>
+    <li>Added support for right-to-left languages.</li>
+    <li>Updated Google fonts.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed HTML validation issues.</li>
+    <li>Resolved a conflict with plugins like the Events Calendar that use the same Less CSS processor.</li>
+    <li>Video iframe embeds are now responsive.</li>
+</ul>
+
+<h4>1.1.9</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added styling for a number of additional HTML5 input fields.</li>
+	<li>Added an email option to the social settings.</li>
+</ul>
+
+<h4>1.1.8</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>The theme logo now defaults to the site title instead of the Beaver Builder logo.</li>
+</ul>
+
+<h4>1.1.7</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added Swedish translation.</li>
+</ul>
+
+<h4>1.1.6</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added fl_head_open open action.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed a JavaScript theme settings bug.</li>
+    <li>Fixed an IE gradient bug.</li>
+</ul>
+
+<h4>1.1.5</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Relaunching as Beaver Builder! Check out the new site at <a href="http://www.wpbeaverbuilder.com" target="_blank">www.wpbeaverbuilder.com</a>.</li>
+</ul>
+
+<h4>1.1.4</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+    <li>Added Italian translation.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Moved loading of settings into the theme setup method and after translations have been loaded.</li>
+</ul>
+
+<h4>1.1.3</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+    <li>Updated Font Awesome.</li>
+    <li>Added .fl-post-more classname to read more links.</li>
+</ul>
+
+<h4>1.1.2</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+    <li>Added two new skins.</li>
+    <li>Added the WordPress customizer link back in.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Post dates are now displayed using the date format set in wp-admin.</li>
+</ul>
+
+<h4>1.1.1</h4>
+<p>CSS tweaks for WooCommerce widgets.</p>
+
+<h4>1.1.0</h4>
+<p>Fixed woocommerce css issues.</p>
+
+<h4>1.0.9</h4>
+<p>Minor bug fixes.</p>
+
+<h4>1.0.8</h4>
+<p>The Automator theme is now licensed under the GNU General Public License v2.0.</p>
+
+<h4>1.0.7</h4>
+<ul>
+    <li>Added scheme.org markup to Automator's HTML.</li>
+</ul>
+
+<h4>1.0.6</h4>
+<ul>
+    <li>The fixed header is no longer hidden by the WordPress admin bar when logged in.</li>
+    <li>Fixed a bug that was caused by not having a site title.</li>
+    <li>Google fonts are now loaded via SSL if enabled.</li>
+</ul>
+
+<h4>1.0.5</h4>
+<ul>
+    <li>Fixed header layout issue with FireFox.</li>
+</ul>
+
+<h4>1.0.4</h4>
+<ul>
+    <li>Changed theme settings capability check to edit_theme_options instead of administrator.</li>
+</ul>
+
+<h4>1.0.3</h4>
+<ul>
+    <li>Minor core code enhancements.</li>
+</ul>
+
+<h4>1.0.2</h4>
+<ul>
+    <li>Updated Font Awesome to include new icons in 4.0.3.</li>
+</ul>
+
+<h4>1.0.1</h4>
+<ul>
+    <li>Fixed a bug that was causing double separators in the title on some pages.</li>
+</ul>
+
+<h4>1.0</h4>
+<p>Version 1.0 is here!</p>
+<p><strong>Enhancements</strong></p>
+<ul>
+    <li>Added additional actions and filters.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed an overflow issue with the responsive menu.</li>
+</ul>
+
+<h4>0.8.6</h4>
+<ul>
+    <li>Fixed double title issue when using the WordPress SEO plugin.</li>
+</ul>
+
+<h4>0.8.5</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+    <li>Added lightbox option in the theme settings that defaults to enabled.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed preview bug that was breaking the builder.</li>
+    <li>WooCommerce LESS fixes.</li>
+</ul>
+
+<h4>0.8.4</h4>
+<ul>
+    <li>Blog images are now responsive.</li>
+    <li>Mobile submenus are now collapsed by default.</li>
+</ul>
+
+<h4>0.8.3</h4>
+<ul>
+    <li>Misc core bug fixes.</li>
+    <li>Added aria-haspopup to submenus for touch support.</li>
+</ul>
+
+<h4>0.8.2</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fixed an Android bug with Automator fixed header.</li>
+</ul>
+<p><strong>Enhancements</strong></p>
+<ul>
+    <li>Adjusted color of mobile submenus so they are easier to read on a light background.</li>
+</ul>
+
+<h4>0.8.1</h4>
+<p>Initial beta release.</p>

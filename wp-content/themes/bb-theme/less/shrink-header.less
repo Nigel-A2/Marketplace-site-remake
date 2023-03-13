@@ -1,0 +1,104 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+/* Media Query - 992px or greater
+----------------------------------------------------------- */
+
+@media (min-width: @medium-breakpoint) {
+
+	.fl-shrink-header-enabled {
+		&.admin-bar .fl-page-bar {
+			top: 32px;
+		}
+		.fl-page-bar {
+			position: fixed;
+			min-width: 100%;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 101;
+		}
+		&.admin-bar .fl-page-header {
+			top: 32px;
+		}
+		.fl-page-header {
+			position: fixed;
+			min-width: 100%;
+			top: 0;
+			z-index: 100;
+		}
+		&.fl-fixed-width {
+			.fl-page-bar,
+			.fl-page-header {
+				width: 980px;
+				max-width: 100%;
+				min-width: 0;
+				margin: 0 auto;
+			}
+		}
+		&.fl-header-padding-top-custom .fl-page {
+			padding-top: @padding-top-custom;
+		}
+	}
+	.fl-shrink-header {
+		.fl-logo-img {
+			max-height: @header-logo-max-height !important;
+			width: auto !important;
+		}
+		.fl-page-header-container.container {
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+	}
+	.fl-shrink-header-transition {
+		.fl-logo-img, .fl-page-header-container.container {
+			-webkit-transition: all 0.4s ease-in-out;
+			-moz-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+		}
+		.fl-logo-img[data-retina] {
+			width: auto !important;
+		}
+	}
+
+	.fl-builder-edit .fl-shrink.admin-bar .fl-page-bar {
+		top: 43px;
+	}
+
+	.fl-shrink-header-enabled.fl-fixed-width {
+		.fl-page-bar,
+		.fl-page-header {
+			left: auto;
+			right: auto;
+		}
+	}
+}
+
+/* Media Query - 1100px or greater
+----------------------------------------------------------- */
+
+@media (min-width: 1100px) {
+
+	.fl-shrink.fl-full-width {
+		.fl-page-bar,
+		.fl-page-header {
+			min-width: 100%;
+			max-width: 90%;
+		}
+	}
+
+	.fl-shrink.fl-fixed-width {
+		.fl-page-bar,
+		.fl-page-header {
+			width: (@content-width+80);
+			max-width: 90%;
+		}
+	}
+}

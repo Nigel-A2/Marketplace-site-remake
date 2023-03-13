@@ -1,0 +1,657 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+/* General
+----------------------------------------------------------- */
+.fl-box-shadow(@value) {
+	-moz-box-shadow: @value;
+	-webkit-box-shadow: @value;
+	box-shadow: @value;
+}
+.fl-border-radius(@value) {
+	-moz-border-radius: @value;
+	-webkit-border-radius: @value;
+	border-radius: @value;
+}
+.fl-transition(@value) {
+	-moz-transition: @value;
+	-webkit-transition: @value;
+	transition: @value;
+}
+.fl-placeholder-text-color(@value: '#666') {
+	&::-webkit-input-placeholder { /* WebKit browsers */
+		color: @value;
+	}
+	&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color: @value;
+	}
+	&::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color: @value;
+	}
+	&:-ms-input-placeholder { /* Internet Explorer 10+ */
+		color: @value;
+	}
+}
+
+/* Buttons
+----------------------------------------------------------- */
+
+.fl-button-inactive-styles() {
+	color: @button-color;
+	background-color: @button-bg-color;
+
+	font-family: @button-font-family;
+	font-weight: @button-font-weight;
+	font-size: @button-font-size;
+	line-height: @button-line-height;
+	text-transform: @button-text-transform;
+	border-style: @button-border-style;
+	border-width: @button-border-width;
+	border-color: @button-border-color;
+	border-radius: @button-border-radius;
+}
+
+.fl-button-inactive-child-styles() {
+	color: @button-color;
+}
+
+.fl-button-hover-styles() {
+	background-color: @button-bg-hover-color;
+	color: @button-hover-color;
+	border-style: @button-border-style;
+	border-width: @button-border-width;
+	border-color: @button-border-hover-color;
+	border-radius: @button-border-radius;
+}
+
+.fl-button-hover-child-styles() {
+	color: @button-hover-color;
+}
+
+/* Woo Buttons
+----------------------------------------------------------- */
+
+.fl-woo-button-inactive-styles() {
+	color: @woo-button-color;
+	background-color: @woo-button-bg-color;
+
+	font-family: @woo-button-font-family;
+	font-weight: @woo-button-font-weight;
+	font-size: @woo-button-font-size;
+	line-height: @woo-button-line-height;
+	text-transform: @woo-button-text-transform;
+	border: @woo-button-border;
+	border-radius: @woo-button-border-radius;
+}
+
+.fl-woo-button-inactive-child-styles() {
+	color: @woo-button-color;
+}
+
+.fl-woo-button-hover-styles() {
+	background-color: @woo-button-bg-hover-color;
+	color: @woo-button-hover-color;
+	border: @woo-button-border-hover;
+	border-radius: @woo-button-hover-border-radius;
+	border-color: @woo-button-border-hover-color;
+}
+
+.fl-woo-button-hover-child-styles() {
+	color: @woo-button-hover-color;
+}
+
+/*
+Nav Toggle - Hamburger Icon
+It's being used in the theme.less for media queries when enabled in the customizer.
+------------------------------------------------------------------------------------ */
+
+.fl-nav-icon-toggled( @hamburger-icon-top-pos: 24px ) {
+
+	/* Page Nav Toggle Common mixin
+	----------------------------------------------------------- */
+	.fl-page-nav-toggled-common;
+
+	/* Hamburger icon specific styles
+	----------------------------------------------------------- */
+	.fl-page-nav-wrap {
+		border: 0 none;
+		margin: 0;
+		padding-bottom: 0;
+	}
+	position: relative;
+	.fl-page-header-logo {
+		text-align: left;
+		margin-right: 55px;
+	}
+	.fl-page-nav-col,
+	.navbar {
+		position: static;
+	}
+	.fl-page-nav-container {
+		position: unset;
+	}
+	.fl-page-nav .navbar-toggle {
+		background: transparent;
+		display: block;
+		font-size: 22px;
+		line-height: 19px;
+		padding: 6px 8px;
+		position: absolute;
+		right: 20px;
+		top: @hamburger-icon-top-pos;
+		width: auto;
+		&:hover,
+		&:focus {
+			background: transparent;
+		}
+		color: @mobile-nav-fg-link-color;
+		* {
+			color: @mobile-nav-fg-link-color;
+		}
+	}
+}
+
+.fl-hamburger-icon-position( @hamburger-icon-top-pos : 24px ){
+	.fl-page-nav .navbar-toggle {
+		top: @hamburger-icon-top-pos;
+	}
+}
+
+/*
+Nav Toggle - Menu Button
+It's being used in the theme.less for media queries when enabled in the customizer.
+---------------------------------------------------------------------------------- */
+
+.fl-nav-button-toggled() {
+
+	/* Page Nav Toggle Common mixin
+	----------------------------------------------------------- */
+	.fl-page-nav-toggled-common;
+
+	/* Menu button specific styles
+	----------------------------------------------------------- */
+	.fl-page-nav-wrap {
+		border: 0 none;
+		margin: 0;
+		padding-bottom: 20px;
+	}
+	.fl-page-nav .navbar-toggle {
+		display: block;
+		background: @mobile-nav-btn-color;
+		color: @mobile-nav-fg-link-color;
+		* {
+			color: @mobile-nav-fg-link-color;
+		}
+		&:hover,
+		&:focus {
+			background: @mobile-nav-btn-color;
+		}
+	}
+	&.fl-page-header-fixed {
+		.fl-page-nav-wrap {
+			padding-top: 20px;
+		}
+	}
+}
+
+/* Nav Toggle Common - This applies to both Hamburger and Button.
+---------------------------------------------------------------- */
+
+.fl-page-nav-toggled-common() {
+
+	/* Header Layouts mixin
+	----------------------------------------------------------- */
+	.fl-page-header-layouts-toggled;
+
+	/* Nav Collapse
+	----------------------------------------------------------- */
+	.fl-page-nav-collapse {
+		border-top: 1px solid @mobile-nav-btn-color;
+		padding-bottom: 10px;
+
+		&.collapse {
+			display: none!important;
+			visibility: hidden!important;
+			&.in,
+			&.show {
+				display: block!important;
+				visibility: visible!important;
+			}
+		}
+		&.collapsing {
+			display: block !important;
+		}
+
+		/* Nav Colors
+		----------------------------------------------------------- */
+		ul.navbar-nav {
+			display: block;
+			float: none;
+			> li {
+				border-color: @mobile-nav-btn-color;
+				border-bottom-style: solid;
+				border-bottom-width: 1px;
+				display: block;
+				float: none;
+				position: relative;
+				> a {
+					color: @mobile-nav-fg-link-color;
+					&:hover,
+					&:focus {
+						color: @mobile-nav-fg-hover-color;
+					}
+					text-align: left;
+				}
+				&.current-menu-item > a,
+				&.current-menu-item > .fl-submenu-icon-wrap .fl-submenu-toggle-icon {
+					color: @mobile-nav-fg-hover-color;
+				}
+			}
+		}
+		ul.sub-menu {
+			li {
+				border-color: @mobile-nav-btn-color;
+				a {
+					color: @mobile-nav-fg-link-color;
+					&:hover {
+						color: @mobile-nav-fg-hover-color;
+					}
+				}
+			}
+			li.current-menu-item {
+				a {
+					color: @mobile-nav-fg-hover-color;
+				}
+			}
+		}
+
+		/* Nav Search
+		----------------------------------------------------------- */
+		.fl-page-nav-search {
+			display: none;
+		}
+	}
+
+	/* Nav Dropdown Menus
+	----------------------------------------------------------- */
+	.fl-page-nav ul {
+		&.sub-menu {
+			background-color: transparent;
+			border: none;
+			float: none;
+			height: 100%;
+			list-style: none;
+			overflow: hidden;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			width: auto;
+			.fl-box-shadow(none);
+			ul.sub-menu {
+				padding-bottom: 0;
+				margin-left: 15px;
+			}
+			li {
+				border-top: 1px solid @border-color;
+				a {
+					clear: both;
+					color: @mobile-nav-fg-link-color;
+					display: block;
+					font-weight: @nav-font-weight;
+					line-height: 20px;
+					margin: 0;
+					padding: 15px;
+					&:hover,
+					&:focus {
+						color: @mobile-nav-fg-hover-color;
+						text-decoration: none;
+					}
+					&:before {
+						font-family: @font-awesome-family;
+						content: '\f105';
+						font-weight: 900;
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+		li {
+			&.fl-mobile-sub-menu-open {
+				ul.sub-menu {
+					position: static;
+				}
+			}
+		}
+	}
+
+	/* Nav Submenu Toggle
+	----------------------------------------------------------- */
+	.fl-submenu-toggle & {
+		.fl-page-nav ul.navbar-nav {
+			.sub-menu {
+				position: absolute;
+			}
+			li {
+				&.menu-item-has-children > a {
+					padding-right: 40px;
+				}
+				&.menu-item-has-children > .fl-submenu-icon-wrap {
+					visibility: visible;
+				}
+				&.fl-mobile-sub-menu-open {
+					> .fl-submenu-icon-wrap .fl-submenu-toggle-icon:after {
+						content: '\f106';
+					}
+					> ul.sub-menu,
+					.hide-heading > ul.sub-menu {
+						position: static;
+					}
+				}
+				a {
+					padding: 15px;
+				}
+				&:hover,
+				&:focus {
+					> .fl-submenu-icon-wrap .fl-submenu-toggle-icon {
+						color: @mobile-nav-fg-hover-color;
+					}
+				}
+			}
+		}
+	}
+
+	/* Nav Submenu Indicator
+	----------------------------------------------------------- */
+	.fl-submenu-indicator & {
+		ul.navbar-nav li.menu-item-has-children {
+			> a {
+				padding-right: 40px;
+				&:after {
+					content: '' !important;
+				}
+			}
+			> .fl-submenu-icon-wrap {
+				visibility: visible;
+			}
+			&:hover,
+			&:focus {
+				> .fl-submenu-icon-wrap .fl-submenu-toggle-icon {
+					color: @mobile-nav-fg-hover-color;
+				}
+			}
+			&.fl-mobile-sub-menu-open {
+				> .fl-submenu-icon-wrap .fl-submenu-toggle-icon:after {
+					content: '\f106';
+				}
+			}
+		}
+	}
+
+	/* Nav Submenu Toggle Icon
+	----------------------------------------------------------- */
+	.fl-submenu-icon-wrap {
+		visibility: hidden;
+
+		.fl-submenu-toggle-icon {
+			position: absolute;
+			padding: 15px;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			cursor: pointer;
+
+			&:after {
+				font-family: @font-awesome-family;
+				content: '\f107';
+				font-weight: 900;
+				font-size: @nav-font-size;
+				float: right;
+			}
+		}
+	}
+}
+
+/* Header Layouts Toggle - Used in the .fl-page-nav-toggled-common mixin.
+------------------------------------------------------------------------- */
+
+.fl-page-header-layouts-toggled() {
+
+	/* Nav Right Layout
+	----------------------------------------------------------- */
+	&.fl-page-nav-right {
+		body:not(.fl-nav-mobile-offcanvas) & {
+			.fl-page-nav-collapse {
+				ul.navbar-nav {
+					flex: 0 0 100%;
+
+				}
+				width: 100%;
+			}
+		}
+		.fl-page-nav-collapse ul.navbar-nav {
+			float: none!important;
+		}
+		.fl-page-header-row .fl-page-header-logo {
+			padding-bottom: @header-padding;
+		}
+		.fl-page-header-logo-col, .fl-page-nav-col {
+			width: 100%;
+		}
+		.fl-framework-bootstrap-4 & {
+			.fl-page-header-logo-col, .fl-page-nav-col {
+				flex-basis: 100%;
+				max-width: 100%;
+			}
+		}
+	}
+
+	/* Nav Left Layout
+	----------------------------------------------------------- */
+	&.fl-page-nav-left {
+		body:not(.fl-nav-mobile-offcanvas) & {
+			.fl-page-nav-collapse {
+				ul.navbar-nav {
+					flex: 0 0 100%;
+				}
+				width: 100%;
+			}
+		}
+		.fl-page-header-row .fl-page-header-logo {
+			padding-bottom: @header-padding;
+		}
+		.fl-page-nav ul.navbar-nav > li:first-child a {
+			padding-left: 17px;
+		}
+		.fl-page-logo-wrap, .fl-page-nav-col {
+			width: 100%;
+		}
+		.fl-framework-bootstrap-4 & {
+			.fl-page-header-logo-col, .fl-page-nav-col {
+				flex-basis: 100%;
+				max-width: 100%;
+			}
+		}
+	}
+
+	/* Nav Centered Inline Logo
+	----------------------------------------------------------- */
+	&.fl-page-nav-centered-inline-logo {
+		text-align: left;
+		.fl-page-header-logo {
+			display: block;
+		}
+	}
+
+	/* Nav Vertical
+	----------------------------------------------------------- */
+	&.fl-page-header-vertical {
+		top: 0;
+	}
+}
+
+/* Nav Separators
+----------------------------------------------------------- */
+
+.fl-nav-seps(@color) when (iscolor(@color)) {
+	.navbar-nav > li {
+		> a {
+			border-right: 1px solid fade(@color, 10%);
+			margin: 10px 0;
+			padding: 5px 15px;
+		}
+		&:last-child a {
+			border-right: none;
+		}
+	}
+}
+
+/* Background Image
+----------------------------------------------------------- */
+
+.fl-background-image(
+	@bg-image: 'none',
+	@bg-repeat,
+	@bg-position,
+	@bg-attachment,
+	@bg-size
+)
+when not( @bg-image = none ) {
+	background-image: @bg-image;
+	background-repeat: @bg-repeat;
+	background-position: @bg-position;
+	background-attachment: @bg-attachment;
+	background-size: @bg-size;
+}
+
+/* Background Vertical Gradient
+----------------------------------------------------------- */
+
+.fl-gradient-background(@start, @stop) {
+	background: @start; /* Old browsers */
+	background: -moz-linear-gradient(top,  @start 0%, @stop 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@start), color-stop(100%,@stop)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  @start 0%,@stop 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  @start 0%,@stop 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  @start 0%,@stop 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  @start 0%,@stop 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@start, endColorstr=@stop,GradientType=0 ); /* IE6-9 */
+}
+.fl-gradient(@hex, @amount) when (lightness(@hex) >= 50%) {
+	.fl-gradient-background(@hex, darken(@hex, @amount));
+}
+.fl-gradient(@hex, @amount) when (lightness(@hex) < 50%) {
+	.fl-gradient-background(lighten(@hex, @amount), @hex);
+}
+
+/* Background Radial Gradient
+----------------------------------------------------------- */
+
+.fl-radial-gradient-background(@start, @stop) {
+	background: rgb(51,51,51); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  @start 0%, @stop 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@start), color-stop(100%,@stop)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  @start 0%,@stop 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  @start 0%,@stop 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  @start 0%,@stop 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  @start 0%,@stop 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@start, endColorstr=@stop,GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.fl-radial-gradient(@hex, @amount) when (lightness(@hex) >= 50%) {
+	.fl-radial-gradient-background(@hex, darken(@hex, @amount));
+}
+.fl-radial-gradient(@hex, @amount) when (lightness(@hex) < 50%) {
+	.fl-radial-gradient-background(lighten(@hex, @amount), @hex);
+}
+
+/* Change Row Colors
+----------------------------------------------------------- */
+
+.fl-change-row-color(
+	@bg-color,
+	@fg-color,
+	@fg-link-color,
+	@fg-hover-color,
+	@border-color: 'transparent',
+	@gradient: 0,
+	@gradient_type: 'vertical'
+) {
+	border-color: @border-color;
+	background-color: @bg-color;
+	color: @fg-color;
+	*,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: @fg-color;
+	}
+	a,
+	a *,
+	a.fas,a.fab {
+		color: @fg-link-color;
+	}
+	a:hover,
+	a:focus,
+	a:hover *,
+	a:focus *,
+	a.fas:hover,
+	a.fab:hover,
+	a.fas:focus,
+	a.fab:focus {
+		color: @fg-hover-color;
+	}
+	.navbar-nav li {
+		> a {
+			color: @fg-link-color;
+			&:hover,
+			&:focus {
+				color: @fg-hover-color;
+			}
+		}
+		&.current-menu-ancestor > a,
+		&.current-menu-parent > a,
+		&.current-menu-item > a {
+			color: @fg-hover-color;
+		}
+	}
+	.navbar-nav li.current-menu-item ~ li.current-menu-item > a {
+		color: @fg-hover-color;
+	}
+}
+
+/* Row Background Vertical Gradient */
+.fl-change-row-color(
+	@bg-color,
+	@fg-color,
+	@fg-link-color,
+	@fg-hover-color,
+	@border-color: 'transparent',
+	@gradient: 0,
+	@gradient_type: 'vertical'
+)
+when (iscolor(@bg-color)) and (@gradient > 0) and (@gradient_type = 'vertical') {
+	.fl-gradient(@bg-color, @gradient);
+}
+
+/* Row Background Radial Gradient */
+.fl-change-row-color(
+	@bg-color,
+	@fg-color,
+	@fg-link-color,
+	@fg-hover-color,
+	@border-color: 'transparent',
+	@gradient: 0,
+	@gradient_type: 'vertical'
+)
+when (iscolor(@bg-color)) and (@gradient > 0) and (@gradient_type = 'radial') {
+	.fl-radial-gradient(@bg-color, @gradient);
+}

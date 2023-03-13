@@ -1,0 +1,13 @@
+{
+    "name": "hivepress/hivetheme",
+    "description": "A framework for HivePress themes.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "stable",
+
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+		"wp-coding-standards/wpcs": "~2.3.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1.0"
+	}
+}

@@ -1,0 +1,23 @@
+/**
+ * Horizontal Layout
+ */
+
+.fl-button-group-layout-horizontal .fl-button-group-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fl-button-group-layout-horizontal .fl-button-wrap {
+    display: inline-block;
+}
+
+/**
+ * Vertical Layout
+ */
+.fl-button-group-layout-vertical .fl-button-group-buttons {
+    display: block;
+}
+
+.fl-button-group-layout-vertical .fl-button-wrap {
+    display: block;
+}

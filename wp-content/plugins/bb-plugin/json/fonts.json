@@ -1,0 +1,7031 @@
+[{
+  "ABeeZee": {
+    "variants": ["regular", "italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Abel": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Abhaya Libre": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "Abril Fatface": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Aclonica": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Acme": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Actor": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Adamina": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Advent Pro": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Aguafina Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Akaya Kanadaka": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Akaya Telivigala": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Akronim": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Akshar": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Aladin": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Alata": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Alatsi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Aldrich": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Alef": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Alegreya": {
+    "variants": ["regular", "500", "600", "700", "800", "900", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Alegreya SC": {
+    "variants": ["regular", "italic", "500", "500italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Alegreya Sans": {
+    "variants": ["100", "100italic", "300", "300italic", "regular", "italic", "500", "500italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Alegreya Sans SC": {
+    "variants": ["100", "100italic", "300", "300italic", "regular", "italic", "500", "500italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Aleo": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Alex Brush": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Alfa Slab One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Alice": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Alike": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Alike Angular": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Allan": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Allerta": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Allerta Stencil": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Allison": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Allura": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Almarai": {
+    "variants": ["300", "regular", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Almendra": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Almendra Display": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Almendra SC": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Alumni Sans": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Alumni Sans Inline One": {
+    "variants": ["regular", "italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Amarante": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Amaranth": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Amatic SC": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Amethysta": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Amiko": {
+    "variants": ["regular", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Amiri": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Amita": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Anaheim": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Andada Pro": {
+    "variants": ["regular", "500", "600", "700", "800", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Andika": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Andika New Basic": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Bangla": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Devanagari": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Gujarati": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Gurmukhi": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Kannada": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Latin": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Malayalam": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Odia": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Tamil": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anek Telugu": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Angkor": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Annie Use Your Telescope": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Anonymous Pro": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Antic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Antic Didone": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Antic Slab": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Anton": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Antonio": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Anybody": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Arapey": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Arbutus": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Arbutus Slab": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Architects Daughter": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Archivo": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Archivo Black": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Archivo Narrow": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Are You Serious": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Aref Ruqaa": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Arima Madurai": {
+    "variants": ["100", "200", "300", "regular", "500", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Arimo": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Arizonia": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Armata": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Arsenal": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Artifika": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Arvo": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Arya": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Asap": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Asap Condensed": {
+    "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Asar": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Asset": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Assistant": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Astloch": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Asul": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Athiti": {
+    "variants": ["200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Atkinson Hyperlegible": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Atma": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Atomic Age": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Aubrey": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Audiowide": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Autour One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Average": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Average Sans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Averia Gruesa Libre": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Averia Libre": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Averia Sans Libre": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Averia Serif Libre": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Azeret Mono": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "B612": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "B612 Mono": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "BIZ UDGothic": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "BIZ UDMincho": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "BIZ UDPGothic": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "BIZ UDPMincho": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Babylonica": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Bad Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Bahiana": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bahianita": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bai Jamjuree": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bakbak One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ballet": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Baloo 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baloo Bhai 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baloo Bhaijaan 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baloo Bhaina 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baloo Chettan 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baloo Da 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baloo Paaji 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baloo Tamma 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baloo Tammudu 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baloo Thambi 2": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Balsamiq Sans": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Balthazar": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Bangers": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Barlow": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Barlow Condensed": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Barlow Semi Condensed": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Barriecito": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Barrio": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Basic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baskervville": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Battambang": {
+    "variants": ["100", "300", "regular", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Baumans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bayon": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Be Vietnam Pro": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Beau Rivage": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Bebas Neue": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Belgrano": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Bellefair": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Belleza": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bellota": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bellota Text": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "BenchNine": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Benne": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Bentham": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Berkshire Swash": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Besley": {
+    "variants": ["regular", "500", "600", "700", "800", "900", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Beth Ellen": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Bevan": {
+    "variants": ["regular", "italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "BhuTuka Expanded One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Big Shoulders Display": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Big Shoulders Inline Display": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Big Shoulders Inline Text": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Big Shoulders Stencil Display": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Big Shoulders Stencil Text": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Big Shoulders Text": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bigelow Rules": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bigshot One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bilbo": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Bilbo Swash Caps": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "BioRhyme": {
+    "variants": ["200", "300", "regular", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "BioRhyme Expanded": {
+    "variants": ["200", "300", "regular", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "Birthstone": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Birthstone Bounce": {
+    "variants": ["regular", "500"],
+    "fallback": "cursive"
+  }
+}, {
+  "Biryani": {
+    "variants": ["200", "300", "regular", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bitter": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Black And White Picture": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Black Han Sans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Black Ops One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Blinker": {
+    "variants": ["100", "200", "300", "regular", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bodoni Moda": {
+    "variants": ["regular", "500", "600", "700", "800", "900", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Bokor": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bona Nova": {
+    "variants": ["regular", "italic", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Bonbon": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Bonheur Royale": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Boogaloo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bowlby One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bowlby One SC": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Brawler": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Bree Serif": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Brygada 1918": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Bubblegum Sans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bubbler One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Buda": {
+    "variants": ["300"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Buenard": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Bungee": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bungee Hairline": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bungee Inline": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bungee Outline": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Bungee Shade": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Butcherman": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Butterfly Kids": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Cabin": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cabin Condensed": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cabin Sketch": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Caesar Dressing": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cagliostro": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cairo": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Caladea": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Calistoga": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Calligraffitti": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Cambay": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cambo": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Candal": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cantarell": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cantata One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Cantora One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Capriola": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Caramel": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Carattere": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Cardo": {
+    "variants": ["regular", "italic", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Carme": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Carrois Gothic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Carrois Gothic SC": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Carter One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Castoro": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Catamaran": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Caudex": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Caveat": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Caveat Brush": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Cedarville Cursive": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Ceviche One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chakra Petch": {
+    "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Changa": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Changa One": {
+    "variants": ["regular", "italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chango": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Charm": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Charmonman": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Chathura": {
+    "variants": ["100", "300", "regular", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chau Philomene One": {
+    "variants": ["regular", "italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chela One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chelsea Market": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chenla": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cherish": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Cherry Cream Soda": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cherry Swash": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chewy": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chicle": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chilanka": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Chivo": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Chonburi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cinzel": {
+    "variants": ["regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Cinzel Decorative": {
+    "variants": ["regular", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Clicker Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Coda": {
+    "variants": ["regular", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Coda Caption": {
+    "variants": ["800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Codystar": {
+    "variants": ["300", "regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Coiny": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Combo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Comfortaa": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Comforter": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Comforter Brush": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Comic Neue": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "cursive"
+  }
+}, {
+  "Coming Soon": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Commissioner": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Concert One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Condiment": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Content": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Contrail One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Convergence": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cookie": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Copse": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Corben": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Corinthia": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Cormorant": {
+    "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Cormorant Garamond": {
+    "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Cormorant Infant": {
+    "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Cormorant SC": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Cormorant Unicase": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Cormorant Upright": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Courgette": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Courier Prime": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Cousine": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Coustard": {
+    "variants": ["regular", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Covered By Your Grace": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Crafty Girls": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Creepster": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Crete Round": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Crimson Pro": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "900", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Croissant One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Crushed": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cuprum": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cute Font": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Cutive": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Cutive Mono": {
+    "variants": ["regular"],
+    "fallback": "monospace"
+  }
+}, {
+  "DM Mono": {
+    "variants": ["300", "300italic", "regular", "italic", "500", "500italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "DM Sans": {
+    "variants": ["regular", "italic", "500", "500italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "DM Serif Display": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "DM Serif Text": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Damion": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Dancing Script": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Dangrek": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Darker Grotesque": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "David Libre": {
+    "variants": ["regular", "500", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Dawning of a New Day": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Days One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Dekko": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Dela Gothic One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Delius": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Delius Swash Caps": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Delius Unicase": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Della Respira": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Denk One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Devonshire": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Dhurjati": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Didact Gothic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Diplomata": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Diplomata SC": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Do Hyeon": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Dokdo": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Domine": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Donegal One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Dongle": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Doppio One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Dorsa": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Dosis": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "DotGothic16": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Dr Sugiyama": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Duru Sans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Dynalight": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "EB Garamond": {
+    "variants": ["regular", "500", "600", "700", "800", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Eagle Lake": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "East Sea Dokdo": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Eater": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Economica": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Eczar": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "El Messiri": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Electrolize": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Elsie": {
+    "variants": ["regular", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Elsie Swash Caps": {
+    "variants": ["regular", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Emblema One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Emilys Candy": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Encode Sans": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Encode Sans Condensed": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Encode Sans Expanded": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Encode Sans SC": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Encode Sans Semi Condensed": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Encode Sans Semi Expanded": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Engagement": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Englebert": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Enriqueta": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Ephesis": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Epilogue": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Erica One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Esteban": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Estonia": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Euphoria Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Ewert": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Exo": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Exo 2": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Expletus Sans": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Explora": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Fahkwang": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Familjen Grotesk": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fanwood Text": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Farro": {
+    "variants": ["300", "regular", "500", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Farsan": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fascinate": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fascinate Inline": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Faster One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fasthand": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fauna One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Faustina": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Federant": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Federo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Felipa": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Fenix": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Festive": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Finger Paint": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fira Code": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "monospace"
+  }
+}, {
+  "Fira Mono": {
+    "variants": ["regular", "500", "700"],
+    "fallback": "monospace"
+  }
+}, {
+  "Fira Sans": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fira Sans Condensed": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fira Sans Extra Condensed": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fjalla One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fjord One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Flamenco": {
+    "variants": ["300", "regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Flavors": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fleur De Leah": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Flow Block": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Flow Circular": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Flow Rounded": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fondamento": {
+    "variants": ["regular", "italic"],
+    "fallback": "cursive"
+  }
+}, {
+  "Fontdiner Swanky": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Forum": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Francois One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Frank Ruhl Libre": {
+    "variants": ["300", "regular", "500", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Fraunces": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Freckle Face": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fredericka the Great": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fredoka": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fredoka One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Freehand": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fresca": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Frijole": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fruktur": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fugaz One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Fuggles": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Fuzzy Bubbles": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "GFS Didot": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "GFS Neohellenic": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gabriela": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Gaegu": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Gafata": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Galada": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Galdeano": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Galindo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gamja Flower": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Gayathri": {
+    "variants": ["100", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gelasio": {
+    "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Gemunu Libre": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Genos": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gentium Basic": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Gentium Book Basic": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Geo": {
+    "variants": ["regular", "italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Georama": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Geostar": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Geostar Fill": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Germania One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gideon Roman": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gidugu": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gilda Display": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Girassol": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Give You Glory": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Glass Antiqua": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Glegoo": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Gloria Hallelujah": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Glory": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gluten": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Goblin One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gochi Hand": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Goldman": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gorditas": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gothic A1": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gotu": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Goudy Bookletter 1911": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Gowun Batang": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Gowun Dodum": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Graduate": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Grand Hotel": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Grandstander": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Grape Nuts": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Gravitas One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Great Vibes": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Grechen Fuemen": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Grenze": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Grenze Gotisch": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Grey Qo": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Griffy": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gruppo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gudea": {
+    "variants": ["regular", "italic", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gugi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Gupter": {
+    "variants": ["regular", "500", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Gurajada": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Gwendolyn": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Habibi": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Hachi Maru Pop": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Hahmlet": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Halant": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Hammersmith One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hanalei": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hanalei Fill": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Handlee": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Hanuman": {
+    "variants": ["100", "300", "regular", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Happy Monkey": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Harmattan": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Headland One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Heebo": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Henny Penny": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hepta Slab": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Herr Von Muellerhoff": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Hi Melody": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Hina Mincho": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Hind": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hind Guntur": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hind Madurai": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hind Siliguri": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hind Vadodara": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Holtwood One SC": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Homemade Apple": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Homenaje": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hubballi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hurricane": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "IBM Plex Mono": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "IBM Plex Sans": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "IBM Plex Sans Arabic": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "IBM Plex Sans Condensed": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "IBM Plex Sans Devanagari": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "IBM Plex Sans Hebrew": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "IBM Plex Sans KR": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "IBM Plex Sans Thai": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "IBM Plex Sans Thai Looped": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "IBM Plex Serif": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell DW Pica": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell DW Pica SC": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell Double Pica": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell Double Pica SC": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell English": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell English SC": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell French Canon": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell French Canon SC": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell Great Primer": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "IM Fell Great Primer SC": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Ibarra Real Nova": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Iceberg": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Iceland": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Imbue": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Imperial Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Imprima": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Inconsolata": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "monospace"
+  }
+}, {
+  "Inder": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Indie Flower": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Ingrid Darling": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Inika": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Inknut Antiqua": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Inria Sans": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Inria Serif": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Inspiration": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Inter": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Irish Grover": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Island Moments": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Istok Web": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Italiana": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Italianno": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Itim": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Jacques Francois": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Jacques Francois Shadow": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Jaldi": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "JetBrains Mono": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Jim Nightshade": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Jockey One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Jolly Lodger": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Jomhuria": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Jomolhari": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Josefin Sans": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Josefin Slab": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Jost": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Joti One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Jua": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Judson": {
+    "variants": ["regular", "italic", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Julee": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Julius Sans One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Junge": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Jura": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Just Another Hand": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Just Me Again Down Here": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "K2D": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kadwa": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Kaisei Decol": {
+    "variants": ["regular", "500", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Kaisei HarunoUmi": {
+    "variants": ["regular", "500", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Kaisei Opti": {
+    "variants": ["regular", "500", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Kaisei Tokumin": {
+    "variants": ["regular", "500", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "Kalam": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Kameron": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Kanit": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kantumruy": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Karantina": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Karla": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Karma": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Katibeh": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kaushan Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Kavivanar": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Kavoon": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kdam Thmor": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Keania One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kelly Slab": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kenia": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Khand": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Khmer": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Khula": {
+    "variants": ["300", "regular", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kings": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Kirang Haerang": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kite One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kiwi Maru": {
+    "variants": ["300", "regular", "500"],
+    "fallback": "serif"
+  }
+}, {
+  "Klee One": {
+    "variants": ["regular", "600"],
+    "fallback": "cursive"
+  }
+}, {
+  "Knewave": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "KoHo": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kodchasan": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Koh Santepheap": {
+    "variants": ["100", "300", "regular", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kolker Brush": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Kosugi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kosugi Maru": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kotta One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Koulen": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kranky": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kreon": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Kristi": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Krona One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Krub": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kufam": {
+    "variants": ["regular", "500", "600", "700", "800", "900", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kulim Park": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kumar One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kumar One Outline": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kumbh Sans": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Kurale": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "La Belle Aurore": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Lacquer": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Laila": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lakki Reddy": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Lalezar": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lancelot": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Langar": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lateef": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Lato": {
+    "variants": ["100", "100italic", "300", "300italic", "regular", "italic", "700", "700italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lavishly Yours": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "League Gothic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "League Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "League Spartan": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Leckerli One": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Ledger": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Lekton": {
+    "variants": ["regular", "italic", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lemon": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lemonada": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lexend": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lexend Deca": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lexend Exa": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lexend Giga": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lexend Mega": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lexend Peta": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lexend Tera": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lexend Zetta": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Libre Barcode 128": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Libre Barcode 128 Text": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Libre Barcode 39": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Libre Barcode 39 Extended": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Libre Barcode 39 Extended Text": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Libre Barcode 39 Text": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Libre Barcode EAN13 Text": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Libre Baskerville": {
+    "variants": ["regular", "italic", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Libre Bodoni": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Libre Caslon Display": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Libre Caslon Text": {
+    "variants": ["regular", "italic", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Libre Franklin": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Licorice": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Life Savers": {
+    "variants": ["regular", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lilita One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lily Script One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Limelight": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Linden Hill": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Literata": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "900", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Liu Jian Mao Cao": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Livvic": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lobster": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lobster Two": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Londrina Outline": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Londrina Shadow": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Londrina Sketch": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Londrina Solid": {
+    "variants": ["100", "300", "regular", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Long Cang": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Lora": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Love Light": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Love Ya Like A Sister": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Loved by the King": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Lovers Quarrel": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Luckiest Guy": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Lusitana": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Lustria": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Luxurious Roman": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Luxurious Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "M PLUS 1": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "M PLUS 1 Code": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "M PLUS 1p": {
+    "variants": ["100", "300", "regular", "500", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "M PLUS 2": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "M PLUS Code Latin": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "M PLUS Rounded 1c": {
+    "variants": ["100", "300", "regular", "500", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ma Shan Zheng": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Macondo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Macondo Swash Caps": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mada": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Magra": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Maiden Orange": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Maitree": {
+    "variants": ["200", "300", "regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Major Mono Display": {
+    "variants": ["regular"],
+    "fallback": "monospace"
+  }
+}, {
+  "Mako": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mali": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "cursive"
+  }
+}, {
+  "Mallanna": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mandali": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Manjari": {
+    "variants": ["100", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Manrope": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mansalva": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Manuale": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Marcellus": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Marcellus SC": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Marck Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Margarine": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Markazi Text": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Marko One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Marmelad": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Martel": {
+    "variants": ["200", "300", "regular", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Martel Sans": {
+    "variants": ["200", "300", "regular", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Marvel": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mate": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Mate SC": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Maven Pro": {
+    "variants": ["regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "McLaren": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mea Culpa": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Meddon": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "MedievalSharp": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Medula One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Meera Inimai": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Megrim": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Meie Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Meow Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Merienda": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Merienda One": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Merriweather": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic", "900", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Merriweather Sans": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Metal": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Metal Mania": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Metamorphous": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Metrophobic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Michroma": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Milonga": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Miltonian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Miltonian Tattoo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mina": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Miniver": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Miriam Libre": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mirza": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Miss Fajardose": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Mitr": {
+    "variants": ["200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mochiy Pop One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mochiy Pop P One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Modak": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Modern Antiqua": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mogra": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mohave": {
+    "variants": ["300", "regular", "500", "600", "700", "300italic", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Molengo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Molle": {
+    "variants": ["italic"],
+    "fallback": "cursive"
+  }
+}, {
+  "Monda": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Monofett": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Monoton": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Monsieur La Doulaise": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Montaga": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Montagu Slab": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "MonteCarlo": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Montez": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Montserrat": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Montserrat Alternates": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Montserrat Subrayada": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Moo Lah Lah": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Moon Dance": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Moul": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Moulpali": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mountains of Christmas": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mouse Memoirs": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mr Bedfort": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Mr Dafoe": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Mr De Haviland": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Mrs Saint Delafield": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Mrs Sheppards": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Ms Madi": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Mukta": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mukta Mahee": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mukta Malar": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mukta Vaani": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Mulish": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "900", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Murecho": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "MuseoModerno": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "My Soul": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Mystery Quest": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "NTR": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nanum Brush Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Nanum Gothic": {
+    "variants": ["regular", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nanum Gothic Coding": {
+    "variants": ["regular", "700"],
+    "fallback": "monospace"
+  }
+}, {
+  "Nanum Myeongjo": {
+    "variants": ["regular", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "Nanum Pen Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Neonderthaw": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Nerko One": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Neucha": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Neuton": {
+    "variants": ["200", "300", "regular", "italic", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "New Rocker": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "New Tegomin": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "News Cycle": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Newsreader": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Niconne": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Niramit": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nixie One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nobile": {
+    "variants": ["regular", "italic", "500", "500italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nokora": {
+    "variants": ["100", "300", "regular", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Norican": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Nosifer": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Notable": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nothing You Could Do": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Noticia Text": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Emoji": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Kufi Arabic": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Music": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Naskh Arabic": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Nastaliq Urdu": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Rashi Hebrew": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Sans": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Adlam": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Adlam Unjoined": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Anatolian Hieroglyphs": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Arabic": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Armenian": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Avestan": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Balinese": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Bamum": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Bassa Vah": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Batak": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Bengali": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Bhaiksuki": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Brahmi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Buginese": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Buhid": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Canadian Aboriginal": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Carian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Caucasian Albanian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Chakma": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Cham": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Cherokee": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Coptic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Cuneiform": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Cypriot": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Deseret": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Devanagari": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Display": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Duployan": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Egyptian Hieroglyphs": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Elbasan": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Elymaic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Georgian": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Glagolitic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Gothic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Grantha": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Gujarati": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Gunjala Gondi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Gurmukhi": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans HK": {
+    "variants": ["100", "300", "regular", "500", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Hanifi Rohingya": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Hanunoo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Hatran": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Hebrew": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Imperial Aramaic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Indic Siyaq Numbers": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Inscriptional Pahlavi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Inscriptional Parthian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans JP": {
+    "variants": ["100", "300", "regular", "500", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Javanese": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans KR": {
+    "variants": ["100", "300", "regular", "500", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Kaithi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Kannada": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Kayah Li": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Kharoshthi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Khmer": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Khojki": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Khudawadi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Lao": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Lepcha": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Limbu": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Linear A": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Linear B": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Lisu": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Lycian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Lydian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Mahajani": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Malayalam": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Mandaic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Manichaean": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Marchen": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Masaram Gondi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Math": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Mayan Numerals": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Medefaidrin": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Meetei Mayek": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Meroitic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Miao": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Modi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Mongolian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Mono": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "monospace"
+  }
+}, {
+  "Noto Sans Mro": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Multani": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Myanmar": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans N Ko": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Nabataean": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans New Tai Lue": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Newa": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Nushu": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Ogham": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Ol Chiki": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Old Hungarian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Old Italic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Old North Arabian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Old Permic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Old Persian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Old Sogdian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Old South Arabian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Old Turkic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Oriya": {
+    "variants": ["100", "regular", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Osage": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Osmanya": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Pahawh Hmong": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Palmyrene": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Pau Cin Hau": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Phags Pa": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Phoenician": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Psalter Pahlavi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Rejang": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Runic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans SC": {
+    "variants": ["100", "300", "regular", "500", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Samaritan": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Saurashtra": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Sharada": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Shavian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Siddham": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Sinhala": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Sogdian": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Sora Sompeng": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Soyombo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Sundanese": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Syloti Nagri": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Symbols": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Symbols 2": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Syriac": {
+    "variants": ["100", "regular", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans TC": {
+    "variants": ["100", "300", "regular", "500", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Tagalog": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Tagbanwa": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Tai Le": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Tai Tham": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Tai Viet": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Takri": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Tamil": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Tamil Supplement": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Telugu": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Thaana": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Thai": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Thai Looped": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Tifinagh": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Tirhuta": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Ugaritic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Vai": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Wancho": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Warang Citi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Yi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Sans Zanabazar Square": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Noto Serif": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Ahom": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Armenian": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Balinese": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Bengali": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Devanagari": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Display": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Dogra": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Ethiopic": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Georgian": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Grantha": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Gujarati": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Gurmukhi": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Hebrew": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif JP": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif KR": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Kannada": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Khmer": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Lao": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Malayalam": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Myanmar": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Nyiakeng Puachue Hmong": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif SC": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Sinhala": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif TC": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Tamil": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Tangut": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Telugu": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Thai": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Tibetan": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Yezidi": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Traditional Nushu": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nova Cut": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nova Flat": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nova Mono": {
+    "variants": ["regular"],
+    "fallback": "monospace"
+  }
+}, {
+  "Nova Oval": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nova Round": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nova Script": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nova Slim": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nova Square": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Numans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nunito": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "900", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Nunito Sans": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Odibee Sans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Odor Mean Chey": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Offside": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Oi": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Old Standard TT": {
+    "variants": ["regular", "italic", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Oldenburg": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ole": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Oleo Script": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Oleo Script Swash Caps": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Oooh Baby": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Open Sans": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Oranienbaum": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Orbitron": {
+    "variants": ["regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Oregano": {
+    "variants": ["regular", "italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Orelega One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Orienta": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Original Surfer": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Oswald": {
+    "variants": ["200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Otomanopee One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Outfit": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Over the Rainbow": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Overlock": {
+    "variants": ["regular", "italic", "700", "700italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Overlock SC": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Overpass": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Overpass Mono": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "monospace"
+  }
+}, {
+  "Ovo": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Oxanium": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Oxygen": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Oxygen Mono": {
+    "variants": ["regular"],
+    "fallback": "monospace"
+  }
+}, {
+  "PT Mono": {
+    "variants": ["regular"],
+    "fallback": "monospace"
+  }
+}, {
+  "PT Sans": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "PT Sans Caption": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "PT Sans Narrow": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "PT Serif": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "PT Serif Caption": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Pacifico": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Padauk": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Palanquin": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Palanquin Dark": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Palette Mosaic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Pangolin": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Paprika": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Parisienne": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Passero One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Passion One": {
+    "variants": ["regular", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Passions Conflict": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Pathway Gothic One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Patrick Hand": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Patrick Hand SC": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Pattaya": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Patua One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Pavanam": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Paytone One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Peddana": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Peralta": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Permanent Marker": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Petemoss": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Petit Formal Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Petrona": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Philosopher": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Piazzolla": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Piedra": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Pinyon Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Pirata One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Plaster": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Play": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Playball": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Playfair Display": {
+    "variants": ["regular", "500", "600", "700", "800", "900", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Playfair Display SC": {
+    "variants": ["regular", "italic", "700", "700italic", "900", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Plus Jakarta Sans": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Podkova": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "Poiret One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Poller One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Poly": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Pompiere": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Pontano Sans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Poor Story": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Poppins": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Port Lligat Sans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Port Lligat Slab": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Potta One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Pragati Narrow": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Praise": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Prata": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Preahvihear": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Press Start 2P": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Pridi": {
+    "variants": ["200", "300", "regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Princess Sofia": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Prociono": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Prompt": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Prosto One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Proza Libre": {
+    "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Public Sans": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Puppies Play": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Puritan": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Purple Purse": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Qahiri": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Quando": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Quantico": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Quattrocento": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Quattrocento Sans": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Questrial": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Quicksand": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Quintessential": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Qwigley": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Qwitcher Grypen": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Racing Sans One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Radio Canada": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Radley": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Rajdhani": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rakkas": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Raleway": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Raleway Dots": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ramabhadra": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ramaraja": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Rambla": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rammetto One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rampart One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ranchers": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rancho": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Ranga": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rasa": {
+    "variants": ["300", "regular", "500", "600", "700", "300italic", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Rationale": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ravi Prakash": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Readex Pro": {
+    "variants": ["200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Recursive": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Red Hat Display": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "900", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Red Hat Mono": {
+    "variants": ["300", "regular", "500", "600", "700", "300italic", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Red Hat Text": {
+    "variants": ["300", "regular", "500", "600", "700", "300italic", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Red Rose": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Redacted": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Redacted Script": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Redressed": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Reem Kufi": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Reenie Beanie": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Reggae One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Revalia": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rhodium Libre": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Ribeye": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ribeye Marrow": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Righteous": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Risque": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Road Rage": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Roboto": {
+    "variants": ["100", "100italic", "300", "300italic", "regular", "italic", "500", "500italic", "700", "700italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Roboto Condensed": {
+    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Roboto Flex": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Roboto Mono": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Roboto Serif": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Roboto Slab": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Rochester": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Rock 3D": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rock Salt": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "RocknRoll One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rokkitt": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Romanesco": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Ropa Sans": {
+    "variants": ["regular", "italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rosario": {
+    "variants": ["300", "regular", "500", "600", "700", "300italic", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rosarivo": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Rouge Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Rowdies": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rozha One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Rubik": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "900", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rubik Beastly": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rubik Bubbles": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rubik Glitch": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rubik Microbe": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rubik Mono One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rubik Moonrocks": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rubik Puddles": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rubik Wet Paint": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ruda": {
+    "variants": ["regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rufina": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Ruge Boogie": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Ruluko": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Rum Raisin": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ruslan Display": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Russo One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ruthie": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Rye": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "STIX Two Text": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Sacramento": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Sahitya": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Sail": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Saira": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Saira Condensed": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Saira Extra Condensed": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Saira Semi Condensed": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Saira Stencil One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Salsa": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sanchez": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Sancreek": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sansita": {
+    "variants": ["regular", "italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sansita Swashed": {
+    "variants": ["300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sarabun": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sarala": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sarina": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sarpanch": {
+    "variants": ["regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sassy Frass": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Satisfy": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Sawarabi Gothic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sawarabi Mincho": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Scada": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Scheherazade New": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Schoolbell": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Scope One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Seaweed Script": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Secular One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sedgwick Ave": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Sedgwick Ave Display": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Sen": {
+    "variants": ["regular", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Send Flowers": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Sevillana": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Seymour One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Shadows Into Light": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Shadows Into Light Two": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Shalimar": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Shanti": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Share": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Share Tech": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Share Tech Mono": {
+    "variants": ["regular"],
+    "fallback": "monospace"
+  }
+}, {
+  "Shippori Antique": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Shippori Antique B1": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Shippori Mincho": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "Shippori Mincho B1": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "Shizuru": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Shojumaru": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Short Stack": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Shrikhand": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Siemreap": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sigmar One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Signika": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Signika Negative": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Simonetta": {
+    "variants": ["regular", "italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Single Day": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sintony": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sirin Stencil": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Six Caps": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Skranji": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Slabo 13px": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Slabo 27px": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Slackey": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Smokum": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Smooch": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Smooch Sans": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Smythe": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sniglet": {
+    "variants": ["regular", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Snippet": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Snowburst One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sofadi One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sofia": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Solway": {
+    "variants": ["300", "regular", "500", "700", "800"],
+    "fallback": "serif"
+  }
+}, {
+  "Song Myung": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Sonsie One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sora": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sorts Mill Goudy": {
+    "variants": ["regular", "italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Source Code Pro": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "900", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Source Sans 3": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "900", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Source Sans Pro": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "600", "600italic", "700", "700italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Source Serif 4": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800", "900", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Source Serif Pro": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "600", "600italic", "700", "700italic", "900", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Space Grotesk": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Space Mono": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Special Elite": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Spectral": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Spectral SC": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Spicy Rice": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Spinnaker": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Spirax": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Spline Sans": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Squada One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Square Peg": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Sree Krushnadevaraya": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Sriracha": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Srisakdi": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Staatliches": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Stalemate": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Stalinist One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Stardos Stencil": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Stick": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Stick No Bills": {
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Stint Ultra Condensed": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Stint Ultra Expanded": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Stoke": {
+    "variants": ["300", "regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Strait": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Style Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Stylish": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sue Ellen Francisco": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Suez One": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Sulphur Point": {
+    "variants": ["300", "regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sumana": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Sunflower": {
+    "variants": ["300", "500", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sunshiney": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Supermercado One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Sura": {
+    "variants": ["regular", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Suranna": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Suravaram": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Suwannaphum": {
+    "variants": ["100", "300", "regular", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Swanky and Moo Moo": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Syncopate": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Syne": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Syne Mono": {
+    "variants": ["regular"],
+    "fallback": "monospace"
+  }
+}, {
+  "Syne Tactile": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Tajawal": {
+    "variants": ["200", "300", "regular", "500", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Tangerine": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Tapestry": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Taprom": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Tauri": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Taviraj": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Teko": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Telex": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Tenali Ramakrishna": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Tenor Sans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Text Me One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Texturina": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Thasadith": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "The Girl Next Door": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "The Nautigal": {
+    "variants": ["regular", "700"],
+    "fallback": "cursive"
+  }
+}, {
+  "Tienne": {
+    "variants": ["regular", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Tillana": {
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "cursive"
+  }
+}, {
+  "Timmana": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Tinos": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Titan One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Titillium Web": {
+    "variants": ["200", "200italic", "300", "300italic", "regular", "italic", "600", "600italic", "700", "700italic", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Tomorrow": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Tourney": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Trade Winds": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Train One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Trirong": {
+    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Trispace": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Trocchi": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Trochut": {
+    "variants": ["regular", "italic", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Truculenta": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Trykker": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Tulpen One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Turret Road": {
+    "variants": ["200", "300", "regular", "500", "700", "800"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Twinkle Star": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Ubuntu": {
+    "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "700", "700italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ubuntu Condensed": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Ubuntu Mono": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Uchen": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Ultra": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Uncial Antiqua": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Underdog": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Unica One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "UnifrakturCook": {
+    "variants": ["700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "UnifrakturMaguntia": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Unkempt": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Unlock": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Unna": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Updock": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Urbanist": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "VT323": {
+    "variants": ["regular"],
+    "fallback": "monospace"
+  }
+}, {
+  "Vampiro One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Varela": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Varela Round": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Varta": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Vast Shadow": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Vazirmatn": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Vesper Libre": {
+    "variants": ["regular", "500", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Viaoda Libre": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Vibes": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Vibur": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Vidaloka": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Viga": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Voces": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Volkhov": {
+    "variants": ["regular", "italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Vollkorn": {
+    "variants": ["regular", "500", "600", "700", "800", "900", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Vollkorn SC": {
+    "variants": ["regular", "600", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Voltaire": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Vujahday Script": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Waiting for the Sunrise": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Wallpoet": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Walter Turncoat": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Warnes": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Water Brush": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Waterfall": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Wellfleet": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Wendy One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Whisper": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "WindSong": {
+    "variants": ["regular", "500"],
+    "fallback": "cursive"
+  }
+}, {
+  "Wire One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Work Sans": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Xanh Mono": {
+    "variants": ["regular", "italic"],
+    "fallback": "monospace"
+  }
+}, {
+  "Yaldevi": {
+    "variants": ["200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Yanone Kaffeesatz": {
+    "variants": ["200", "300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Yantramanav": {
+    "variants": ["100", "300", "regular", "500", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Yatra One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Yellowtail": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Yeon Sung": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Yeseva One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Yesteryear": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Yomogi": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Yrsa": {
+    "variants": ["300", "regular", "500", "600", "700", "300italic", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Yuji Boku": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Yuji Hentaigana Akari": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Yuji Hentaigana Akebono": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Yuji Mai": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Yuji Syuku": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Yusei Magic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "ZCOOL KuaiLe": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "ZCOOL QingKe HuangYou": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "ZCOOL XiaoWei": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Zen Antique": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Zen Antique Soft": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
+  "Zen Dots": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Zen Kaku Gothic Antique": {
+    "variants": ["300", "regular", "500", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Zen Kaku Gothic New": {
+    "variants": ["300", "regular", "500", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Zen Kurenaido": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Zen Loop": {
+    "variants": ["regular", "italic"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Zen Maru Gothic": {
+    "variants": ["300", "regular", "500", "700", "900"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Zen Old Mincho": {
+    "variants": ["regular", "700", "900"],
+    "fallback": "serif"
+  }
+}, {
+  "Zen Tokyo Zoo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Zeyada": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Zhi Mang Xing": {
+    "variants": ["regular"],
+    "fallback": "cursive"
+  }
+}, {
+  "Zilla Slab": {
+    "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+    "fallback": "serif"
+  }
+}, {
+  "Zilla Slab Highlight": {
+    "variants": ["regular", "700"],
+    "fallback": "sans-serif"
+  }
+}]

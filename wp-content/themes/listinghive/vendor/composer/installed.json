@@ -1,0 +1,31 @@
+[
+    {
+        "name": "hivepress/hivetheme",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hivepress/hivetheme.git",
+            "reference": "4d9e202fd2bae32daa461b876d1e62a31de28416"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hivepress/hivetheme/zipball/4d9e202fd2bae32daa461b876d1e62a31de28416",
+            "reference": "4d9e202fd2bae32daa461b876d1e62a31de28416",
+            "shasum": ""
+        },
+        "require-dev": {
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+            "phpcompatibility/phpcompatibility-wp": "^2.1.0",
+            "wp-coding-standards/wpcs": "~2.3.0"
+        },
+        "time": "2022-06-07T21:22:53+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0-or-later"
+        ],
+        "description": "A framework for HivePress themes."
+    }
+]

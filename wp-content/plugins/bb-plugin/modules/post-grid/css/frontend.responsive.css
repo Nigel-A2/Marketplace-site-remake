@@ -1,0 +1,33 @@
+/* Post Feed */
+.fl-post-feed-post.fl-post-feed-image-beside,
+.fl-post-feed-post.fl-post-feed-image-beside-content,
+.fl-post-feed-post.fl-post-feed-image-beside-right,
+.fl-post-feed-post.fl-post-feed-image-beside-content-right {
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fl-post-feed-image-beside .fl-post-feed-image,
+.fl-post-feed-image-beside .fl-post-feed-image img,
+.fl-post-feed-image-beside-content .fl-post-feed-image,
+.fl-post-feed-image-beside-content .fl-post-feed-image img,
+.fl-post-feed-image-beside-right .fl-post-feed-image,
+.fl-post-feed-image-beside-right .fl-post-feed-image img,
+.fl-post-feed-image-beside-content-right .fl-post-feed-image,
+.fl-post-feed-image-beside-content-right .fl-post-feed-image img {
+	float: none;
+	width: 100% !important;
+}
+.fl-post-feed-image-beside .fl-post-feed-image,
+.fl-post-feed-image-beside-content .fl-post-feed-image,
+.fl-post-feed-image-beside-right .fl-post-feed-image,
+.fl-post-feed-image-beside-content-right .fl-post-feed-image {
+	margin-bottom: 20px;
+}
+.fl-post-feed-image-beside .fl-post-feed-text,
+.fl-post-feed-image-beside-content .fl-post-feed-text,
+.fl-post-feed-image-beside-right .fl-post-feed-text,
+.fl-post-feed-image-beside-content-right .fl-post-feed-text {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}

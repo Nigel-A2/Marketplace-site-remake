@@ -1,0 +1,9 @@
+<svg version="1.1" class="fl-list-icon" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+  <defs></defs>
+  <rect class="fl-list-icon-top-left" width="2.781" height="2.847" style="" x="2.061" y="3.232"></rect>
+  <rect class="fl-list-icon-top-right" width="10.567" height="2.847" x="7.344" style="" y="3.232"></rect>
+  <rect class="fl-list-icon-mid-left" width="2.781" height="2.847" y="9.071" style="" x="2.061"></rect>
+  <rect class="fl-list-icon-mid-right" width="10.567" height="2.847" x="7.344" y="9.071" style=""></rect>
+  <rect class="fl-list-icon-bottom-left" width="2.781" height="2.847" y="14.908" style="" x="2.061"></rect>
+  <rect class="fl-list-icon-mid-right" width="10.567" height="2.847" x="7.344" y="14.908" style=""></rect>
+</svg>

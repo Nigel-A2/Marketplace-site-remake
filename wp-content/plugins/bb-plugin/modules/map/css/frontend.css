@@ -1,0 +1,8 @@
+.fl-module-map .fl-map {
+	line-height: 0;
+}
+.fl-map iframe {
+	border:0;
+	width:100%;
+	pointer-events: none;
+}

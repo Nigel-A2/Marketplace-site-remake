@@ -1,0 +1,40 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+.mobile-nav-visible-always() when (@mobile-nav-breakpoint = always) {
+	.fl-page-nav-toggle-button.fl-page-nav-toggle-visible-always {
+		.fl-nav-button-toggled();
+	}
+}
+.mobile-nav-visible-always();
+
+/* Media Query - 767px or less
+----------------------------------------------------------- */
+
+.mobile-nav-visible-mobile() when (@mobile-nav-breakpoint = mobile) {
+	@media (max-width: (@mobile-breakpoint - 1)) {
+		.fl-page-nav-toggle-button.fl-page-nav-toggle-visible-mobile {
+			.fl-nav-button-toggled();
+		}
+	}
+}
+.mobile-nav-visible-mobile();
+
+/* Media Query - mobile and medium devices
+----------------------------------------------------------- */
+
+.mobile-nav-visible-medium-mobile() when (@mobile-nav-breakpoint = medium-mobile) {
+	@media (max-width: (@medium-breakpoint - 1)) {
+		.fl-page-nav-toggle-button.fl-page-nav-toggle-visible-medium-mobile {
+			.fl-nav-button-toggled();
+		}
+	}
+}
+.mobile-nav-visible-medium-mobile();

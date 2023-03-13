@@ -1,0 +1,40 @@
+/* Custom styling for BigCommerce buttons. Only rendered when
+* custom button styling is enabled in the Customizer.
+----------------------------------------------------------- */
+
+.fl-page,
+.bc-product-quick-view__wrapper {
+
+	.bc-btn,
+	button.bc-btn,
+	button.bc-btn[disabled],
+	button.bc-link,
+	a.bc-btn {
+		.fl-button-inactive-styles();
+		padding: 6px 12px;
+	}
+
+	.bc-btn *,
+	button.bc-btn *,
+	button.bc-btn[disabled] *,
+	button.bc-link *,
+	a.bc-btn * {
+		.fl-button-inactive-child-styles();
+	}
+
+	.bc-btn:hover,
+	button.bc-btn:hover,
+	button.bc-link:hover,
+	button.bc-btn[disabled]:hover,
+	a.bc-btn:hover {
+		.fl-button-hover-styles();
+	}
+
+	.bc-btn:hover *,
+	button.bc-btn:hover *,
+	button.bc-link:hover *,
+	button.bc-btn[disabled]:hover *,
+	a.bc-btn:hover * {
+		.fl-button-hover-child-styles();
+	}
+}

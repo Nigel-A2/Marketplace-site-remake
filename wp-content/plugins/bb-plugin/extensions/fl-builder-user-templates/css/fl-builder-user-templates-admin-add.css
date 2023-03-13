@@ -1,0 +1,85 @@
+
+/* Form General 
+------------------------------------------------------*/
+
+.fl-new-template-form {
+	margin-right: 300px;
+}
+.fl-new-template-form table {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.fl-new-template-form th {
+    background: #F9F9F9;
+    border-right: 1px solid #E1E1E1;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 13px 15px;
+	width: 25%;
+}
+.fl-new-template-form th label {
+	display: inline-block;
+    font-size: 13px;
+    line-height: 1.4em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 3px;
+    color: #333;
+}
+.fl-new-template-form td {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 13px 15px;
+}
+.fl-new-template-form input.regular-text,
+.fl-new-template-form select {
+	width: 100%;
+}
+.fl-new-template-form .dashicons-editor-help {
+	color: #555;
+	cursor: help;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+.fl-template-module-row,
+.fl-template-global-row {
+	display: none;
+}
+.fl-new-template-form p.submit {
+	margin-top: 10px;
+}
+
+/* Errors 
+------------------------------------------------------*/
+
+input.error,
+input.error:focus, 
+select.error {
+	border: 1px solid #d54e21;
+}
+label.error {
+	color: #d54e21;
+    display: inline-block;
+	padding-top: 5px;
+}
+
+/* TipTip 
+------------------------------------------------------*/
+
+#tiptip_arrow_inner {
+	border-bottom-color: #333 !important;
+}
+#tiptip_content {
+	background: #333;
+	box-shadow: none;
+}
+
+/* Media Queries 
+------------------------------------------------------*/
+
+@media (max-width: 992px) {
+	.fl-new-template-form {
+		margin-right: 0;	
+	}
+}

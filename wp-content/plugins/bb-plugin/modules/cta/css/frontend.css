@@ -1,0 +1,53 @@
+/* Stacked Alignment
+---------------------------------------------------*/
+
+.fl-cta-left {
+	text-align: left;
+}
+.fl-cta-center {
+	text-align: center;
+}
+.fl-cta-right {
+	text-align: right;
+}
+
+/* Inline Alignment
+---------------------------------------------------*/
+
+.fl-cta-inline {
+	display: table;
+	width: 100%;
+}
+.fl-cta-inline .fl-cta-text,
+.fl-cta-inline .fl-cta-button {
+	display: table-cell;
+	vertical-align: middle;
+}
+.fl-cta-inline .fl-cta-text {
+	width: 70%;
+}
+.fl-cta-inline .fl-cta-button {
+	padding-left: 30px;
+	text-align: center;
+	width: 30%;
+}
+
+/* Title
+---------------------------------------------------*/
+
+body h1.fl-cta-title,
+body h2.fl-cta-title,
+body h3.fl-cta-title,
+body h4.fl-cta-title,
+body h5.fl-cta-title,
+body h6.fl-cta-title {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+/* Button
+---------------------------------------------------*/
+
+.fl-cta-stacked .fl-cta-button {
+	padding-top: 20px;
+}

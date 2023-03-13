@@ -1,0 +1,14 @@
+{
+    "name": "No Theme",
+    "description": "If you customized your directory templates and don’t want to use our themes, use this option.",
+    "version": "1.0",
+    "author": "Business Directory Team",
+    "author_email": "support@businessdirectoryplugin.com",
+    "author_url": "https://businessdirectoryplugin.com",
+    "requires": "4.0",
+    "assets": {
+        "css": [],
+        "js": []
+    }
+}
+

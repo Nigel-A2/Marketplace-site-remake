@@ -1,0 +1,173 @@
+/* Responsive Utilities
+------------------------------------------------------ */
+body.fl-builder-ie-11 .fl-row.fl-row-full-height.fl-visible-desktop,
+body.fl-builder-ie-11 .fl-row.fl-row-custom-height.fl-visible-desktop,
+body.fl-builder-ie-11 .fl-row.fl-row-full-height.fl-visible-desktop-medium,
+body.fl-builder-ie-11 .fl-row.fl-row-custom-height.fl-visible-desktop-medium {
+	display: none !important;
+}
+
+.fl-visible-desktop,
+.fl-visible-desktop-medium,
+.fl-visible-medium,
+.fl-col-group .fl-visible-desktop.fl-col,
+.fl-col-group .fl-visible-desktop-medium.fl-col,
+.fl-col-group .fl-visible-medium.fl-col,
+.fl-col-group-equal-height .fl-visible-desktop-medium.fl-col,
+.fl-col-group-equal-height .fl-visible-medium.fl-col {
+	display: none;
+}
+
+.fl-visible-medium-mobile,
+.fl-visible-mobile,
+.fl-col-group .fl-visible-medium-mobile.fl-col,
+.fl-col-group .fl-visible-mobile.fl-col {
+	display: block;
+}
+
+/* Rows
+------------------------------------------------------ */
+
+.fl-row-content-wrap {
+	background-attachment: scroll !important;
+}
+.fl-row-bg-parallax .fl-row-content-wrap {
+	background-attachment: scroll !important;
+	background-position: center center !important;
+}
+
+/* Column Groups
+------------------------------------------------------ */
+
+/* Equal Heights */
+.fl-col-group.fl-col-group-equal-height {
+	display: block;
+}
+.fl-col-group.fl-col-group-equal-height.fl-col-group-custom-width {
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* Reversed Responsive Stacking */
+.fl-col-group.fl-col-group-responsive-reversed {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	-ms-box-orient: horizontal;
+	-webkit-flex-flow: row wrap;
+}
+.fl-col-group.fl-col-group-responsive-reversed .fl-col {
+	-webkit-box-flex: 0 0 100%;
+  	 -moz-box-flex: 0 0 100%;
+  	  -webkit-flex: 0 0 100%;
+  		  -ms-flex: 0 0 100%;
+  			  flex: 0 0 100%;
+		 min-width: 0;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(1) {
+	-webkit-box-ordinal-group: 12;   /* OLD - iOS 6-, Safari 3.1-6 */
+  	-moz-box-ordinal-group: 12;      /* OLD - Firefox 19- */
+  	-ms-flex-order: 12;              /* TWEENER - IE 10 */
+  	-webkit-order: 12;               /* NEW - Chrome */
+	order: 12;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(2) {
+	-webkit-box-ordinal-group: 11;
+  	-moz-box-ordinal-group: 11;
+  	-ms-flex-order: 11;
+  	-webkit-order: 11;
+	order: 11;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(3) {
+	-webkit-box-ordinal-group: 10;
+  	-moz-box-ordinal-group: 10;
+  	-ms-flex-order: 10;
+  	-webkit-order: 10;
+	order: 10;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(4) {
+	-webkit-box-ordinal-group: 9;
+  	-moz-box-ordinal-group: 9;
+  	-ms-flex-order: 9;
+  	-webkit-order: 9;
+	order: 9;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(5) {
+	-webkit-box-ordinal-group: 8;
+  	-moz-box-ordinal-group: 8;
+  	-ms-flex-order: 8;
+  	-webkit-order: 8;
+	order: 8;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(6) {
+	-webkit-box-ordinal-group: 7;
+  	-moz-box-ordinal-group: 7;
+  	-ms-flex-order: 7;
+  	-webkit-order: 7;
+	order: 7;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(7) {
+	-webkit-box-ordinal-group: 6;
+  	-moz-box-ordinal-group: 6;
+  	-ms-flex-order: 6;
+  	-webkit-order: 6;
+	order: 6;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(8) {
+	-webkit-box-ordinal-group: 5;
+  	-moz-box-ordinal-group: 5;
+  	-ms-flex-order: 5;
+  	-webkit-order: 5;
+	order: 5;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(9) {
+	-webkit-box-ordinal-group: 4;
+  	-moz-box-ordinal-group: 4;
+  	-ms-flex-order: 4;
+  	-webkit-order: 4;
+	order: 4;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(10) {
+	-webkit-box-ordinal-group: 3;
+  	-moz-box-ordinal-group: 3;
+  	-ms-flex-order: 3;
+  	-webkit-order: 3;
+	order: 3;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(11) {
+	-webkit-box-ordinal-group: 2;
+  	-moz-box-ordinal-group: 2;
+  	-ms-flex-order: 2;
+  	-webkit-order: 2;
+	order: 2;
+}
+.fl-col-group-responsive-reversed .fl-col:nth-of-type(12) {
+	-webkit-box-ordinal-group: 1;
+  	-moz-box-ordinal-group: 1;
+  	-ms-flex-order: 1;
+  	-webkit-order: 1;
+  	order: 1;
+}
+
+/* Columns
+------------------------------------------------------ */
+
+.fl-col {
+	clear: both;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto !important;
+}
+.fl-col-small:not(.fl-col-small-full-width) {
+	max-width: 400px;
+}
+.fl-block-col-resize {
+	display:none;
+}

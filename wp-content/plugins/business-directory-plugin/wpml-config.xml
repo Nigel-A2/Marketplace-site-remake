@@ -1,0 +1,9 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">wpbdp_listing</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">wpbdp_category</taxonomy>
+        <taxonomy translate="1">wpbdp_tag</taxonomy>
+    </taxonomies>
+</wpml-config>

@@ -1,0 +1,27 @@
+.fl-usage {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+
+.fl-usage > .buttons {
+	margin-left:auto;
+	padding-top:15px;
+}
+
+.fl-usage > .buttons a{
+	margin-left: 10px;
+}
+
+.usage-demo {
+	padding-bottom:15px;
+}
+
+.stats-info-data {
+	display: none;
+}
+
+.stats-info-data .usage-demo-left {
+	display: inline-block;
+	min-width: 25%;
+}

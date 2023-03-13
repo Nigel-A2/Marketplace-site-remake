@@ -1,0 +1,27 @@
+.fl-callout-photo-left,
+.fl-callout-photo-right {
+	display: block;
+}
+.fl-callout-photo-left .fl-callout-photo,
+.fl-callout-photo-left-text .fl-callout-photo {
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	width: auto;
+}
+.fl-callout-photo-right .fl-callout-photo,
+.fl-callout-photo-right-text .fl-callout-photo {
+	display: block;
+	margin-top: 25px;
+	padding-left: 0;
+	padding-right: 0;
+	width: auto;
+}
+.fl-callout-photo-left .fl-callout-content,
+.fl-callout-photo-left-text .fl-callout-content,
+.fl-callout-photo-right .fl-callout-content,
+.fl-callout-photo-right-text .fl-callout-content {
+	display: block;
+	width: auto;
+}

@@ -1,0 +1,30 @@
+body.fl-builder {
+	overflow-x: hidden;
+}
+
+.fl-animated.fl-slide-in-right {
+  	animation: fl-slide-in-right 1s ease;
+  	-webkit-animation: fl-slide-in-right 1s ease;
+}
+@-webkit-keyframes fl-slide-in-right {
+  from {
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fl-slide-in-right {
+  from {
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}

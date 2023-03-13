@@ -1,0 +1,137 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+.fl-page-footer {
+	border-top: 1px solid @border-color;
+	font-size: 12px;
+	.fl-change-row-color(
+		fade(@footer-bg-color, @footer-bg-opacity),
+		@footer-fg-color,
+		@footer-fg-link-color,
+		@footer-fg-hover-color,
+		@footer-border-color,
+		@footer-bg-grad
+	);
+	.fl-background-image(
+		@footer-bg-image,
+		@footer-bg-repeat,
+		@footer-bg-position,
+		@footer-bg-attachment,
+		@footer-bg-size
+	);
+}
+.fl-page-footer-container {
+	padding-top: 20px;
+}
+
+/* Footer Text */
+.fl-page-footer-text {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/* Footer Social */
+.fl-page-footer {
+	.fl-social-icons {
+		text-align: center;
+		.fl-icon {
+			margin: 0 5px 20px 5px;
+		}
+		.fallback {
+			font-size: 26px;
+			line-height: 24px;
+		}
+	}
+	.fl-social-icons-stacked {
+		font-size: 1em;
+		.fas {
+			color: @topbar-icon-bg-color;
+		}
+		.fab, .fas.fa-envelope, .fas.fa-rss, .fas.fa-map-marker-alt {
+			color: @topbar-icon-fg-color;
+			transition: opacity 0.2s ease-in-out;
+    		opacity: 0.8;
+			&:hover {
+				color: @topbar-icon-hover-color;
+				opacity: 1;
+			}
+		}
+
+		.fab, .fas {
+			vertical-align: inherit;
+			width: inherit;
+			height: inherit;
+			line-height: inherit;
+		}
+	}
+}
+
+/* Footer Menu */
+.fl-page-footer-nav {
+	float: none;
+	text-align: center;
+	margin: 0 0 10px;
+	> li {
+		display: inline-block;
+		float: none;
+	}
+	ul.sub-menu {
+		display: none;
+	}
+	> li > a {
+		padding-top: 0;
+	}
+	> li > a:hover,
+	> li > a:focus {
+		background: transparent;
+	}
+}
+
+/* Media Query - 768px or greater
+----------------------------------------------------------- */
+
+@media (min-width: @mobile-breakpoint) {
+
+	.fl-page-footer {
+		.fl-page-footer-text,
+		.fl-social-icons {
+			text-align: inherit;
+		}
+		.fl-page-footer-nav {
+			margin: 0 -15px 10px;
+		}
+		.text-left {
+			.fl-social-icons .fl-icon {
+				margin: 0 10px 20px 0;
+			}
+			.fl-page-footer-nav {
+				text-align: left;
+			}
+		}
+		.text-right {
+			.fl-social-icons .fl-icon {
+				margin: 0 0 20px 10px;
+			}
+			.fl-page-footer-nav {
+				text-align: right;
+			}
+		}
+	}
+}
+
+/* Media Query - 992px or greater
+----------------------------------------------------------- */
+
+@media (min-width: @medium-breakpoint) {
+
+	.fl-page-footer-container {
+		padding: 20px 0 0;
+	}
+}

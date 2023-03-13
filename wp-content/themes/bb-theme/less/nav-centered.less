@@ -1,0 +1,28 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+@media (min-width: @mobile-breakpoint) {
+
+	.fl-page-nav-centered {
+		text-align: center;
+		.fl-page-nav {
+			ul.navbar-nav {
+				float: none;
+				> li {
+					display: inline-block;
+					float: none;
+				}
+			}
+			ul.sub-menu {
+				text-align: left;
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+.fl-social-button {
+	display: inline-block;
+	width: 110px;
+}
+.fl-social-button.fl-fb {
+	position: relative;
+	top: -5px;
+}
+.fl-social-button.fl-fb iframe {
+	max-width: none;
+}
+
+/* Alignment */
+.fl-social-buttons-left {
+	text-align: left;
+}
+.fl-social-buttons-left .fl-social-button {
+	margin: 0 10px 0 0;
+}
+.fl-social-buttons-center {
+	text-align: center;
+}
+.fl-social-buttons-center .fl-social-button {
+	margin: 0 5px;
+}
+.fl-social-buttons-right {
+	text-align: right;
+}
+.fl-social-buttons-right .fl-social-button {
+	margin: 0 0 0 10px;
+	text-align: left;
+}

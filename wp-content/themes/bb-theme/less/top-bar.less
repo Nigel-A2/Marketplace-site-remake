@@ -1,0 +1,219 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+.fl-page-bar {
+	border-bottom: 1px solid @border-color;
+	font-size: 12px;
+	line-height: 14px;
+	.fl-change-row-color(
+		fade(@topbar-bg-color, @topbar-bg-opacity),
+		@topbar-fg-color,
+		@topbar-fg-link-color,
+		@topbar-fg-hover-color,
+		@topbar-border-color,
+		@topbar-bg-grad
+	);
+	.fl-background-image(
+		@topbar-bg-image,
+		@topbar-bg-repeat,
+		@topbar-bg-position,
+		@topbar-bg-attachment,
+		@topbar-bg-size
+	);
+	nav {
+		display: inline-block;
+	}
+	.fl-social-icons-stacked {
+		font-size: 1em;
+		.fas {
+			color: @topbar-icon-bg-color;
+		}
+		.fab, .fas.fa-envelope, .fas.fa-rss, .fas.fa-map-marker-alt {
+			color: @topbar-icon-fg-color;
+			transition: opacity 0.2s ease-in-out;
+    		&:hover {
+				color: @topbar-icon-hover-color;
+				opacity: 1;
+			}
+		}
+		.fab, .fas {
+			vertical-align: inherit;
+			width: inherit;
+			height: inherit;
+			line-height: inherit;
+		}
+	}
+}
+
+
+
+
+.fl-page-bar-container {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+/* Bar Menu */
+.fl-page-bar-nav {
+	float: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	> li {
+		display: inline-block;
+		float: none;
+		position: relative;
+		> a {
+			padding: 2px 10px;
+		}
+		> a:hover,
+		> a:focus {
+			background: transparent;
+		}
+		> ul.sub-menu {
+			.fl-box-shadow(0 0 10px rgba(0, 0, 0, 0.15));
+			.fl-change-row-color(
+				@topbar-dropdown-bg-color,
+				@topbar-fg-color,
+				@topbar-fg-link-color,
+				@topbar-fg-hover-color
+			);
+			left: -99999px;
+			padding: 7px 13px;
+			position: absolute;
+			top: 100%;
+			width: 200px;
+			z-index: 1000;
+			li {
+				display: block;
+				list-style: none;
+				text-align: left;
+				a {
+					display: block;
+					padding: 5px 0;
+					&:hover {
+						text-decoration: none;
+					}
+				}
+				ul.sub-menu {
+					padding: 0;
+				}
+			}
+		}
+		&.fl-sub-menu-right {
+			ul.sub-menu {
+				right: 0;
+			}
+		}
+		&:hover {
+			> ul.sub-menu {
+				left: auto;
+			}
+		}
+	}
+}
+
+/* Bar Text */
+.fl-page-bar-text {
+	padding: 5px 0;
+	text-align: center;
+}
+
+
+/* Bar Social */
+.fl-page-bar .fl-social-icons {
+	text-align: center;
+	padding-right: 2px;
+	i.fas,i.fab {
+		font-size: 14px;
+		vertical-align: middle;
+		width: 24px;
+		height: 24px;
+		line-height: 24px;
+	}
+}
+
+/* Bar Nav Submenu Indicator */
+.fl-submenu-indicator {
+	.fl-page-bar {
+		ul.fl-page-bar-nav > li {
+			&.menu-item-has-children > a:after {
+				font-family: @font-awesome-family;
+				content: '\f107';
+				font-weight: 900;
+				margin-left: 5px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			> ul.sub-menu li ul.sub-menu {
+				ul.sub-menu {
+					margin-left: 5px;
+				}
+				li a {
+					padding: 5px;
+					&:before {
+						font-family: @font-awesome-family;
+						content: '\f105';
+						font-weight: 900;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Media Query - 768px or greater
+----------------------------------------------------------- */
+
+@media (min-width: @mobile-breakpoint) {
+
+	.fl-page-bar {
+		.fl-page-bar-nav {
+			margin: 0 -10px 0;
+		}
+		.text-left {
+			.fl-page-bar-nav {
+				text-align: left;
+			}
+			.fl-social-icons {
+				margin-right: 5px;
+			}
+		}
+		.text-right {
+			.fl-page-bar-nav {
+				text-align: right;
+			}
+			.fl-social-icons {
+				margin-left: 5px;
+			}
+		}
+		.fl-page-bar-nav,
+		.fl-page-bar-text,
+		.fl-social-icons {
+			display: inline-block;
+			text-align: inherit;
+			vertical-align: middle;
+		}
+	}
+}
+
+/* Media Query - 767px or less
+----------------------------------------------------------- */
+
+@media (max-width: (@mobile-breakpoint - 1)) {
+
+	.fl-page-bar {
+		.fl-page-bar-row .text-left,
+		.fl-page-bar-row .text-right {
+				text-align: center !important;
+		}
+	}
+}

@@ -1,0 +1,93 @@
+.fl-input-group {
+	margin-bottom: 10px;
+	position: relative;
+}
+.fl-contact-form textarea,
+.fl-contact-form input[type=text],
+.fl-contact-form input[type=tel],
+.fl-contact-form input[type=email] {
+	display: inline-block;
+	width: 100%;
+}
+.fl-contact-form textarea {
+	min-height: 130px;
+}
+
+.fl-contact-form .fl-form-field .hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.fl-contact-form .fl-terms-checkbox input[type="checkbox"] {
+	height: 23px;
+	width: 23px;
+	margin: 0;
+	position: absolute;
+	left: -2px;
+	top: 1px;
+}
+.fl-contact-form .fl-terms-checkbox label {
+	height: 26px;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	padding-left: 35px;
+}
+.fl-contact-form .fl-terms-checkbox-text {
+	margin: 10px 0;
+}
+.fl-contact-form .fl-contact-required {
+	font-style: italic;
+	font-size: 12px;
+}
+.fl-contact-form label {
+	display: inline-block;
+	margin-right: 10px;
+}
+.fl-contact-form .fl-contact-error {
+	color: #DD4420;
+	display: none;
+	font-size: 12px;
+	font-weight: lighter;
+	margin-top: 2px;
+}
+.fl-contact-form .fl-email .fl-contact-error {
+	margin-right: 10%;
+}
+.fl-contact-form .fl-error textarea,
+.fl-contact-form .fl-error input[type=text],
+.fl-contact-form .fl-error input[type=tel],
+.fl-contact-form .fl-error input[type=email] {
+	border-color: #DD4420;
+}
+.fl-contact-form .fl-error .fl-contact-error {
+	display: inline-block;
+}
+.fl-contact-form .fl-send-error,
+.fl-contact-form .fl-success,
+.fl-contact-form .fl-success-none,
+.fl-contact-form .fl-success-msg {
+	position: relative;
+	top: 5px;
+}
+.fl-contact-form .fl-success,
+.fl-contact-form .fl-success-none,
+.fl-contact-form .fl-success-msg {
+	color: #29BB41;
+}
+.fl-contact-form .fl-send-error {
+	color: #DD6420;
+}
+.fl-disabled {
+	opacity: 0.5;
+}
+
+.fl-contact-form .fl-contact-form-label-hidden {
+    display: none;
+}

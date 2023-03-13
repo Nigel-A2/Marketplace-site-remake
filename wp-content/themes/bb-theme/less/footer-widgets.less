@@ -1,0 +1,41 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+.fl-page-footer-widgets {
+	border-top: 1px solid @border-color;
+	.fl-change-row-color(
+		fade(@footer-widgets-bg-color, @footer-widgets-bg-opacity),
+		@footer-widgets-fg-color,
+		@footer-widgets-fg-link-color,
+		@footer-widgets-fg-hover-color,
+		@footer-widgets-border-color,
+		@footer-widgets-bg-grad
+	);
+	.fl-background-image(
+		@footer-widgets-bg-image,
+		@footer-widgets-bg-repeat,
+		@footer-widgets-bg-position,
+		@footer-widgets-bg-attachment,
+		@footer-widgets-bg-size
+	);
+}
+.fl-page-footer-widgets-container {
+	padding-top: 30px;
+}
+
+/* Media Query - 992px or greater
+----------------------------------------------------------- */
+
+@media (min-width: @medium-breakpoint) {
+
+	.fl-page-footer-widgets {
+		display: block;
+	}
+}

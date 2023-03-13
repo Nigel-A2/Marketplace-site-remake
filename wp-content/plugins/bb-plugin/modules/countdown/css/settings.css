@@ -1,0 +1,6 @@
+.fl-lightbox-width-slim #fl-builder-settings-section-date tbody {
+	display: flex;
+}
+.fl-lightbox-width-slim #fl-builder-settings-section-date tr {
+	margin-right: 2px;
+}

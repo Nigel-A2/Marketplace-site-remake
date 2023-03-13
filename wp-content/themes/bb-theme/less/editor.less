@@ -1,0 +1,103 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+
+body.gutenberg-editor-page {
+    .fl-background-image(
+		@content-bg-image,
+		@content-bg-repeat,
+		@content-bg-position,
+		@content-bg-attachment,
+		@content-bg-size
+	);
+	background-color: fade(@content-bg-color, @content-bg-opacity);
+
+    .edit-post-visual-editor {
+
+        // Title
+        .editor-post-title__input {
+            color: @title-color;
+            font-family: @title-font;
+            font-weight: @title-weight;
+            text-transform: @title-transform;
+            font-size: @h1-size;
+            line-height: @h1-line-height;
+            letter-spacing: @h1-letter-spacing;
+        }
+
+        .editor-block-list__block-edit {
+            p {
+                color: @text-color;
+            	font-family: @text-font;
+            	font-size: @text-size;
+            	font-weight: @text-weight;
+            	line-height: @line-height;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                color: @heading-color;
+            	font-family: @heading-font;
+            	font-weight: @heading-weight;
+            	line-height: 1.4;
+            	text-transform: @heading-transform;
+
+                a {
+            		&:hover {
+            			text-decoration: none;
+            		}
+            	}
+            }
+            h1 {
+                /* handle special h1 styles */
+                color: @title-color;
+                font-family: @title-font;
+            	font-weight: @title-weight;
+                text-transform: @title-transform;
+                font-size: @h1-size;
+                line-height: @h1-line-height;
+                letter-spacing: @h1-letter-spacing;
+            }
+            h2 {
+            	font-size: @h2-size;
+            	line-height: @h2-line-height;
+            	letter-spacing: @h2-letter-spacing;
+            }
+            h3 {
+            	font-size: @h3-size;
+            	line-height: @h3-line-height;
+            	letter-spacing: @h3-letter-spacing;
+            }
+            h4 {
+            	font-size: @h4-size;
+            	line-height: @h4-line-height;
+            	letter-spacing: @h4-letter-spacing;
+            }
+            h5 {
+            	font-size: @h5-size;
+            	line-height: @h5-line-height;
+            	letter-spacing: @h5-letter-spacing;
+            }
+            h6 {
+            	font-size: @h6-size;
+            	line-height: @h6-line-height;
+            	letter-spacing: @h6-letter-spacing;
+            }
+            a {
+            	color: @accent-color;
+            	&:hover,
+            	&:focus {
+            		color: @accent-hover-color;
+            	}
+            }
+            blockquote {
+            	border-color: @border-color;
+            }
+        }
+    }
+}

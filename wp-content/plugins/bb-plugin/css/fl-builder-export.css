@@ -1,0 +1,14 @@
+#fl-builder-template-filters {
+	padding: 0 0 20px 20px;
+}
+#fl-builder-template-filters .spinner {
+	float: none;
+    margin-bottom: 3px;
+}
+#fl-builder-template-export-posts {
+	display: none;
+	padding: 20px 0 10px 0;
+}
+#fl-builder-template-export-posts p {
+	margin-bottom: 8px;
+}
